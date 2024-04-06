@@ -54,7 +54,10 @@ val unlock = [
 	<item:immersiveengineering:storage_constantan>,
 	<item:immersiveengineering:nugget_constantan>,
 	<item:immersiveengineering:ingot_constantan>,
-	<item:immersiveengineering:slab_storage_constantan>
+	<item:immersiveengineering:slab_storage_constantan>,
+	<item:immersiveengineering:glider>,
+	<item:immersiveengineering:fluorescent_tube>,
+	<item:immersiveengineering:maintenance_kit>
 ] as IItemStack[];
 
 for item in unlock {
@@ -166,7 +169,14 @@ val upgrades = [
 	<item:immersiveengineering:armor_faraday_helmet>,
 	<item:immersiveengineering:empty_shell>,
 	<item:immersiveengineering:earmuffs>,
-	<item:immersiveengineering:skyhook>
+	<item:immersiveengineering:skyhook>,
+	<item:immersiveengineering:toolupgrade_drill_fortune>,
+	<item:immersiveengineering:toolupgrade_powerpack_antenna>,
+	<item:immersiveengineering:toolupgrade_powerpack_induction>,
+	<item:immersiveengineering:toolupgrade_powerpack_tesla>,
+	<item:immersiveengineering:toolupgrade_powerpack_magnet>,
+	<item:immersiveengineering:circuit_table>,
+	<item:immersiveengineering:logic_unit>
 ] as IItemStack[];
 
 for item in upgrades {
@@ -193,10 +203,31 @@ for item in cartridge {
 
 val workbench = [
 	<item:immersiveengineering:circuit_board>,
-	<item:immersiveengineering:electron_tube>
+	<item:immersiveengineering:electron_tube>,
+	<item:immersiveengineering:component_electronic_adv>
 ] as IItemStack[];
 
 for item in workbench {
 	<recipetype:immersiveengineering:blueprint>.remove(item);
 	#JEI.hideIngredient(item);
 }
+
+
+<recipetype:immersiveengineering:crusher>.remove(<item:immersiveengineering:dust_coke>);
+//JEI.hideIngredient(<item:immersiveengineering:dust_coke>);
+<recipetype:immersiveengineering:squeezer>.remove(<item:immersiveengineering:dust_hop_graphite>);
+//JEI.hideIngredient(<item:immersiveengineering:dust_hop_graphite>);
+<recipetype:immersiveengineering:blueprint>.remove(<item:immersiveengineering:graphite_electrode>);
+<recipetype:immersiveengineering:metal_press>.remove(<item:immersiveengineering:graphite_electrode>);
+//JEI.hideIngredient(<item:immersiveengineering:graphite_electrode>);
+<recipetype:minecraft:smelting>.remove(<item:immersiveengineering:ingot_hop_graphite>);
+<recipetype:minecraft:blasting>.remove(<item:immersiveengineering:ingot_hop_graphite>);
+//JEI.hideIngredient(<item:immersiveengineering:ingot_hop_graphite>);
+<recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:duroplast>);
+//JEI.hideIngredient(<item:immersiveengineering:duroplast>);
+<recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:plate_duroplast>);
+//JEI.hideIngredient(<item:immersiveengineering:plate_duroplast>);
+<recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:grindingdisk>);
+//JEI.hideIngredient(<item:immersiveengineering:grindingdisk>);
+//JEI.hideIngredient(<item:immersiveengineering:coresample>);
+//JEI.hideIngredient(<item:immersiveengineering:logic_circuit>);
