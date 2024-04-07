@@ -9,8 +9,6 @@ import mods.jeitweaker.Jei;
 	Unlocked Metals: Nickel, Electrum, Steel, Lead, Silver
 	Other Mod: -
 	Locked Metals: Constantan, Aluminium and Uranium
-
-	Questions: Duroplast, Circuit Table, Logic Unit, , Electronic Component, HOP Graphite
 */
 
 val unlock = [
@@ -118,7 +116,6 @@ for item in circuit {
 
 val tube = [
 	<item:immersiveengineering:toolupgrade_shield_flash>,
-	<item:immersiveengineering:cloche>,
 	<item:immersiveengineering:electric_lantern>,
 	<item:immersiveengineering:toolupgrade_revolver_electro>,
 	<item:immersiveengineering:floodlight>
@@ -146,7 +143,6 @@ val upgrades = [
 	<item:immersiveengineering:toolupgrade_buzzsaw_spareblades>,
 	<item:immersiveengineering:drill>,
 	<item:immersiveengineering:buzzsaw>,
-	<item:immersiveengineering:sawblade>,
 	<item:immersiveengineering:survey_tools>,
 	<item:immersiveengineering:speedloader>,
 	<item:immersiveengineering:toolupgrade_revolver_bayonet>,
