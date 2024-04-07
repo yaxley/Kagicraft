@@ -1,7 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.IData;
 import crafttweaker.api.data.ListData;
-//import mods.jei.JEI;
+import mods.jeitweaker.Jei;
 
 /*
 	Hides and Removes the unused Immersive Engineering Items
@@ -62,7 +62,7 @@ val unlock = [
 
 for item in unlock {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val sheet = [
@@ -72,7 +72,7 @@ val sheet = [
 
 for item in sheet {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val power = [
@@ -88,7 +88,7 @@ val power = [
 
 for item in power {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val circuit = [
@@ -113,7 +113,7 @@ val circuit = [
 
 for item in circuit {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val tube = [
@@ -126,7 +126,7 @@ val tube = [
 
 for item in tube {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val upgrades = [
@@ -181,7 +181,7 @@ val upgrades = [
 
 for item in upgrades {
 	craftingTable.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val cartridge = [
@@ -198,7 +198,7 @@ val cartridge = [
 
 for item in cartridge {
 	<recipetype:immersiveengineering:blueprint>.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 val workbench = [
@@ -209,25 +209,25 @@ val workbench = [
 
 for item in workbench {
 	<recipetype:immersiveengineering:blueprint>.remove(item);
-	#JEI.hideIngredient(item);
+	Jei.hideIngredient(item);
 }
 
 
 <recipetype:immersiveengineering:crusher>.remove(<item:immersiveengineering:dust_coke>);
-//JEI.hideIngredient(<item:immersiveengineering:dust_coke>);
+Jei.hideIngredient(<item:immersiveengineering:dust_coke>);
 <recipetype:immersiveengineering:squeezer>.remove(<item:immersiveengineering:dust_hop_graphite>);
-//JEI.hideIngredient(<item:immersiveengineering:dust_hop_graphite>);
+Jei.hideIngredient(<item:immersiveengineering:dust_hop_graphite>);
 <recipetype:immersiveengineering:blueprint>.remove(<item:immersiveengineering:graphite_electrode>);
 <recipetype:immersiveengineering:metal_press>.remove(<item:immersiveengineering:graphite_electrode>);
-//JEI.hideIngredient(<item:immersiveengineering:graphite_electrode>);
+Jei.hideIngredient(<item:immersiveengineering:graphite_electrode>);
 <recipetype:minecraft:smelting>.remove(<item:immersiveengineering:ingot_hop_graphite>);
 <recipetype:minecraft:blasting>.remove(<item:immersiveengineering:ingot_hop_graphite>);
-//JEI.hideIngredient(<item:immersiveengineering:ingot_hop_graphite>);
+Jei.hideIngredient(<item:immersiveengineering:ingot_hop_graphite>);
 <recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:duroplast>);
-//JEI.hideIngredient(<item:immersiveengineering:duroplast>);
+Jei.hideIngredient(<item:immersiveengineering:duroplast>);
 <recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:plate_duroplast>);
-//JEI.hideIngredient(<item:immersiveengineering:plate_duroplast>);
+Jei.hideIngredient(<item:immersiveengineering:plate_duroplast>);
 <recipetype:immersiveengineering:bottling_machine>.remove(<item:immersiveengineering:grindingdisk>);
-//JEI.hideIngredient(<item:immersiveengineering:grindingdisk>);
-//JEI.hideIngredient(<item:immersiveengineering:coresample>);
-//JEI.hideIngredient(<item:immersiveengineering:logic_circuit>);
+Jei.hideIngredient(<item:immersiveengineering:grindingdisk>);
+Jei.hideIngredient(<item:immersiveengineering:coresample>);
+Jei.hideIngredient(<item:immersiveengineering:logic_circuit>);
