@@ -67,6 +67,9 @@
     "ench": true,
     "spawner": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   }
