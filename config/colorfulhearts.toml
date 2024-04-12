@@ -6,7 +6,7 @@
 	#Render absorption in the same row as health
 	#Absorption hearts start directly after max health
 	#Default: false
-	sameRow = false
+	sameRow = true
 	#Two alternating colors while withered
 	#Default: [#787061, #73625C]
 	witheredColors = ["#787061", "#73625C"]
