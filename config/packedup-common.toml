@@ -1,7 +1,7 @@
 [General]
     # Can backpacks be put inside other backpacks?
     # Allowed values: true, false - Default: true
-    allowBagInBag = true
+    allowBagInBag = false
 
     # How many layers deep can you place backpacks inside backpacks? -1 for infinite, 0 is the same as setting 'allowBagInBag' to false.
     # Allowed range: -1 ~ 5 - Default: -1
@@ -13,7 +13,7 @@
 
     # Should backpacks be destroyed by lava and fire?
     # Allowed values: true, false - Default: true
-    canBackpacksBurn = true
+    canBackpacksBurn = false
 
 [Backpacks]
     [Backpacks.Basic]
@@ -23,7 +23,7 @@
 
         # How many rows does the basic backpack have?
         # Allowed range: 1 ~ 9 - Default: 3
-        basicRows = 3
+        basicRows = 1
 
         # How many columns does the basic backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
@@ -32,7 +32,7 @@
     [Backpacks.Iron]
         # Enable the iron backpack?
         # Allowed values: true, false - Default: true
-        ironEnable = true
+        ironEnable = false
 
         # How many rows does the iron backpack have?
         # Allowed range: 1 ~ 9 - Default: 4
@@ -49,7 +49,7 @@
 
         # How many rows does the copper backpack have?
         # Allowed range: 1 ~ 9 - Default: 4
-        copperRows = 4
+        copperRows = 1
 
         # How many columns does the copper backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
@@ -58,7 +58,7 @@
     [Backpacks.Silver]
         # Enable the silver backpack?
         # Allowed values: true, false - Default: true
-        silverEnable = true
+        silverEnable = false
 
         # How many rows does the silver backpack have?
         # Allowed range: 1 ~ 9 - Default: 5
@@ -71,7 +71,7 @@
     [Backpacks.Gold]
         # Enable the gold backpack?
         # Allowed values: true, false - Default: true
-        goldEnable = true
+        goldEnable = false
 
         # How many rows does the gold backpack have?
         # Allowed range: 1 ~ 9 - Default: 5
@@ -84,7 +84,7 @@
     [Backpacks.Diamond]
         # Enable the diamond backpack?
         # Allowed values: true, false - Default: true
-        diamondEnable = true
+        diamondEnable = false
 
         # How many rows does the diamond backpack have?
         # Allowed range: 1 ~ 9 - Default: 7
@@ -97,7 +97,7 @@
     [Backpacks.Obsidian]
         # Enable the obsidian backpack?
         # Allowed values: true, false - Default: true
-        obsidianEnable = true
+        obsidianEnable = false
 
         # How many rows does the obsidian backpack have?
         # Allowed range: 1 ~ 9 - Default: 8

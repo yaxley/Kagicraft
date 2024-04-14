@@ -1,16 +1,7 @@
 {
-  "includeVanillaSplashes": true,
-  "includeModNames": true,
+  "includeVanillaSplashes": false,
+  "includeModNames": false,
   "customSplashes": [
-    "splash.splashy.squirrels",
-    "splash.splashy.direwolf",
-    "splash.splashy.error_1",
-    "splash.splashy.potato_knishes",
-    "splash.splashy.snail_facts",
-    "splash.splashy.blm",
-    "splash.splashy.blame_jared",
-    "splash.splashy.tips",
-    "splash.splashy.birch_forest",
-    "splash.splashy.multiloader"
+    "Season 19: 48 hours of gaming!"
   ]
 }
