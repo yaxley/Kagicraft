@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "D B D",
+    " CAC ",
+    "ECACE",
+    "  A  ",
+    "D A D"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:livingwood_twig"
+    },
+    "B": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "botania:rune_earth"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "botania:dirt_rod"
+  }
+}

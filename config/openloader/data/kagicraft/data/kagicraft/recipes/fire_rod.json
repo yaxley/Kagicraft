@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "D B D",
+    " CAC ",
+    "ECACE",
+    "  A  ",
+    "D A D"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:livingwood_twig"
+    },
+    "B": {
+      "item": "minecraft:magma_block"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "botania:rune_fire"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "botania:fire_rod"
+  }
+}

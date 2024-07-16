@@ -1,0 +1,39 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "DDEDD",
+    "DBBBD",
+    "HCACF",
+    "DBBBD",
+    "DDGDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bookshelf"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "E": {
+      "item": "minecraft:tropical_fish"
+    },
+    "F": {
+      "item": "minecraft:cod"
+    },
+    "G": {
+      "item": "minecraft:pufferfish"
+    },
+    "H": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "apotheosis:seashelf"
+  }
+}

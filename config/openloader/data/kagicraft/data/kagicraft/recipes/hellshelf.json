@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "DDEDD",
+    "DBBBD",
+    "ECACE",
+    "DBBBD",
+    "DDEDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bookshelf"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minecraft:nether_bricks"
+    },
+    "E": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "apotheosis:hellshelf"
+  }
+}

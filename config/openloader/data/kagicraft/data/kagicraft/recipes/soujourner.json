@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BAAAB",
+    "AC CA",
+    "A   A",
+    "DC CA",
+    "BDAAB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "botania:rune_air"
+    },
+    "C": {
+      "item": "botania:rune_earth"
+    },
+    "D": {
+      "item": "thermal:electrum_block"
+    }
+  },
+  "result": {
+    "item": "botania:travel_belt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "D B D",
+    " CAC ",
+    "ECACE",
+    "  A  ",
+    "D A D"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:livingwood_twig"
+    },
+    "B": {
+      "item": "minecraft:feather"
+    },
+    "C": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "D": {
+      "item": "botania:rune_air"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "botania:tornado_rod"
+  }
+}

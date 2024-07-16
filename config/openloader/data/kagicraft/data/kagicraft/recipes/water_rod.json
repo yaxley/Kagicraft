@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "D B D",
+    " CAC ",
+    "ECACE",
+    "  A  ",
+    "D A D"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:livingwood_twig"
+    },
+    "B": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "C": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "D": {
+      "item": "botania:rune_water"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "botania:water_rod"
+  }
+}

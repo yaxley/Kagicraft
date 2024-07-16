@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "EBCBE",
+    "EBDBE",
+    "EBCBE",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "endergetic:booflo_hide"
+    },
+    "B": {
+      "item": "mysticalworld:copper_ingot"
+    },
+    "C": {
+      "item": "minecraft:shulker_shell"
+    },
+    "D": {
+      "item": "packedup:basicbackpack"
+    },
+    "E": {
+      "item": "immersiveengineering:hemp_fabric"
+    }
+  },
+  "result": {
+    "item": "packedup:copperbackpack"
+  }
+}
