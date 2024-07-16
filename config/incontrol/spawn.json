@@ -1,1 +1,23 @@
-[]
+[
+	{
+    	"mob": ["minecraft:skeleton","minecraft:zombie", "minecraft:spider"],
+    	"dimension": "minecraft:overworld",
+    	"spawner": false,
+    	"maxheight": 0,
+    	"result": "default",
+    	"healthmultiply": 3,
+    	"damagemultiply": 2,
+    	"speedmultiply": 1.2
+  	},
+	{
+    	"mob": ["minecraft:skeleton","minecraft:zombie", "minecraft:spider"],
+    	"dimension": "minecraft:overworld",
+    	"spawner": false,
+    	"seesky": false,
+    	"maxheight": 64,
+    	"result": "default",
+    	"healthmultiply": 2,
+    	"damagemultiply": 1.5,
+    	"speedmultiply": 1.1
+  	}
+]
