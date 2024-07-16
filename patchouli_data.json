@@ -1,5 +1,28 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:enchanting/table/power",
+        "apotheosis:enchanting/table/seed",
+        "apotheosis:enchanting/table/stats",
+        "apotheosis:enchanting/table/infusion",
+        "apotheosis:enchanting/table/enchantability",
+        "apotheosis:enchanting/table/info",
+        "apotheosis:enchanting/progression/levels1_30",
+        "apotheosis:enchanting/progression/levels30_60",
+        "apotheosis:enchanting/progression/levels60_80",
+        "apotheosis:enchanting/progression/levels80_100",
+        "apotheosis:enchanting/changes/experience_costs",
+        "apotheosis:enchanting/changes/enchantability",
+        "apotheosis:enchanting/changes/protection",
+        "apotheosis:enchanting/changes/sharpness",
+        "apotheosis:enchanting/changes/shears",
+        "apotheosis:enchanting/changes/tridents"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
