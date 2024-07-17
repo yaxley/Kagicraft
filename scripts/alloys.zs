@@ -3,7 +3,8 @@ import crafttweaker.api.data.IData;
 import crafttweaker.api.data.ListData;
 
 /*
-	Alloys: Steel, Electrum
+	Alloys: Bronze, Electrum, Invar & Constantan
+	Special Alloys: Steel & Netherite
 */
 
 val air = <item:minecraft:air>;
@@ -11,94 +12,111 @@ val hammer = <item:immersiveengineering:hammer>.anyDamage();
 val moldPlate = <item:immersiveengineering:mold_plate>;
 
 val names = [
+	"bronze",
 	"electrum",
-	"steel"
+	"invar",
+	"constantan"
 ];
 
 val ingots = [
-	<item:immersiveengineering:ingot_electrum>,
-	<item:immersiveengineering:ingot_steel>
+	<item:thermal:bronze_ingot>,
+	<item:thermal:electrum_ingot>,
+	<item:thermal:invar_ingot>,
+	<item:thermal:constantan_ingot>
 ] as IItemStack[];
 
 val alloyA = [
-	<item:minecraft:gold_ingot>
+	<item:minecraft:copper_ingot>,
+	<item:minecraft:gold_ingot>,
+	<item:minecraft:iron_ingot>,
+	<item:minecraft:copper_ingot>
 ] as IItemStack[];
 
 val alloyB = [
-	<item:thermal:silver_ingot>
+	<item:thermal:tin_ingot>,
+	<item:thermal:silver_ingot>,
+	<item:thermal:nickel_ingot>,
+	<item:thermal:nickel_ingot>
 ] as IItemStack[];
 
-val dust = [
-	<item:immersiveengineering:dust_electrum>,
-	<item:immersiveengineering:dust_steel>
-] as IItemStack[];
-
-val dustAlloyA = [
-	<item:immersiveengineering:dust_gold>
-] as IItemStack[];
-
-val dustAlloyB = [
-	<item:immersiveengineering:dust_silver>
-] as IItemStack[];
+val count = [
+	3,
+	1,
+	2,
+	1
+];
 
 val plates = [
-	<item:immersiveengineering:plate_electrum>,
-	<item:immersiveengineering:plate_steel>
+	<item:thermal:bronze_plate>,
+	<item:thermal:electrum_plate>,
+	<item:thermal:invar_plate>,
+	<item:thermal:constantan_plate>,
 ] as IItemStack[];
 
 /*
 	Alloy
 */
 
-<recipetype:immersiveengineering:alloy>.remove(ingots[0]);
+for i, alloy in ingots {
+	<recipetype:immersiveengineering:alloy>.remove(alloy);
 
-<recipetype:immersiveengineering:alloy>.addJsonRecipe(
-	"alloy/electrum", 
-	{
-		time: 200,
-		result: ingots[0],
-		input0: alloyA[0],
-		input1: alloyB[0],
-	} as IData
-);
-
-craftingTable.remove(dust[0]);
-
-craftingTable.addShapeless("dust/electrum", dust[0], [dustAlloyA[0], dustAlloyB[0]]);
+	<recipetype:immersiveengineering:alloy>.addJsonRecipe(
+		"alloy/" + names[i], 
+		{
+			time: 200,
+			result: alloy,
+			input0: {count: count[i], base_ingredient: alloyA[i]},
+			input1: alloyB[i],
+		} as IData
+	);
+}
 
 /*
 	Plates
 */
 
-for item in plates {
-	craftingTable.remove(item);
-	<recipetype:immersiveengineering:metal_press>.remove(item);
+for i, plate in plates {
+	craftingTable.remove(plate);
+	<recipetype:immersiveengineering:metal_press>.remove(plate);
+
+	craftingTable.addShaped(names[i] + "_plate", plate, [[air, air, air], [air, hammer.transformDamage(), air], [ingots[i], ingots[i], ingots[i]]]);
+	
+	<recipetype:immersiveengineering:metal_press>.addJsonRecipe(
+		"press/" + names[i], 
+		{
+			mold: moldPlate.registryName, 
+			result: plate,
+			input: {count: 2, base_ingredient: ingots[i]},
+			energy: 2400
+		} as IData
+	);
 }
 
-craftingTable.addShaped("electrum_plate", plates[0], [[air, air, air], [air, hammer.transformDamage(), air], [ingots[0], ingots[0], ingots[0]]]);
-craftingTable.addShaped("steel_plate", plates[1], [[air, air, air], [air, hammer.transformDamage(), air], [ingots[1], ingots[1], ingots[1]]]);
+/*
+	Steel
+*/
 
-<recipetype:immersiveengineering:metal_press>.addJsonRecipe(
-	"press/electrum", 
-	{
-		"mold": "immersiveengineering:mold_plate", 
-		result: plates[0],
-		input: {count: 2, base_ingredient: ingots[0]},
-		energy: 2400
-	} as IData
-);
+val steel_ingot = <item:immersiveengineering:ingot_steel>;
+val steel_plate = <item:immersiveengineering:plate_steel>;
 
+craftingTable.remove(steel_plate);
+<recipetype:immersiveengineering:metal_press>.remove(steel_plate);
+
+craftingTable.addShaped("steel_plate", steel_plate, [[air, air, air], [air, hammer.transformDamage(), air], [steel_ingot, steel_ingot, steel_ingot]]);
+	
 <recipetype:immersiveengineering:metal_press>.addJsonRecipe(
 	"press/steel", 
 	{
-		"mold": "immersiveengineering:mold_plate", 
-		result: plates[1],
-		input: {count: 2, base_ingredient: ingots[1]},
+		mold: moldPlate.registryName, 
+		result: steel_plate,
+		input: {count: 2, base_ingredient: steel_ingot},
 		energy: 2400
 	} as IData
 );
 
-// Netherite
+/*
+	Netherite
+*/
 
 <recipetype:immersiveengineering:alloy>.addJsonRecipe(
 	"alloy/netherite", 

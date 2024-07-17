@@ -4,7 +4,7 @@ import crafttweaker.api.data.ListData;
 import mods.jeitweaker.Jei;
 
 /*
-	Metals: Iron, Gold, Copper, Silver, Lead & Tin, Nickel
+	Metals: Iron, Gold, Copper, Silver, Lead, Tin & Nickel
 */
 
 val air = <item:minecraft:air>;
