@@ -1,0 +1,27 @@
+{
+	id: "53FA3310466CA9F3"
+	group: ""
+	order_index: 13
+	filename: "test"
+	title: "test"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "362637A380929D87"
+		tasks: [{
+			id: "3E0024DFAB22180D"
+			type: "stat"
+			stat: "minecraft:sprint_one_cm"
+			value: 7000
+		}]
+		rewards: [{
+			id: "1CB2AEE8C287D467"
+			type: "xp"
+			team_reward: false
+			auto: "enabled"
+			xp: 300
+		}]
+	}]
+}

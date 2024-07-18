@@ -1,0 +1,1499 @@
+{
+	id: "068BDEF8BFDC3399"
+	group: ""
+	order_index: 6
+	filename: "outside_of_time"
+	title: "Out of Time"
+	icon: {
+		id: "blue_skies:nature_key"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Requiescat in Pace"
+			icon: "blue_skies:soul_fragment"
+			x: 1.5d
+			y: 0.0d
+			description: ["It is unclear what the connection is between the afterlife and the Everbright. However, for some reason, some souls get stuck inside the Everbright. These spirits are hostile and quite dangerous, but their soul fragments can be quite useful."]
+			dependencies: ["66C963CEA8280D9A"]
+			id: "291863F47158022C"
+			tasks: [{
+				id: "6DB029C6B5EBE9CA"
+				type: "kill"
+				entity: "blue_skies:frost_spirit"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "5A0EA7DD6812622E"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "654A55158E8299FA"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "The Dark Tower"
+			x: 3.0d
+			y: 0.0d
+			description: ["Since this dimension has villagers, it is quite natural that their Illager counterparts also have a presence here. Rumors have it that evil summoners regularly build massive towers, to excercise control over the land."]
+			dependencies: ["291863F47158022C"]
+			id: "083A7485B7E55C41"
+			tasks: [{
+				id: "44A8CA8C469B1916"
+				type: "kill"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7657B1DD22E3E478"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "74368000450C3053"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "Nature's Revenge"
+			x: 4.5d
+			y: 0.0d
+			description: ["Nature is something to protect but it can also be quite dangerous. An unknown ancient civilization build giant temples in the Everbright to honor and protect nature. However, corruption has spread, and these temples are no longer the peaceful place they once were."]
+			dependencies: ["083A7485B7E55C41"]
+			id: "60513AEAC2076BBB"
+			tasks: [{
+				id: "5141F3855A2D939D"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "14587677956CC0BB"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "19A43AD11AE35DD7"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "A Greater Challenge"
+			x: 4.0d
+			y: -1.5d
+			description: ["Using their arc on the keystone will bring your fallen enemies back to life. Be warned, because of this unnatural necromantic magic, they will become a lot stronger. However, they are therefore the ultimate test of your abilities."]
+			dependencies: ["083A7485B7E55C41"]
+			id: "1D5EBC7E19EB9CFC"
+			tasks: [{
+				id: "6F149A411E0264BD"
+				type: "item"
+				item: {
+					id: "blue_skies:summoner_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "platinum"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "10FA5689FF8458DC"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "61F7D50358014EBE"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "The Bigger They Are"
+			x: 5.5d
+			y: -1.5d
+			description: ["Using their arc on the keystone will bring your fallen enemies back to life. Be warned, because of this unnatural necromantic magic, they will become a lot stronger. However, they are therefore the ultimate test of your abilities."]
+			dependencies: ["60513AEAC2076BBB"]
+			id: "3DFF96ADC35951D9"
+			tasks: [{
+				id: "360A1F4DA7F79956"
+				type: "item"
+				item: {
+					id: "blue_skies:starlit_crusher_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "platinum"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43D6807888A073DC"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "505B3E5174B02E35"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "Pyrope"
+			icon: "blue_skies:pyrope_gem"
+			x: 0.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["We still don’t know a lot about this gemstone. With some proper research, you can surely unlock a great many new options. With how weak normal weapons, tools, and armor are in this dimension, that might not be the worst idea."]
+			id: "29DC761082FD1697"
+			tasks: [
+				{
+					id: "6E7DA8097F59E463"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2990D276CF8BFA49"
+					type: "item"
+					item: {
+						id: "blue_skies:soul_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "247FFFCB7A0C343F"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "62AA15CD198947D7"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "1F5786E6DA2C642F"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p pyrope"
+					player_command: false
+				}
+				{
+					id: "17295C455DCE651F"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "5ECBBCC3512BD1C8"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Aquite"
+			icon: "blue_skies:aquite_gem"
+			x: 1.5d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["We still don’t know a lot about this gemstone. With some proper research, you can surely unlock a great many new options. With how weak normal weapons, tools, and armor are in this dimension, that might not be the worst idea."]
+			id: "111FC9200F6AA3F3"
+			tasks: [
+				{
+					id: "07FDC5B6FF4BEDE7"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "01FB466547766F48"
+					type: "item"
+					item: {
+						id: "blue_skies:soul_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "031A4237FBF409D1"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "301B02EA060B1A2A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0EE719AF4AC26940"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p aquite"
+					player_command: false
+				}
+				{
+					id: "776685C7F3E74277"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2A24341DCC432CAB"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Diopside"
+			icon: "blue_skies:diopside_gem"
+			x: 3.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["We still don’t know a lot about this gemstone. With some proper research, you can surely unlock a great many new options. With how weak normal weapons, tools, and armor are in this dimension, that might not be the worst idea."]
+			id: "0CEA62B4FF1175EF"
+			tasks: [
+				{
+					id: "15FBF2667A7C2495"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "52DBC3BA634CC648"
+					type: "item"
+					item: {
+						id: "blue_skies:soul_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "4D3233776DFDCE61"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3D921260FFCFD312"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3FCEC723BCA57353"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p diopside"
+					player_command: false
+				}
+				{
+					id: "09E9E7CF51AF81DD"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "6237A2FC5D6C747F"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Charoite"
+			icon: "blue_skies:charoite"
+			x: 4.5d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["We still don’t know a lot about this gemstone. With some proper research, you can surely unlock a great many new options. With how weak normal weapons, tools, and armor are in this dimension, that might not be the worst idea."]
+			id: "20AE48451880835E"
+			tasks: [
+				{
+					id: "70997F8110967E42"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "0C4E39FB1ED43202"
+					type: "item"
+					item: {
+						id: "blue_skies:soul_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "1A3C02DA05841619"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4ADB349AF19BADBB"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3B2FA33426D9B9FF"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p charoite"
+					player_command: false
+				}
+				{
+					id: "731F7E1E8CEE54FA"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "025B2F41DA6377D3"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Moonstone"
+			icon: "blue_skies:moonstone_shard"
+			x: 6.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["Moonstone can be a pretty light source, but perhaps it has more uses. It is hard to shape, so perhaps not armor or tools. However, it might function as a throwing weapon or perhaps even a shield."]
+			id: "3AE1780ED386D9AE"
+			tasks: [
+				{
+					id: "2E0993B8AE838767"
+					type: "item"
+					item: {
+						id: "blue_skies:moonstone_shard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 128L
+					consume_items: true
+				}
+				{
+					id: "631BFADE2644E26C"
+					type: "item"
+					item: {
+						id: "blue_skies:bluebright_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "0F06A06607AA927C"
+					type: "item"
+					item: {
+						id: "blue_skies:starlit_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "3055F607923B52AF"
+					type: "item"
+					item: {
+						id: "blue_skies:frostbright_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "500C88148D88D396"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "4E3E38198D34F3F1"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p moonstone"
+					player_command: false
+				}
+				{
+					id: "2EB2662C062267E1"
+					type: "item"
+					item: {
+						id: "blue_skies:bluebright_spear"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "187D9D966C829AF4"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Tool Box"
+			icon: "blue_skies:tool_box"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["The different wood types found in the Everbright all have their own properties. Changing the wood type on a tool handle has a small, but noticeable effect. We should probably look into creating a crafting table that would let us easily swap tool handles."]
+			id: "6C453F57D9FEB7CC"
+			tasks: [
+				{
+					id: "390C28EDFCA3460B"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "05C3CF5D6BCF28CD"
+					type: "item"
+					item: {
+						id: "blue_skies:bluebright_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "32849F091689FD27"
+					type: "item"
+					item: {
+						id: "blue_skies:starlit_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "61A117FCF4EF833D"
+					type: "item"
+					item: {
+						id: "blue_skies:frostbright_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0C4BA57C411AB4FF"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "35B0596FBF26456B"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p toolbox"
+					player_command: false
+				}
+				{
+					id: "35DFE30149995862"
+					type: "item"
+					item: {
+						id: "blue_skies:tool_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "42C7E2D04F69B16A"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Food Prep"
+			icon: "blue_skies:food_prep_table"
+			x: 1.5d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["The Everbright has many new food sources. Even more interestingly, the locals seem to have an entirely different way of preparing their food. They combine a lot of different ingredients into hearty prepared meals. Quite often they use flowers to spice up the food and give it some latent magic effects. I heard that in rare cases they even use potions as a sauce to infuse the food with even greater magical power."]
+			id: "3815A2707DC1B49D"
+			tasks: [
+				{
+					id: "506C0685CADDC1EB"
+					type: "item"
+					item: {
+						id: "blue_skies:brewberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "58AAA1FAF6E995AD"
+					type: "item"
+					item: {
+						id: "blue_skies:pine_fruit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "46C8CC0E8E8B3994"
+					type: "item"
+					item: {
+						id: "blue_skies:cooked_carabeef"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "30E1303BE5318F9C"
+					type: "item"
+					item: {
+						id: "blue_skies:cooked_venison"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6A8B135A0D86ABF5"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "29315283530588A2"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p foodprep"
+					player_command: false
+				}
+				{
+					id: "7696B810FD3A8BD1"
+					type: "item"
+					item: {
+						id: "blue_skies:food_prep_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "72776F87396B88B0"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Snowcap Oven"
+			icon: "blue_skies:snowcap_oven"
+			x: 3.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["The temperature in the Everbright is always below zero. This can make traditional cooking difficult. As always the locals have found a solution. They use special ovens that leach on the inherent warmth of some objects. The warmth can then be used for traditional smelting activities, but the used objects get cooled. Although the locals don’t seem to realize this, the cooling of objects can have uses of its own. Maybe as a way to easily generate ice or obsidian.  "]
+			id: "526F45CB8C54ED29"
+			tasks: [
+				{
+					id: "2593776C7D9C2909"
+					type: "item"
+					icon: {
+						id: "blue_skies:snowcap_mushroom_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					item: {
+						id: "blue_skies:snowcap_mushroom_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2F8CA62E65F2ED7D"
+					type: "item"
+					item: {
+						id: "minecraft:blaze_powder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "0FDED52514E5C582"
+					type: "item"
+					item: {
+						id: "minecraft:magma_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "418B38E71CB0A13D"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_lava_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "33419D72DDF4E8FC"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5CD5221C95DE9DDB"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p soulfragment"
+					player_command: false
+				}
+				{
+					id: "5B80B5D5686172C8"
+					type: "item"
+					item: {
+						id: "blue_skies:snowcap_oven"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "19FB9294E8EB8803"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Warding Pearl"
+			icon: "blue_skies:warding_pearl"
+			x: 4.5d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["Soul Fragments have many uses. For instance, I encountered some villagers that build lanterns from them. These lanterns seem to protect them from monsters. Quite useful, because unlike in the overworld, the creatures of the Everbright do not seem to care about light."]
+			id: "1B1EE9FDB8884583"
+			tasks: [
+				{
+					id: "3B98E486F4B4153A"
+					type: "item"
+					item: {
+						id: "blue_skies:soul_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "4C795B6CE3EC1CB3"
+					type: "item"
+					item: {
+						id: "blue_skies:falsite_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "464D15014E14A0CC"
+					type: "item"
+					item: {
+						id: "blue_skies:pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4E2752D4195C04C3"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "4689187BBCFD63ED"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p soulfragment"
+					player_command: false
+				}
+				{
+					id: "6392747321027FB2"
+					type: "item"
+					item: {
+						id: "blue_skies:warding_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "3DB5BA1972B09158"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Star Emitter"
+			icon: "blue_skies:star_emitter"
+			x: 6.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["Of all the resources in the Everbright, the Star Flare is the one that confuses me the most. Some villagers use them to build Star Emitters, but those don’t seem to have any practical uses. There are rumors of legendary items called Astrolabes. Maybe the Star Emitters are meant to work in conjuncture with the Astrolabes."]
+			id: "49F66DFDF4E1CAC8"
+			tasks: [
+				{
+					id: "33B70A9E020BC35F"
+					type: "item"
+					item: {
+						id: "blue_skies:star_flare"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "51E63FB2BD8B94CE"
+					type: "item"
+					item: {
+						id: "blue_skies:falsite_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "14E2F3FE9B685798"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2CE64E72BD0CAD1D"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @p starflare"
+					player_command: false
+				}
+				{
+					id: "013C0C0D95AE45F9"
+					type: "item"
+					item: {
+						id: "blue_skies:star_emitter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "5E27DF63CEC1A413"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Always Winter, Never Christmas"
+			x: 0.0d
+			y: 0.0d
+			description: ["To reach the Everbright you need to build a portal of turquoise stone bricks and light it with a zeal lighter. The botanical magic should help you with accomplishing this goal. Alternatively, you might set out to find one of the gatekeepers. Be warned that they sometimes guard a portal to the Everdawn instead, and that is a whole different story."]
+			id: "66C963CEA8280D9A"
+			tasks: [{
+				id: "4D45024D593FF78B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7553DE0F604865F0"
+				type: "xp"
+				team_reward: false
+				auto: "enabled"
+				xp: 250
+			}]
+		}
+	]
+}

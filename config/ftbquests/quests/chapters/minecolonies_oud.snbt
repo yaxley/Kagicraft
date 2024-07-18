@@ -1,0 +1,395 @@
+{
+	id: "6EF1C0D7F89B671F"
+	group: ""
+	order_index: 10
+	filename: "minecolonies_oud"
+	title: "MineColonies (Oud)"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -2.5d
+			id: "77AA0E17CEBC38E9"
+			tasks: [
+				{
+					id: "4919F722C5E1C732"
+					type: "checkmark"
+					title: "Build a University"
+					icon: {
+						id: "minecolonies:blockhutuniversity"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2863F7ADC161EEAE"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhutuniversity"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "3E08C798FBC336F6"
+			tasks: [
+				{
+					id: "379A91CACCDDDAA7"
+					type: "checkmark"
+					title: "Town Hall Level 3"
+					icon: {
+						id: "minecolonies:blockhuttownhall"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "223671ECFA729FA9"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhuttownhall"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecolonies:blockhutfield"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			id: "18B474811DA957F9"
+			tasks: [
+				{
+					id: "081C62F5236A0A3F"
+					type: "checkmark"
+					title: "16 Working Villagers"
+					icon: {
+						id: "minecolonies:blockhutfield"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "687A423E7F6AB5AE"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhutfield"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "41B9C879CE348542"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "02CDE95694F44E85"
+			tasks: [
+				{
+					id: "30D5CE359C9FB423"
+					type: "checkmark"
+					title: "Build a Barrack"
+					icon: {
+						id: "minecolonies:blockhutbarracks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2723A5DD090AF5BB"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhutbarracks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A38005E89A90FA4"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "3320ADAF30CFCBA3"
+			tasks: [
+				{
+					id: "276390CA700DAA0B"
+					type: "checkmark"
+					title: "Build a Hospital"
+					icon: {
+						id: "minecolonies:blockhuthospital"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "4B02945A1CEB754C"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhuthospital"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "37CF07DB7E3ACA48"
+			tasks: [
+				{
+					id: "75BC7991131E3353"
+					type: "checkmark"
+					title: "24 working villagers"
+					icon: {
+						id: "minecolonies:blockhutfield"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "41AC10FDDC823303"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhutfield"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "40B8C99D57FC2E14"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "68A133DF6921CAF1"
+			tasks: [
+				{
+					id: "2C0CD1B59FEC12AC"
+					type: "checkmark"
+					title: "Build a Town Hall Level 2"
+					icon: {
+						id: "minecolonies:blockhuttownhall"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "067E3FF9E04F65AF"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhuttownhall"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			id: "20B7ADF9EA90938B"
+			tasks: [
+				{
+					id: "63BD37953F4DC32C"
+					type: "checkmark"
+					title: "Unlock a level 2 research"
+					icon: {
+						id: "minecolonies:blockhutuniversity"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "1DB4AF17D2B084FC"
+					type: "item"
+					item: {
+						id: "minecolonies:blockhutuniversity"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

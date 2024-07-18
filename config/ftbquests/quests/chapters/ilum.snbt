@@ -1,0 +1,1784 @@
+{
+	id: "2B6414A05B3307D9"
+	group: ""
+	order_index: 12
+	filename: "ilum"
+	title: "Ilum"
+	icon: "blue_skies:moonstone_crystal"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Squid Coast"
+			icon: {
+				id: "minecraft:salmon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			id: "049B52CA728C4ADD"
+			tasks: [{
+				id: "60EC59297CEB4E8D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3A0D165A9C502547"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "3DABBE5256E61B90"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "070CAAC29732F965"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Fiery Forge"
+			icon: "blue_skies:horizonite_forge"
+			x: 2.0d
+			y: 0.0d
+			description: ["Quest Stage 1: Make a supersmelter"]
+			hide_dependency_lines: false
+			hide: true
+			id: "338919C54AD5B6D6"
+			tasks: [{
+				id: "51FD6FA5442EBC66"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4A3F23FD57CC8C6E"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+				{
+					id: "2AFB01E1862D0DCE"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "7883E605F5181F33"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Creeper Woods"
+			icon: "minecraft:creeper_head"
+			x: 2.0d
+			y: 2.0d
+			id: "7F5E9ADA435EBF16"
+			tasks: [{
+				id: "2BAC91FD66B69206"
+				type: "item"
+				item: {
+					id: "contenttweaker:ghastly_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "62A72DC2183FA7E5"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+				{
+					id: "07520CB7968E27E4"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "3B0E63DE76D7AA1F"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Redstone Mines"
+			icon: "minecraft:redstone_ore"
+			x: 0.0d
+			y: 2.0d
+			id: "26D218CB2C1E7163"
+			tasks: [{
+				id: "71AEF8117234022D"
+				type: "checkmark"
+				title: "Redstone Mines"
+			}]
+			rewards: [
+				{
+					id: "460770FFDC7BDD83"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "460BB4FDAA2DDB09"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "3DE63775B0DD633E"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: {
+				id: "levelhearts:heart_container"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: 4.0d
+			shape: "circle"
+			subtitle: "Zie Discord -> Kagiwepi #Quests"
+			hide: false
+			id: "1F72A9E9D64E00A1"
+			tasks: [{
+				id: "54D9D17AC9A4FF27"
+				type: "checkmark"
+				title: "Heart Container"
+			}]
+			rewards: [
+				{
+					id: "3519E8AF1FA07A0A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "721F3D09B0E27B44"
+					type: "item"
+					item: {
+						id: "levelhearts:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Hell Infusion"
+			icon: {
+				id: "contenttweaker:nether_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Quest: 32x Nether Crystal"
+				"Reward: Enchantments -> Magic Protection, Insight I \\& Hell Infusion"
+			]
+			id: "4DF29711E6DD5CDA"
+			tasks: [{
+				id: "12016BAC1A66F628"
+				type: "checkmark"
+				title: "Enchantment Unlock"
+			}]
+			rewards: [
+				{
+					id: "18AB49C8F6F0DBC6"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1073A7486E8452B4"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Seven Flavours"
+			icon: "atmospheric:passionfruit"
+			x: 4.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Quest: 64x Cookies, 64x Yucca Gateau, 64x Dried Vanilla Pods, 64x Dried Banana, 64x Mint Candies, 64x Strawberry Bean Bonbons, 64x Passionfruit"
+				"Reward: Map Improvement"
+			]
+			hide_dependency_lines: false
+			hide: true
+			id: "20B9CA5779C83FDC"
+			tasks: [{
+				id: "6D9271D3D9C15096"
+				type: "checkmark"
+				title: "Map Unlock"
+			}]
+			rewards: [
+				{
+					id: "16B44699279BF909"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "604D8EC178758CC9"
+					type: "xp"
+					team_reward: false
+					xp: 300
+				}
+			]
+		}
+		{
+			icon: {
+				id: "contenttweaker:rubber"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Quest: 192x Plastic"
+				"Reward: +5 minutes in the overworld"
+			]
+			id: "5B6559289BC1B23F"
+			tasks: [{
+				id: "1B5470E6642752A8"
+				type: "checkmark"
+				title: "Plastic is Forever"
+			}]
+			rewards: [
+				{
+					id: "52A5B16D795103DD"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5A6A83D6C7BA74BE"
+					type: "xp"
+					team_reward: false
+					xp: 300
+				}
+			]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:plate_steel"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Quest: 192x Steel Plate"
+				"Reward: +5 minutes in the overworld"
+			]
+			id: "538AFC9849623CCB"
+			tasks: [{
+				id: "5F8B2C311CEF248D"
+				type: "checkmark"
+				title: "Cold Hard Steel"
+			}]
+			rewards: [
+				{
+					id: "7A071C4C0B0AC0C2"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6EF5F3CC04ED0B24"
+					type: "xp"
+					team_reward: false
+					xp: 300
+				}
+			]
+		}
+		{
+			icon: "contenttweaker:plastic"
+			x: 4.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Quest: 512x Plastic"
+				"Reward: +10 minutes in the overworld"
+			]
+			hide_dependency_lines: false
+			hide: true
+			id: "2BD2CDADD9A09D6F"
+			tasks: [{
+				id: "0CFA4228ECCAE962"
+				type: "checkmark"
+				title: "Plastic Soup"
+			}]
+			rewards: [
+				{
+					id: "0843278C82C0A090"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "50246E2563774E67"
+					type: "xp"
+					team_reward: false
+					xp: 300
+				}
+			]
+		}
+		{
+			icon: {
+				id: "levelhearts:heart_container"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: 4.0d
+			description: ["Quest: Make an assembly line that fully automatically creates glass or bricks from cobblestone. The only allowed inputs are cobblestone, RF (energy), and mana. The rest of the process should work without any player involvement."]
+			id: "24021B63E37E11FF"
+			tasks: [{
+				id: "2A741773ECD0800A"
+				type: "checkmark"
+				title: "Autimation"
+			}]
+			rewards: [{
+				id: "1433F32B6930C29B"
+				type: "item"
+				team_reward: false
+				item: {
+					id: "levelhearts:heart_container"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Session 2"
+			icon: {
+				id: "immersiveengineering:heavy_engineering"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: -2.0d
+			id: "4D4EFBBD5BF0770C"
+			tasks: [
+				{
+					id: "46AA7C2831F8562F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:heavy_engineering"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "250ECF4122A2EC0B"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "37BC28CADBCA4000"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "7F2BF082BCE40533"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 2"
+			icon: {
+				id: "simplefarming:egg_sandwich"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			id: "7972A96CB23F51DC"
+			tasks: [
+				{
+					id: "021C5EE2A01E7E0C"
+					type: "item"
+					item: {
+						id: "simplefarming:egg_sandwich"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "66E999597CEBBADA"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "67B88D6C74FE12B3"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "7DE40059AD8BC04D"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Soggy Swamp"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:turtle_master"
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			id: "29B2BC4A16AB630D"
+			tasks: [
+				{
+					id: "5DC9AD6E60154985"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_turtle_master"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "019FBFE68B3DF69E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15L
+					consume_items: true
+				}
+				{
+					id: "747A6E7E20899CC9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15L
+					consume_items: true
+				}
+				{
+					id: "139ED92CD2B6233D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "66B7BEC9790EE97A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+				{
+					id: "0AE4F4CF002D9273"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "2E892729B5627F3D"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 3"
+			icon: {
+				id: "simplefarming:cooked_chicken_wings"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: -4.0d
+			id: "5CA364F6A9FCC1FC"
+			tasks: [
+				{
+					id: "0C6062D2957C4D36"
+					type: "item"
+					item: {
+						id: "simplefarming:cooked_chicken_wings"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "31A11D813F64C3C1"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "28B327807666514B"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "3A82A3A71A3471CD"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 3"
+			icon: {
+				id: "alexsmobs:gazelle_horn"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: -2.0d
+			id: "3CFD8CB8441647FF"
+			tasks: [
+				{
+					id: "4E2EB838A1B47D4C"
+					type: "item"
+					item: {
+						id: "alexsmobs:gazelle_horn"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2079B12A0B7483B5"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "716EF458BE9541E9"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "48102B92B09F2ED7"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 4"
+			icon: {
+				id: "simplefarming:eggplant_parmesan"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 4.0d
+			y: -4.0d
+			id: "63587BA8464A1424"
+			tasks: [
+				{
+					id: "7CE9F763B5CD0C2D"
+					type: "item"
+					item: {
+						id: "simplefarming:eggplant_parmesan"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "57D48962A6349127"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "61D88F1D6C0FC08E"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2B160C6DB077D693"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 4"
+			icon: {
+				id: "atmospheric:rosewood_log"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 4.0d
+			y: -2.0d
+			id: "0C045C3BB9537744"
+			tasks: [
+				{
+					id: "674664AB3768C34A"
+					type: "item"
+					item: {
+						id: "atmospheric:rosewood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "714D02F4C822B83A"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5C2282E19005D6EB"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "66AE13C21151779D"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Earth and Fire"
+			icon: {
+				id: "botania:fire_rod"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 8.0d
+			y: 4.0d
+			shape: "square"
+			subtitle: "Diamond, the strongest material on earth. Or is it? Pressure and heat can create the most fantastic of materials. Stronger and more durabile than what we have known before. To wield the power of the earth itself, it might have many practicle and magical uses."
+			description: [
+				"Quest: 192x Dark Steel"
+				"Reward: Copper Chest, Rod of the Depths and Rod of Molten Core unlock"
+			]
+			id: "60E7A2553D0FD60B"
+			tasks: [{
+				id: "1742E7101B3D6353"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "497CD9D41AB0A55A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0E1AB14FBAF6021C"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 5"
+			icon: {
+				id: "alexsmobs:rattlesnake_rattle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: -2.0d
+			id: "6A19AF2D285D4023"
+			tasks: [
+				{
+					id: "0F33D76549D502DE"
+					type: "item"
+					item: {
+						id: "alexsmobs:rattlesnake_rattle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "42C67CF510B823B8"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5C84B39E9BA060DD"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "657A0CA20A9104AB"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 5"
+			icon: {
+				id: "simplefarming:hotdog"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: -4.0d
+			id: "770682AC3EFC9FAC"
+			tasks: [
+				{
+					id: "6D6175BA63E8F8F0"
+					type: "item"
+					item: {
+						id: "simplefarming:hotdog"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7B2F613358203437"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6832C3FC157E32EA"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "340F193D11188257"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Echoing Void"
+			x: 4.0d
+			y: 2.0d
+			id: "655AD3D91AA3A2F6"
+			tasks: [{
+				id: "536ADB524AB46946"
+				type: "item"
+				item: {
+					id: "contenttweaker:end_crystal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5B024545B98AC018"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+				{
+					id: "276F575B38418F0A"
+					type: "choice"
+					table_id: 5582141894458076031L
+				}
+				{
+					id: "5519A141D6FAA4EB"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 6"
+			icon: {
+				id: "simplefarming:peanut_butter_cookie"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 8.0d
+			y: -4.0d
+			id: "54184B50005A84F5"
+			tasks: [
+				{
+					id: "485CD67AD6124555"
+					type: "item"
+					item: {
+						id: "simplefarming:peanut_butter_cookie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 128L
+					consume_items: true
+				}
+				{
+					id: "18D735EE5FF895FC"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4092B2CDAD5DB60D"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "22C2706CFD1D10BC"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 6"
+			icon: {
+				id: "buzzier_bees:candle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 8.0d
+			y: -2.0d
+			id: "772CA53FC20E3772"
+			tasks: [
+				{
+					id: "1F84616F0428AB79"
+					type: "item"
+					item: {
+						id: "buzzier_bees:candle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "5B5DFE7B28AFA4CD"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00195B2A6C0B86C8"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "50BC15836A21EF3E"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Blood Magic"
+			icon: {
+				id: "contenttweaker:shard_crimson"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Quest: 96x Crimson Shard"
+				"Reward: +15 minutes in the overworld"
+			]
+			id: "23D988F4DB33EC40"
+			tasks: [{
+				id: "294642693F9812D0"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5F81EE7ED02E0EC1"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2A54BD3C93D9BC87"
+					type: "xp"
+					team_reward: false
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Always a Bigger Fish"
+			icon: "contenttweaker:soul_emerald"
+			x: 10.0d
+			y: 4.0d
+			shape: "square"
+			subtitle: "To become increasingly stronger you need to defeat increasingly stronger enemies. Proof your mettle by defeating bosses (dragons, wither, end dragons, summoner and starlit crusher) and collecting soul emeralds."
+			description: [
+				"Quest: 32x Soul Emerald"
+				"Reward: Stronger champion mobs with higher rewards"
+			]
+			id: "139E760C05B9E9A7"
+			tasks: [{
+				id: "028068007DB7D540"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "534B4EE795EA2431"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "2D67636D4109F281"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 7"
+			x: 10.0d
+			y: -2.0d
+			id: "58E6336A4E48E26D"
+			tasks: [{
+				id: "02A126F0823FD816"
+				type: "item"
+				item: {
+					id: "mysticalworld:antlers"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "772143EFF5858B0A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0DDFC53E1ED748A1"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Session 7"
+			x: 10.0d
+			y: -4.0d
+			id: "1DCE29FE594DEB21"
+			tasks: [{
+				id: "258CBD783BBC7DFA"
+				type: "item"
+				item: {
+					id: "atmospheric:passionfruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4B9733B36064A154"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "45AAE140D76945BA"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+	]
+}

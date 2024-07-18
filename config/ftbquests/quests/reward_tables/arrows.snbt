@@ -1,0 +1,21 @@
+{
+	id: "49F7FE4DB835E365"
+	order_index: 1
+	title: "Arrows"
+	loot_size: 1
+	rewards: [
+		{ item: "archers_paradox:explosive_arrow", count: 64 }
+		{ item: "archers_paradox:quartz_arrow", count: 64 }
+		{ item: "archers_paradox:diamond_arrow", count: 64 }
+		{ item: "archers_paradox:prismarine_arrow", count: 64 }
+		{ item: "archers_paradox:slime_arrow", count: 64 }
+		{ item: "archers_paradox:ender_arrow", count: 64 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 64 }
+		{ item: "archers_paradox:shulker_arrow", count: 64 }
+		{ item: "archers_paradox:blaze_arrow", count: 64 }
+		{ item: "archers_paradox:frost_arrow", count: 64 }
+		{ item: "archers_paradox:lightning_arrow", count: 64 }
+		{ item: "archers_paradox:verdant_arrow", count: 64 }
+		{ item: "archers_paradox:spore_arrow", count: 64 }
+	]
+}

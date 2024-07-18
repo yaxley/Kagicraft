@@ -1,0 +1,561 @@
+{
+	id: "27480AFBDB882F28"
+	group: ""
+	order_index: 5
+	filename: "end"
+	title: "End"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "This is... the End"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Visit the End dimension"
+			id: "7C955D2ACF473B32"
+			tasks: [{
+				id: "45A2B22191434096"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2B30B2C79B9C67C1"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Kill the dragon"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Slay the ender dragon"
+			dependencies: ["7C955D2ACF473B32"]
+			id: "490525DD28C239EE"
+			tasks: [{
+				id: "2CCF24A5FEE3056C"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "19C37641AA43FBD7"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1A81236EA1C0402F"
+					type: "item"
+					item: {
+						id: "minecraft:dragon_breath"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Kill those damn walkers"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Kill 100 endermen"
+			dependencies: ["7C955D2ACF473B32"]
+			id: "0316F1039BFDFA40"
+			tasks: [{
+				id: "558A9D657C10068D"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "69F505CDD97E57B3"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7EBE3A304C1269F9"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Get an elytra"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "The ultimate form of transportation"
+			dependencies: ["490525DD28C239EE"]
+			id: "29838132AA300FC3"
+			tasks: [{
+				id: "4919D486FCC7ED95"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "38BF17461F0D2789"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Where are you going?"
+			x: 0.0d
+			y: -7.0d
+			subtitle: "Travel 20,000 blocks by Elytra"
+			dependencies: ["29838132AA300FC3"]
+			id: "5F9B7161327D5829"
+			tasks: [{
+				id: "225C9ADE4B9827AA"
+				type: "stat"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				stat: "minecraft:aviate_one_cm"
+				value: 7000000
+			}]
+			rewards: [{
+				id: "1A268C31A23B11AE"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Offer Chorus Fruit to the End Gods"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "THESE ITEMS WILL BE CONSUMED"
+			dependencies: ["7C955D2ACF473B32"]
+			id: "2D319906F8B5E9C9"
+			tasks: [{
+				id: "69A79519A40EB266"
+				type: "item"
+				title: "Offer Chorus Fruit to the End Gods"
+				item: {
+					id: "minecraft:chorus_fruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E89205F212EC31C"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Craft a Copper backpack"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Inventory space is the most usefull adventurer skill"
+			dependencies: ["2D319906F8B5E9C9"]
+			dependency_requirement: "one_completed"
+			id: "43E3CA664BD6F216"
+			tasks: [{
+				id: "5ED19F1CB34BF0AF"
+				type: "item"
+				item: {
+					id: "packedup:copperbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0760B1E36D093510"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Obtain 10 shulker shells"
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Don't float around trying to get these"
+			dependencies: ["490525DD28C239EE"]
+			id: "2665CB5715F376FF"
+			tasks: [{
+				id: "02522329696C4BE2"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_shell"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E6BB04841995476"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5DA97B610993FC1E"
+					type: "item"
+					item: {
+						id: "minecraft:magenta_dye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "08503A4C4E11FA68"
+					type: "item"
+					item: {
+						id: "minecraft:blue_dye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0FE80BF6C02736C2"
+					type: "item"
+					item: {
+						id: "minecraft:light_gray_dye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "43174607FFED51D9"
+					type: "item"
+					item: {
+						id: "minecraft:cyan_dye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "7B08D076B39DAA20"
+					type: "item"
+					item: {
+						id: "minecraft:brown_dye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Resources to blow"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Offer up a shulker box. IT WILL BE CONSUMED"
+			dependencies: ["2665CB5715F376FF"]
+			id: "0B4385611F310E8C"
+			tasks: [{
+				id: "356C106047E1F2CE"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_box"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B77830D78AD87EE"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Kill the ender dragon 10 times"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "An experienced dragon slayer"
+			dependencies: ["490525DD28C239EE"]
+			id: "0408176848AA633F"
+			tasks: [{
+				id: "6E0E342A937BE7FD"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+			rewards: [{
+				id: "3AC1510CE0E24DFD"
+				type: "item"
+				title: "4"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Kill 5 endermite"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "No more need for that W button on your keyboard"
+			dependencies: ["0316F1039BFDFA40"]
+			id: "00E9824A43DB280E"
+			tasks: [{
+				id: "34581BF2F2E93237"
+				type: "kill"
+				entity: "minecraft:endermite"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "17361D4067346DEE"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "099C82AE0D0CC66A"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 16
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1128 @@
+{
+	id: "6A0C932C497D6708"
+	group: ""
+	order_index: 11
+	filename: "server_quests"
+	title: "Westeros"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Cacti Canyon"
+			icon: {
+				id: "contenttweaker:father"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -6.0d
+			y: 0.0d
+			description: ["Quest: 16x Script of Father, Mother, Stranger, Maiden, Smith, Warrior and Crone"]
+			id: "35B0F2D8C24DFAB3"
+			tasks: [{
+				id: "72B043C463661498"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "23BB453B547A8DE3"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_silver"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "4D29AB860194CFB7"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Blood of the Dragon"
+			icon: {
+				id: "contenttweaker:fire_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -6.0d
+			y: -3.0d
+			description: [
+				"Quest: 3x Fire Crystal, 3x Ice Crystal and 3x Lightning Crystal"
+				"Reward: Unlock Dragonbone Tools"
+			]
+			id: "03DF5AEFE4A66EEB"
+			tasks: [{
+				id: "5D3F40C4CF6983B2"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "29B7406964B87CA6"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0F9CB563CE7A1BBE"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Hell Infusion"
+			icon: {
+				id: "contenttweaker:nether_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -4.0d
+			y: -3.0d
+			description: [
+				"Quest: 32x Nether Crystal"
+				"Reward: Unlocks new enchantments"
+			]
+			id: "6FDCE83609436370"
+			tasks: [{
+				id: "246C3CF8F2373186"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2A385D7058B23975"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6F0FB9131D3905B3"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Bones of the Dragon"
+			icon: {
+				id: "contenttweaker:dragon_token"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"Quest: 32x Dragon Token"
+				"Reward: Unlocks Dragonscale Armor"
+			]
+			id: "2CCB5D111655E4C3"
+			tasks: [{
+				id: "20B406DB5F5AE72C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "354518E07EDA7928"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7158A340033C118F"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Late or Never"
+			icon: {
+				id: "contenttweaker:rune_tornado"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -2.0d
+			y: -3.0d
+			description: [
+				"Quest: 3x Tornado Rune"
+				"Reward: Unlocks stronger botania runes, and the plants that can be created with them."
+			]
+			id: "71EC19F1EDA6E222"
+			tasks: [{
+				id: "77647E270F8992A4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "044A2EE3D9C55AE8"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7B2E3587C393F37C"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Flight of the Hippogriff"
+			x: -4.0d
+			y: 3.0d
+			description: ["Quest: Fly with your whole team on hippogryphs"]
+			id: "7E03F5AA97F6837E"
+			tasks: [{
+				id: "78664CB5F1692702"
+				type: "checkmark"
+				title: "Whole team Hippogryphs"
+				icon: {
+					id: "iceandfire:hippogryph_egg"
+					Count: 1b
+					tag: {
+						EggOrdinal: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71BD71931403222E"
+					type: "item"
+					item: {
+						id: "levelhearts:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4911B4A3F5E5511D"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5E7FFC5D5E05266C"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Unlock Quests"
+			x: -6.0d
+			y: -4.5d
+			id: "7D158A3A3C999D0B"
+			tasks: [{
+				id: "48E82D177125B62A"
+				type: "item"
+				item: {
+					id: "ftbquests:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Herald Quests"
+			x: -6.0d
+			y: -1.5d
+			id: "29514CA0BB7D3E5C"
+			tasks: [{
+				id: "7578DAF2C26725C5"
+				type: "item"
+				item: {
+					id: "ftbquests:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Session 1"
+			icon: {
+				id: "buzzier_bees:honey_bread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -6.0d
+			y: -6.0d
+			description: ["Give 640 saturation points"]
+			id: "71DDBA569B96BF12"
+			tasks: [
+				{
+					id: "0A3C7BBD1742C02F"
+					type: "checkmark"
+					title: "640 Saturation Points"
+					icon: {
+						id: "minecraft:furnace"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "2A2B6228903AE7BE"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Food Quests"
+			x: -6.0d
+			y: -7.5d
+			subtitle: "Jens is dik"
+			id: "4005F6BC4C0301A0"
+			tasks: [{
+				id: "7F183F7912103543"
+				type: "item"
+				item: {
+					id: "ftbquests:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Session 2"
+			icon: {
+				id: "minecraft:bread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -4.0d
+			y: -6.0d
+			description: ["Give 896 hunger points"]
+			id: "55713C0A0B4C5A03"
+			tasks: [
+				{
+					id: "1962025D6B60B6A1"
+					type: "checkmark"
+				}
+				{
+					id: "3835EB42ABB59F2F"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "53C0864E9CB42271"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0A9F075B2C29B8B3"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 3"
+			icon: {
+				id: "buzzier_bees:honey_bread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -2.0d
+			y: -6.0d
+			description: ["Give 768 saturation points"]
+			id: "5AA51EC38A5B23DB"
+			tasks: [
+				{
+					id: "56BDC628FECB5A0F"
+					type: "checkmark"
+				}
+				{
+					id: "6C453C18048C9B22"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "756EA4A2D0CEB912"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "39A8CCC3C225F7BC"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 4"
+			icon: {
+				id: "minecraft:bread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: -6.0d
+			description: ["Give 1024 hunger points"]
+			id: "1ECFCA694EF0A1EF"
+			tasks: [
+				{
+					id: "295A5584937EB959"
+					type: "checkmark"
+				}
+				{
+					id: "6CD7D2984BFEA195"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7525E1636704CE8A"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "6468A086CFE3E451"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 5"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: -6.0d
+			description: ["Give 16 of any potion"]
+			id: "664ADC9D99AF13FD"
+			tasks: [
+				{
+					id: "6538E2E8378175A0"
+					type: "checkmark"
+				}
+				{
+					id: "3F4B2ED32ACE4A39"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "693BDF91D6E36607"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "37624A3DBFEA44DE"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 7"
+			icon: "buzzier_bees:honey_bread"
+			x: 4.0d
+			y: -6.0d
+			description: ["Give 896 saturation points"]
+			id: "359FF63F255FE417"
+			tasks: [{
+				id: "1D0712A4832F88D4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4D4216F1643C90FA"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "405829BBACDA0119"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 8"
+			icon: "alexsmobs:bear_fur"
+			x: 6.0d
+			y: -6.0d
+			description: ["Give 12 hair of bears"]
+			id: "6CA6254B0D928C6E"
+			tasks: [
+				{
+					id: "7EA1D622D8E03CD4"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "5B9A2B3FFE35036D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "42968D952D058BB3"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "6481ADD6AE9C3746"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Session 9"
+			icon: "minecraft:bread"
+			x: 8.0d
+			y: -6.0d
+			description: ["Give 1280 hunger points"]
+			id: "604D6DD988B4D033"
+			tasks: [
+				{
+					id: "5D457D044FFDEF22"
+					type: "item"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "257FE939FD770C0B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "4F2E7A7D5828C7A5"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "29060F6C1016621D"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Other Quests"
+			x: -6.0d
+			y: 1.5d
+			id: "3EFF813F9D5E04BF"
+			tasks: [{
+				id: "6AF5102FBF40F7F5"
+				type: "item"
+				item: {
+					id: "ftbquests:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Khaleesi"
+			icon: {
+				id: "iceandfire:dragonegg_red"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Quest: Give any dragon egg"
+			id: "4ACB7660D2B4FE7B"
+			tasks: [{
+				id: "0810325DA40625C4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "35E1D19697AEC2CC"
+					type: "item"
+					item: {
+						id: "levelhearts:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3CAFF8EF1E631740"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5D512FE3A4765D37"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Treasure Trails"
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Your quest starts here: https://discord.gg/b3u7BrRWu8"
+			description: ["ONLY HIT CHECKMARK AFTER OBTAINING ''PROGRESSION KEY''"]
+			id: "19512F4972A50D24"
+			tasks: [{
+				id: "3890F92013F7B3C4"
+				type: "checkmark"
+				title: "Progress Key"
+				icon: {
+					id: "contenttweaker:quest1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "10A57DB6CD0DB507"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Complete the quest"
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Congratulations. You have completed the treasure trails."
+			description: ["DO NOT CLICK CHECKMARK UNTIL YOU HAVE THE COMPLETION KEY"]
+			hide_dependency_lines: false
+			dependencies: ["3890F92013F7B3C4"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "4C3DC57C076A3D19"
+			tasks: [{
+				id: "0F30DCCA4ED2C3A0"
+				type: "checkmark"
+				title: "Obtain Completion Key"
+				icon: {
+					id: "contenttweaker:quest2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CB3DF5758005593"
+				type: "xp"
+				team_reward: false
+				auto: "enabled"
+				xp: 300
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -4.0d
+			y: 0.0d
+			description: ["Quest: Give 64 Totem of Undying"]
+			id: "61BBBEB2F1312F86"
+			tasks: [{
+				id: "010B452BC1A7756B"
+				type: "checkmark"
+				title: "Pumpkin Pastures"
+			}]
+			rewards: [
+				{
+					id: "2FC3F26A7484A3DD"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_silver"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "7413F8FB66E86ACF"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Seven Wonders"
+			icon: "minecraft:compass"
+			x: -2.0d
+			y: 3.0d
+			description: ["Quest: Take a sellfy with at least two people on the following locations: ocean monument, jungle temple, desert temple, iglo, woodland mansion, shipwreck, witch hut. Share the sellfies in the discord. "]
+			id: "6C21E9F61ABB7D85"
+			tasks: [{
+				id: "1D41E3AC2F03D1A5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "1AA5B7F628A86061"
+					type: "item"
+					item: {
+						id: "levelhearts:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "003A094339D7FF19"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1F3264CE2067E7DF"
+					type: "xp"
+					team_reward: false
+					auto: "enabled"
+					xp: 300
+				}
+			]
+		}
+	]
+}

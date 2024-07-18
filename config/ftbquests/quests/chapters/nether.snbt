@@ -1,0 +1,490 @@
+{
+	id: "33647E1334BC0E5E"
+	group: ""
+	order_index: 4
+	filename: "nether"
+	title: "Nether"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit the nether"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Discover this new dimension"
+			id: "7E51029AEB7A1B85"
+			tasks: [{
+				id: "5458E721C7357E52"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "24B56D9A9800ED7F"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Find a Crimson Forest"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Discover this beautiful red nether biome"
+			dependencies: ["7E51029AEB7A1B85"]
+			id: "2CF35B7375E0135E"
+			tasks: [{
+				id: "2D3E6117F146A983"
+				type: "biome"
+				biome: "minecraft:crimson_forest"
+			}]
+			rewards: [{
+				id: "0092616D61DDABF0"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Obtain Gilded Blackstone"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Collect 5 gilded blackstone. THESE WILL BE CONSUMED"
+			dependencies: ["7E51029AEB7A1B85"]
+			id: "05D7DE7E6708ED80"
+			tasks: [{
+				id: "79F14A844C2CB8F9"
+				type: "item"
+				item: {
+					id: "minecraft:gilded_blackstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "124EE0939526C109"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "57864C6A3897C340"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Collect gilded netherrack"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Be sure not to upset anyone during this quest...."
+			dependencies: ["05D7DE7E6708ED80"]
+			id: "0C76EA9B60C059E2"
+			tasks: [{
+				id: "65716743012E2094"
+				type: "item"
+				item: {
+					id: "minecraft:nether_gold_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0A35F3B8D390A95D"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "633593BC5E224DE3"
+					type: "item"
+					item: {
+						id: "minecraft:gold_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Collect this newly available building block"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Collect 2 stacks of this new material"
+			dependencies: ["2CF35B7375E0135E"]
+			id: "1B3A22F6C547E0EF"
+			tasks: [{
+				id: "01203F3F14130410"
+				type: "item"
+				item: {
+					id: "minecraft:crimson_hyphae"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 128L
+			}]
+			rewards: [{
+				id: "63B2C948C94F6A9C"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Kill 25 hoglins"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Be the invasive species you are and kill the original habitants of this dimension"
+			dependencies: ["7E51029AEB7A1B85"]
+			id: "7C5408D0FA62C41E"
+			tasks: [{
+				id: "4B9897FB9C74A862"
+				type: "kill"
+				entity: "minecraft:hoglin"
+				value: 25L
+			}]
+			rewards: [{
+				id: "464C0471A775FD40"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Kill the Wither"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Maybe I should find out how to summon it first..."
+			dependencies: ["7C5408D0FA62C41E"]
+			id: "6D04ADF59151B16A"
+			tasks: [{
+				id: "1057BB2F12F56D9B"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1B5CDC4385CE5198"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "230B7D27BC602E56"
+					type: "item"
+					item: {
+						id: "minecraft:wither_skeleton_skull"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "008A39DFF960DD99"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Kill 25 wither skeletons"
+			x: 1.5d
+			y: 4.0d
+			subtitle: "Give me your head, you black bastard"
+			dependencies: ["7C5408D0FA62C41E"]
+			id: "1D0DCB646AE7B6F6"
+			tasks: [{
+				id: "3749DA69FBD0765D"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 25L
+			}]
+			rewards: [{
+				id: "5EDAFF32B0A1779F"
+				type: "item"
+				item: {
+					id: "contenttweaker:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Experienced Blaze Killer"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "You have slain almost all blazes. THESE ITEMS WILL BE CONSUMED"
+			dependencies: ["7E51029AEB7A1B85"]
+			id: "00C5230D298A4AF6"
+			tasks: [{
+				id: "3173A3346210DBC3"
+				type: "item"
+				item: {
+					id: "minecraft:blaze_rod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "74950A541F0C86ED"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "46AB91DDA8254802"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Nether Veteran"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Travel 3,000 blocks by strider"
+			dependencies: ["00C5230D298A4AF6"]
+			id: "40821A1FD7DF9DD8"
+			tasks: [{
+				id: "10A3A7B83702A431"
+				type: "stat"
+				icon: {
+					id: "minecraft:strider_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				stat: "minecraft:strider_one_cm"
+				value: 1000000
+			}]
+			rewards: [
+				{
+					id: "453BAB546C08A59F"
+					type: "item"
+					item: {
+						id: "contenttweaker:coin_silver"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "1FD8CFA3E3632803"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

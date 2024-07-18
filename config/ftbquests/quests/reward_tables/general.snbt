@@ -1,0 +1,186 @@
+{
+	id: "4D77C07A40FFEB7F"
+	order_index: 0
+	title: "General"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 2s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "ensorcellation:excavating"
+						lvl: 1s
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:wither_skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "minecraft:end_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "apotheosis:hellshelf"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:seashelf"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+	]
+}
