@@ -1,148 +1,89 @@
 {
-	id: "568C52C4BA172031"
-	group: ""
-	order_index: 8
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "herald_afterparty"
-	title: "Heralds"
+	group: ""
 	icon: {
+		Count: 1b
 		ForgeCaps: {
 			"dungeons_gear:weapon": {
-				lastFiredTime: 0L
-				fuseShotCounter: 0
-				crossbowChargeTime: 0
 				bowChargeTime: 0.0f
+				crossbowChargeTime: 0
+				fuseShotCounter: 0
+				lastFiredTime: 0L
 			}
 		}
 		id: "dungeons_gear:guards_chestplate"
-		Count: 1b
 		tag: {
 			Damage: 0
 		}
 	}
-	always_invisible: true
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "568C52C4BA172031"
+	order_index: 8
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Squid Coast"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
 			description: ["This is the start of the Squid Coast Afterparty quest line. You can start this quest line by holding the Hunter's Vest. This heraldic item is the reward for the Squid Coast server quest."]
 			id: "7CD0900469ACDF35"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "07FB528D1ECE3999"
-				type: "item"
 				item: {
-					id: "dungeons_gear:hunters_vest"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:hunters_vest"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Squid Coast"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "The seven seas"
+			dependencies: ["7CD0900469ACDF35"]
+			description: ["The people of the squid coast are great fishers. Show you're own proficiency in this area by catching all the different kind of fish."]
 			icon: {
-				id: "minecraft:tropical_fish"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:tropical_fish"
 			}
-			x: 2.0d
-			y: 0.0d
-			description: ["The people of the squid coast are great fishers. Show you're own proficiency in this area by catching all the different kind of fish."]
-			dependencies: ["7CD0900469ACDF35"]
 			id: "02098AC1FC73CD89"
-			tasks: [
-				{
-					id: "0795180803F457EF"
-					type: "item"
-					item: {
-						id: "minecraft:cod"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "3F6B17F0F8724906"
-					type: "item"
-					item: {
-						id: "minecraft:salmon"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "1846D996CC649514"
-					type: "item"
-					item: {
-						id: "minecraft:tropical_fish"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 64L
-					consume_items: true
-				}
-			]
 			rewards: [
 				{
 					id: "37D5AB978939396D"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "739E635B2CDDD2B8"
@@ -150,260 +91,116 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "499FA8B658E0A99D"
-					type: "item"
 					item: {
-						id: "simplefarming:barley_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:barley_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0795180803F457EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:cod"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3F6B17F0F8724906"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:salmon"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1846D996CC649514"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:tropical_fish"
+					}
+					type: "item"
+				}
+			]
+			title: "The seven seas"
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			title: "Grandmother's Apple Pie"
+			dependencies: ["1A07F02C82DA1235"]
+			description: ["The Squid Coast is not only famous for their fishers, but also for their farmers. Learn about the recipes of different cultures, and bake every pie humanly conceivable. "]
 			icon: {
-				id: "simplefarming:apple_pie"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "simplefarming:apple_pie"
 			}
-			x: 6.0d
-			y: 0.0d
-			description: ["The Squid Coast is not only famous for their fishers, but also for their farmers. Learn about the recipes of different cultures, and bake every pie humanly conceivable. "]
-			dependencies: ["1A07F02C82DA1235"]
 			id: "3637F567A0C34065"
-			tasks: [
-				{
-					id: "3F949AAE9303265C"
-					type: "item"
-					item: {
-						id: "minecraft:pumpkin_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "69BD995C2A7B1790"
-					type: "item"
-					item: {
-						id: "simplefarming:apple_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "110F0059B1304298"
-					type: "item"
-					item: {
-						id: "simplefarming:apricot_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "6E685D5382631282"
-					type: "item"
-					item: {
-						id: "simplefarming:blackberry_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "01943F548FAD06AA"
-					type: "item"
-					item: {
-						id: "simplefarming:blueberry_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "44FA2BD764CD4871"
-					type: "item"
-					item: {
-						id: "simplefarming:cherry_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "0CB9E2AE6DC54E52"
-					type: "item"
-					item: {
-						id: "simplefarming:peanut_butter_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "3B233FCE14C3A268"
-					type: "item"
-					item: {
-						id: "simplefarming:pear_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "42C88F112BD164D7"
-					type: "item"
-					item: {
-						id: "simplefarming:plum_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "2D974866D0EC385E"
-					type: "item"
-					item: {
-						id: "simplefarming:raspberry_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-				{
-					id: "7424E5091970408E"
-					type: "item"
-					item: {
-						id: "simplefarming:strawberry_pie"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 8L
-					consume_items: true
-				}
-			]
 			rewards: [
 				{
 					id: "5CABE334AF0C1824"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "30BA54D176D00E8C"
@@ -411,66 +208,260 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "2CBD5CCDF33149BC"
-					type: "item"
 					item: {
-						id: "simplefarming:pizza"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:pizza"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "3F949AAE9303265C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:pumpkin_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "69BD995C2A7B1790"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:apple_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "110F0059B1304298"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:apricot_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6E685D5382631282"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:blackberry_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "01943F548FAD06AA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:blueberry_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "44FA2BD764CD4871"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:cherry_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "0CB9E2AE6DC54E52"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:peanut_butter_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3B233FCE14C3A268"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:pear_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "42C88F112BD164D7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:plum_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2D974866D0EC385E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:raspberry_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7424E5091970408E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:strawberry_pie"
+					}
+					type: "item"
+				}
+			]
+			title: "Grandmother's Apple Pie"
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			title: "Lord of the Sea"
+			dependencies: ["02098AC1FC73CD89"]
+			description: ["The lords of the sea are the mysterious Elder Guardians. Kill three of these creatures to retake their dominion for yourself."]
 			icon: {
-				id: "minecraft:prismarine_crystals"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:prismarine_crystals"
 			}
-			x: 4.0d
-			y: 0.0d
-			description: ["The lords of the sea are the mysterious Elder Guardians. Kill three of these creatures to retake their dominion for yourself."]
-			dependencies: ["02098AC1FC73CD89"]
 			id: "1A07F02C82DA1235"
-			tasks: [{
-				id: "458ACAF5938E6B2B"
-				type: "kill"
-				entity: "minecraft:elder_guardian"
-				value: 3L
-			}]
 			rewards: [
 				{
 					id: "76CC7A536FBDBAF6"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "7E00B357861CC89C"
@@ -478,79 +469,67 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "1A75D2BAE1457011"
-					type: "item"
 					item: {
-						id: "simplefarming:baked_sweet_potato"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:baked_sweet_potato"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "458ACAF5938E6B2B"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Lord of the Sea"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			title: "Nautilus Shells"
+			dependencies: ["3637F567A0C34065"]
+			description: ["You have proven yourself to be a worthy inheritor of the title of Hero of the Squid Coast. For your final challenge: find three nautilus shells."]
 			icon: {
-				id: "minecraft:nautilus_shell"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:nautilus_shell"
 			}
-			x: 8.0d
-			y: 0.0d
-			description: ["You have proven yourself to be a worthy inheritor of the title of Hero of the Squid Coast. For your final challenge: find three nautilus shells."]
-			dependencies: ["3637F567A0C34065"]
 			id: "0FA0B1289F287DA2"
-			tasks: [{
-				id: "63C1DACE541FA2CB"
-				type: "item"
-				item: {
-					id: "minecraft:nautilus_shell"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 3L
-				consume_items: true
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "366D2F6F2D9E8CBA"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "4A3B05FEFF98D0D5"
@@ -558,224 +537,121 @@
 					xp: 200
 				}
 				{
+					count: 32
 					id: "17E0A5CDC9794DE2"
-					type: "item"
 					item: {
-						id: "simplefarming:blt"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:blt"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "63C1DACE541FA2CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:nautilus_shell"
+				}
+				type: "item"
+			}]
+			title: "Nautilus Shells"
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			title: "Cacti Canyon"
+			description: ["This is the start of the Cacti Canyon Afterparty quest line. You can start this quest line by holding the Spelunker Helmet. This heraldic item is the reward for the Cacti Canyon server quest."]
 			icon: {
-				id: "dungeons_gear:spelunker_helmet"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "dungeons_gear:spelunker_helmet"
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 0.0d
-			y: 2.0d
-			shape: "square"
-			description: ["This is the start of the Cacti Canyon Afterparty quest line. You can start this quest line by holding the Spelunker Helmet. This heraldic item is the reward for the Cacti Canyon server quest."]
 			id: "52F4D0BA2EA6641C"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "27A16F92E245FFBD"
-				type: "item"
 				item: {
-					id: "dungeons_gear:spelunker_helmet"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:spelunker_helmet"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Cacti Canyon"
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			title: "The Seven"
+			dependencies: ["5B63311CC5462383"]
+			description: ["The people in this time period have a strange religion. They believe in one god with seven aspects. Ancient texts about these gods can be found in ruins and temples. Collect some more scipts in order to enrich our knowledge. "]
 			icon: {
-				id: "contenttweaker:father"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "contenttweaker:father"
 			}
-			x: 4.0d
-			y: 2.0d
-			description: ["The people in this time period have a strange religion. They believe in one god with seven aspects. Ancient texts about these gods can be found in ruins and temples. Collect some more scipts in order to enrich our knowledge. "]
-			dependencies: ["5B63311CC5462383"]
 			id: "6AF793CDB6E6F1EC"
-			tasks: [
-				{
-					id: "0F59716820FDD4ED"
-					type: "item"
-					item: {
-						id: "contenttweaker:father"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "43A4C7CFACB4A422"
-					type: "item"
-					item: {
-						id: "contenttweaker:mother"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "3B3A578D0ACB0E13"
-					type: "item"
-					item: {
-						id: "contenttweaker:stranger_god"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "4925CE94790BAA58"
-					type: "item"
-					item: {
-						id: "contenttweaker:crone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "1345EDC104734180"
-					type: "item"
-					item: {
-						id: "contenttweaker:warrior"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "2B34DD1E9281ED7C"
-					type: "item"
-					item: {
-						id: "contenttweaker:smith"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "01EC4C64764DA817"
-					type: "item"
-					item: {
-						id: "contenttweaker:maiden"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-				}
-			]
 			rewards: [
 				{
 					id: "25FC52265E1DD022"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "0C93D6C4677541FC"
@@ -783,78 +659,181 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "0B1E9AC76DB3946C"
-					type: "item"
 					item: {
-						id: "simplefarming:ice_cream_sundae"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:ice_cream_sundae"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					count: 3L
+					id: "0F59716820FDD4ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:father"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "43A4C7CFACB4A422"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:mother"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3B3A578D0ACB0E13"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:stranger_god"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4925CE94790BAA58"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:crone"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1345EDC104734180"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:warrior"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2B34DD1E9281ED7C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:smith"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "01EC4C64764DA817"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "contenttweaker:maiden"
+					}
+					type: "item"
+				}
+			]
+			title: "The Seven"
+			x: 4.0d
+			y: 2.0d
 		}
 		{
-			title: "Golden Ruins"
+			dependencies: ["6AF793CDB6E6F1EC"]
+			description: ["History is more than just the history of our overworld. The Nether has it's own rich history. The ruined bastions are a great example of this. Explore a few of them."]
 			icon: {
-				id: "minecraft:gilded_blackstone"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:gilded_blackstone"
 			}
-			x: 6.0d
-			y: 2.0d
-			description: ["History is more than just the history of our overworld. The Nether has it's own rich history. The ruined bastions are a great example of this. Explore a few of them."]
-			dependencies: ["6AF793CDB6E6F1EC"]
 			id: "03D449995F2BCD47"
-			tasks: [{
-				id: "4B2CDC23501D4A4C"
-				type: "item"
-				item: {
-					id: "minecraft:gilded_blackstone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 24L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "43F07E086EAE54EE"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "0061FAE1230BAC17"
@@ -862,78 +841,78 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "2A1DFEC41F3E2678"
-					type: "item"
 					item: {
-						id: "simplefarming:spinach_quinoa_quiche"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:spinach_quinoa_quiche"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "History of Bones"
-			icon: {
-				id: "minecraft:bone"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
-			}
-			x: 2.0d
-			y: 2.0d
-			description: ["The people of the Cacti Canyon are intrested in history and lore in all its facets. Researching the fossils of long dead creatures is one of the ways they can saturate this curiosity."]
-			dependencies: ["52F4D0BA2EA6641C"]
-			id: "5B63311CC5462383"
 			tasks: [{
-				id: "612BCAEE7E12E3D6"
-				type: "item"
+				consume_items: true
+				count: 24L
+				id: "4B2CDC23501D4A4C"
 				item: {
-					id: "minecraft:bone_block"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:gilded_blackstone"
 				}
-				count: 64L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Golden Ruins"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52F4D0BA2EA6641C"]
+			description: ["The people of the Cacti Canyon are intrested in history and lore in all its facets. Researching the fossils of long dead creatures is one of the ways they can saturate this curiosity."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "minecraft:bone"
+			}
+			id: "5B63311CC5462383"
 			rewards: [
 				{
 					id: "225E8DC9AD4CD32B"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "218E2BDD009F1069"
@@ -941,70 +920,82 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "184BEEC46778F62F"
-					type: "item"
 					item: {
-						id: "simplefarming:oat_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:oat_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "612BCAEE7E12E3D6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:bone_block"
+				}
+				type: "item"
+			}]
+			title: "History of Bones"
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			title: "Airmiles"
+			dependencies: ["03D449995F2BCD47"]
+			description: ["Researching history is though work. While exploring you need to walk quite a bit. But walking is for suckers, why don't you fly instead."]
 			icon: {
-				id: "minecraft:elytra"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "minecraft:elytra"
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 8.0d
-			y: 2.0d
-			description: ["Researching history is though work. While exploring you need to walk quite a bit. But walking is for suckers, why don't you fly instead."]
-			dependencies: ["03D449995F2BCD47"]
 			id: "22C45D1176238ED1"
-			tasks: [{
-				id: "709CA63E27EDA45E"
-				type: "stat"
-				stat: "minecraft:aviate_one_cm"
-				value: 100000
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "4EC0AABC6C8A960F"
-					type: "item"
-					team_reward: true
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					team_reward: true
+					type: "item"
 				}
 				{
 					id: "49A652C092133BCB"
@@ -1012,126 +1003,111 @@
 					xp: 200
 				}
 				{
+					count: 32
 					id: "2B74C9A94DF44B99"
-					type: "item"
 					item: {
-						id: "simplefarming:mutton_curry"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:mutton_curry"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "709CA63E27EDA45E"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 100000
+			}]
+			title: "Airmiles"
+			x: 8.0d
+			y: 2.0d
 		}
 		{
-			title: "Soggy Swamp"
+			description: ["This is the start of the Soggy Swamp Afterparty quest line. You can start this quest line by holding the Evocation Hat. This heraldic item is the reward for the Soggy Swamp server quest."]
 			icon: {
-				id: "dungeons_gear:evocation_hat"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "dungeons_gear:evocation_hat"
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 0.0d
-			y: 4.0d
-			shape: "square"
-			description: ["This is the start of the Soggy Swamp Afterparty quest line. You can start this quest line by holding the Evocation Hat. This heraldic item is the reward for the Soggy Swamp server quest."]
 			id: "10257E0F13870AB4"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "7A5505621B45ECC1"
-				type: "item"
 				item: {
-					id: "dungeons_gear:evocation_hat"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:evocation_hat"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Soggy Swamp"
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			title: "Health for days"
+			dependencies: ["10257E0F13870AB4"]
+			description: ["Some consider the witches of the soggy swamp to be evil. Most however there not to refuse their aid. Their health potions are especially welcome. However, if we can brew our own potions we would no longer need to associate with these unsavory types."]
 			icon: {
-				id: "minecraft:potion"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:strong_healing"
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 2.0d
-			y: 4.0d
-			description: ["Some consider the witches of the soggy swamp to be evil. Most however there not to refuse their aid. Their health potions are especially welcome. However, if we can brew our own potions we would no longer need to associate with these unsavory types."]
-			dependencies: ["10257E0F13870AB4"]
 			id: "77DB7D5D76A16BA8"
-			tasks: [{
-				id: "7ECAC62774476397"
-				type: "item"
-				item: {
-					id: "minecraft:lingering_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_healing"
-					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 8L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "3A2E99AA260DA159"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "714862C25DF68544"
@@ -1139,65 +1115,80 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "0E4FC0C544C60637"
-					type: "item"
 					item: {
-						id: "simplefarming:cheese_slice"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:cheese_slice"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7ECAC62774476397"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			title: "Health for days"
+			x: 2.0d
+			y: 4.0d
 		}
 		{
-			title: "What the Blaze!"
+			dependencies: ["77DB7D5D76A16BA8"]
+			description: ["Blaze Powder is the required starting point for every potion. So it's always a wise idea to have some within arms reach."]
 			icon: {
-				id: "minecraft:blaze_powder"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:blaze_powder"
 			}
-			x: 4.0d
-			y: 4.0d
-			description: ["Blaze Powder is the required starting point for every potion. So it's always a wise idea to have some within arms reach."]
-			dependencies: ["77DB7D5D76A16BA8"]
 			id: "0E69606E0BA7183D"
-			tasks: [{
-				id: "612723C05D1A8F1D"
-				type: "kill"
-				entity: "minecraft:blaze"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "04C08D294D08FE3B"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "1C21A1B1F3741A08"
@@ -1205,77 +1196,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "366BF0CEFC0FCA71"
-					type: "item"
 					item: {
-						id: "buzzier_bees:honey_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "buzzier_bees:honey_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "612723C05D1A8F1D"
+				type: "kill"
+				value: 100L
+			}]
+			title: "What the Blaze!"
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			title: "Don't Burn"
+			dependencies: ["0E69606E0BA7183D"]
+			description: ["While you are in the Nether anyway, maybe also gather some Magma Cream. I hear you can make an import potion from them."]
 			icon: {
-				id: "minecraft:magma_cream"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:magma_cream"
 			}
-			x: 6.0d
-			y: 4.0d
-			description: ["While you are in the Nether anyway, maybe also gather some Magma Cream. I hear you can make an import potion from them."]
-			dependencies: ["0E69606E0BA7183D"]
 			id: "428F2D71EC49E1FE"
-			tasks: [{
-				id: "2A6ADBB6E06AE976"
-				type: "item"
-				item: {
-					id: "minecraft:magma_cream"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 64L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "0E37CAD67989B04E"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "0D1AB51311104199"
@@ -1283,82 +1262,81 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "382DA7C1A43DECDE"
-					type: "item"
 					item: {
-						id: "simplefarming:fish_and_chips"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:fish_and_chips"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2A6ADBB6E06AE976"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:magma_cream"
+				}
+				type: "item"
+			}]
+			title: "Don't Burn"
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			title: "A Different Kind of Magic"
+			dependencies: ["428F2D71EC49E1FE"]
+			description: ["Potion brewing is not the only magic that exists in this world. A true magician is a master of all these magics. Proof you're mastery over the botanical magics."]
 			icon: {
-				id: "botania:mana_tablet"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "botania:mana_tablet"
 				tag: {
 					mana: 500000
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 8.0d
-			y: 4.0d
-			description: ["Potion brewing is not the only magic that exists in this world. A true magician is a master of all these magics. Proof you're mastery over the botanical magics."]
-			dependencies: ["428F2D71EC49E1FE"]
 			id: "5575F325428497DF"
-			tasks: [{
-				id: "08BC9966CB6B331D"
-				type: "item"
-				item: {
-					id: "botania:mana_tablet"
-					Count: 1b
-					tag: {
-						mana: 500000
-					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "4C2F66C0A71406B8"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "45C67D8196A05832"
@@ -1366,120 +1344,121 @@
 					xp: 200
 				}
 				{
+					count: 32
 					id: "7DE4A5B192A60C43"
-					type: "item"
 					item: {
-						id: "simplefarming:pulled_pork_sandwich"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:pulled_pork_sandwich"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "08BC9966CB6B331D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			title: "A Different Kind of Magic"
+			x: 8.0d
+			y: 4.0d
 		}
 		{
-			title: "Redstone Mines"
+			description: ["This is the start of the Redstone Mines Afterparty quest line. You can start this quest line by holding the Mercenary Helmet. This heraldic item is the reward for the Redstone Mines server quest."]
 			icon: {
-				id: "dungeons_gear:mercenary_helmet"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "dungeons_gear:mercenary_helmet"
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
 			}
-			x: 0.0d
-			y: 6.0d
-			shape: "square"
-			description: ["This is the start of the Redstone Mines Afterparty quest line. You can start this quest line by holding the Mercenary Helmet. This heraldic item is the reward for the Redstone Mines server quest."]
 			id: "3ABD65CDFEE307B9"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "61ED95F87710B7CF"
-				type: "item"
 				item: {
-					id: "dungeons_gear:mercenary_helmet"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:mercenary_helmet"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Redstone Mines"
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			title: "Sugar for My Baby"
+			dependencies: ["3ABD65CDFEE307B9"]
+			description: ["The discovery of redstone has made our lives so much easier. Thanks to it's special properties all kinds of processes can be automated. Sugar Cane is one of the easier automations. So let's start there."]
 			icon: {
-				id: "minecraft:sugar_cane"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:sugar_cane"
 			}
-			x: 2.0d
-			y: 6.0d
-			description: ["The discovery of redstone has made our lives so much easier. Thanks to it's special properties all kinds of processes can be automated. Sugar Cane is one of the easier automations. So let's start there."]
-			dependencies: ["3ABD65CDFEE307B9"]
 			id: "25B328C24F90B9EC"
-			tasks: [{
-				id: "30BAFD6EFB49D71B"
-				type: "item"
-				item: {
-					id: "minecraft:sugar_cane"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 512L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "088ABD313D0A9705"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "1BC9AE2C8A9D133E"
@@ -1487,77 +1466,77 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "530300ED430CBED2"
-					type: "item"
 					item: {
-						id: "simplefarming:rice_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:rice_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Garden of the Sea"
-			icon: {
-				id: "minecraft:dried_kelp_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
-			}
-			x: 4.0d
-			y: 6.0d
-			description: ["The automation of Dried Kelp is a little harder. It is well worth the evort however, because once it is done you're furnaces will burn forever."]
-			dependencies: ["25B328C24F90B9EC"]
-			id: "22BDCE8F8292D68E"
 			tasks: [{
-				id: "2D30B1974FB00ED3"
-				type: "item"
+				consume_items: true
+				count: 512L
+				id: "30BAFD6EFB49D71B"
 				item: {
-					id: "minecraft:dried_kelp_block"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:sugar_cane"
 				}
-				count: 256L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Sugar for My Baby"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25B328C24F90B9EC"]
+			description: ["The automation of Dried Kelp is a little harder. It is well worth the evort however, because once it is done you're furnaces will burn forever."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "minecraft:dried_kelp_block"
+			}
+			id: "22BDCE8F8292D68E"
 			rewards: [
 				{
 					id: "23BB74BBA27C794B"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "1B2C038A6A982824"
@@ -1565,77 +1544,77 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "32F9A840496ACB1B"
-					type: "item"
 					item: {
-						id: "simplefarming:sushi"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:sushi"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Omelet du Fromage"
-			icon: {
-				id: "simplefarming:cooked_egg"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
-			}
-			x: 6.0d
-			y: 6.0d
-			description: ["Redstone on itself is already quite powerfull. However, combing it with botanical magic increases it's potential even more. For instanc why don't you try to automate Cooked Egg."]
-			dependencies: ["22BDCE8F8292D68E"]
-			id: "4957C907CAEBC06A"
 			tasks: [{
-				id: "7C7FE4975F7BF98E"
-				type: "item"
+				consume_items: true
+				count: 256L
+				id: "2D30B1974FB00ED3"
 				item: {
-					id: "simplefarming:cooked_egg"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:dried_kelp_block"
 				}
-				count: 1024L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Garden of the Sea"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22BDCE8F8292D68E"]
+			description: ["Redstone on itself is already quite powerfull. However, combing it with botanical magic increases it's potential even more. For instanc why don't you try to automate Cooked Egg."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "simplefarming:cooked_egg"
+			}
+			id: "4957C907CAEBC06A"
 			rewards: [
 				{
 					id: "05CD167496A87726"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "0BE6588D7F927BF0"
@@ -1643,78 +1622,78 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "1CDF848826C448F5"
-					type: "item"
 					item: {
-						id: "simplefarming:squash_casserole"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:squash_casserole"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Crushing the Glass"
-			icon: {
-				id: "minecraft:green_stained_glass"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-						bowChargeTime: 0.0f
-					}
-				}
-			}
-			x: 8.0d
-			y: 6.0d
-			description: ["And now for the real challenge. Automate Green Stained Glass. For this project you might consider dipping a bit into Immersive Engineering. Although an excavating shovel might also do the trick."]
-			dependencies: ["4957C907CAEBC06A"]
-			id: "46C1E8EE7720E292"
 			tasks: [{
-				id: "291B9C56452361CD"
-				type: "item"
+				consume_items: true
+				count: 1024L
+				id: "7C7FE4975F7BF98E"
 				item: {
-					id: "minecraft:green_stained_glass"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "simplefarming:cooked_egg"
 				}
-				count: 1536L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Omelet du Fromage"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4957C907CAEBC06A"]
+			description: ["And now for the real challenge. Automate Green Stained Glass. For this project you might consider dipping a bit into Immersive Engineering. Although an excavating shovel might also do the trick."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
+					}
+				}
+				id: "minecraft:green_stained_glass"
+			}
+			id: "46C1E8EE7720E292"
 			rewards: [
 				{
+					count: 2
 					id: "444E6B47A90BFF3E"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "44B36C06EE0ED98B"
@@ -1722,93 +1701,93 @@
 					xp: 200
 				}
 				{
+					count: 32
 					id: "6BF1F1202E3F7AC9"
-					type: "item"
 					item: {
-						id: "simplefarming:hamburger"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:hamburger"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 1536L
+				id: "291B9C56452361CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:green_stained_glass"
+				}
+				type: "item"
+			}]
+			title: "Crushing the Glass"
+			x: 8.0d
+			y: 6.0d
 		}
 		{
-			title: "Desert Temple"
-			x: 0.0d
-			y: 8.0d
-			shape: "square"
 			description: ["This is the start of the Desert Temple Afterparty quest line. You can start this quest line by holding the Thief Vest. This heraldic item is the reward for the Desert Temple server quest."]
 			id: "554C831757505881"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "638D076D7FB34E1B"
-				type: "item"
 				item: {
-					id: "dungeons_gear:thief_vest"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:thief_vest"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Desert Temple"
+			x: 0.0d
+			y: 8.0d
 		}
 		{
-			title: "Heart of Gold"
-			x: 6.0d
-			y: 8.0d
-			description: ["A golden carrot is all good and well, but it won't do you much good in a battle. For that you will need the good ol' classic Golden Apple."]
 			dependencies: ["17043EB3FE34C110"]
+			description: ["A golden carrot is all good and well, but it won't do you much good in a battle. For that you will need the good ol' classic Golden Apple."]
 			id: "01596526C34F497F"
-			tasks: [{
-				id: "15539C45C3D14D53"
-				type: "item"
-				item: {
-					id: "minecraft:golden_apple"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "7527112EE350ACDD"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "6A5D3866770DED1E"
@@ -1816,65 +1795,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "10F39537ADCA01FA"
-					type: "item"
 					item: {
-						id: "simplefarming:squid_ink_pasta"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:squid_ink_pasta"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Fields of Gold"
-			x: 4.0d
-			y: 8.0d
-			description: ["A strange fact of the minecraft world is that gold seems to be edible. It even gives some food magical properties. The Golden Carrot has many uses, from potion brewing to horse taming."]
-			dependencies: ["3742794820E5303D"]
-			id: "17043EB3FE34C110"
 			tasks: [{
-				id: "3FD8463B9F073069"
-				type: "item"
+				consume_items: true
+				count: 16L
+				id: "15539C45C3D14D53"
 				item: {
-					id: "minecraft:golden_carrot"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:golden_apple"
 				}
-				count: 16L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Heart of Gold"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3742794820E5303D"]
+			description: ["A strange fact of the minecraft world is that gold seems to be edible. It even gives some food magical properties. The Golden Carrot has many uses, from potion brewing to horse taming."]
+			id: "17043EB3FE34C110"
 			rewards: [
 				{
 					id: "6A7EFDE56B7D05BF"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "309B47AA750438EE"
@@ -1882,65 +1861,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "17495EF9088EDD86"
-					type: "item"
 					item: {
-						id: "simplefarming:cassava_cake"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:cassava_cake"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Gold Rush"
-			x: 8.0d
-			y: 8.0d
-			description: ["It's simply part of the human condition that we never have enough. Once you have your first million you start dreaming of your first billion "]
-			dependencies: ["01596526C34F497F"]
-			id: "4CB21E2B48C1DC0B"
 			tasks: [{
-				id: "3F154192DAD170ED"
-				type: "item"
+				consume_items: true
+				count: 16L
+				id: "3FD8463B9F073069"
 				item: {
-					id: "minecraft:gold_block"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:golden_carrot"
 				}
-				count: 16L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Fields of Gold"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["01596526C34F497F"]
+			description: ["It's simply part of the human condition that we never have enough. Once you have your first million you start dreaming of your first billion "]
+			id: "4CB21E2B48C1DC0B"
 			rewards: [
 				{
 					id: "0DA23AAC75B80203"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "25D3593F55C1C1CA"
@@ -1948,65 +1927,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "47FAADFADDE8479D"
-					type: "item"
 					item: {
-						id: "simplefarming:cheeseburger"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:cheeseburger"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Gold Digger"
-			x: 2.0d
-			y: 8.0d
-			description: ["Even Scrooge McDuck needed to start somewhere. This might be your lucky dime."]
-			dependencies: ["554C831757505881"]
-			id: "3742794820E5303D"
 			tasks: [{
-				id: "35CC6AFD36BA060A"
-				type: "item"
+				consume_items: true
+				count: 16L
+				id: "3F154192DAD170ED"
 				item: {
-					id: "minecraft:gold_ingot"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:gold_block"
 				}
-				count: 16L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Gold Rush"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["554C831757505881"]
+			description: ["Even Scrooge McDuck needed to start somewhere. This might be your lucky dime."]
+			id: "3742794820E5303D"
 			rewards: [
 				{
 					id: "7E1C3AAB0A968492"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "5FA1E3A81780D9E9"
@@ -2014,93 +1993,93 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "1F29F4E9025DABE6"
-					type: "item"
 					item: {
-						id: "simplefarming:sorghum_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:sorghum_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "35CC6AFD36BA060A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			title: "Gold Digger"
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			title: "Creeper Woods"
-			x: 10.0d
-			y: 0.0d
-			shape: "square"
 			description: ["This is the start of the Creeper Woods Afterparty quest line. You can start this quest line by holding the Wolf Hood. This heraldic item is the reward for the Creeper Woods server quest."]
 			id: "48792864C30EBF89"
+			shape: "square"
 			tasks: [{
+				consume_items: false
 				id: "41F7958F50A13B5F"
-				type: "item"
 				item: {
-					id: "dungeons_gear:wolf_hood"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "dungeons_gear:wolf_hood"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				consume_items: false
+				type: "item"
 			}]
+			title: "Creeper Woods"
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			title: "The Walking Dead"
-			x: 12.0d
-			y: 0.0d
-			description: ["One of the best known side effects of the breaking of the world is the sudden influx of undead. Nobody knows why exactly the dead won't stay quiet. They simply are a constant nuisance that needs to be dealt with"]
 			dependencies: ["48792864C30EBF89"]
+			description: ["One of the best known side effects of the breaking of the world is the sudden influx of undead. Nobody knows why exactly the dead won't stay quiet. They simply are a constant nuisance that needs to be dealt with"]
 			id: "6843068896859671"
-			tasks: [{
-				id: "5222D2E7457BCE17"
-				type: "item"
-				item: {
-					id: "contenttweaker:zombie_eye"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 8L
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "311029442095C303"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "5632A274300885C9"
@@ -2108,65 +2087,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "1BA3C048E7C3986F"
-					type: "item"
 					item: {
-						id: "simplefarming:rye_bread"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:rye_bread"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Arrow in the Knee"
-			x: 14.0d
-			y: 0.0d
-			description: ["The skeleton archers are a little bit less known than their zombie counterparts, but certainly no less dangerous. There are rumors of secret skeleton sword fighters, but if these do exists no one seems to have survided long enough against them to give an accurate discription of them."]
-			dependencies: ["6843068896859671"]
-			id: "27F4FA830AEB8492"
 			tasks: [{
-				id: "2B35DA153491795F"
-				type: "item"
+				consume_items: true
+				count: 8L
+				id: "5222D2E7457BCE17"
 				item: {
-					id: "contenttweaker:gilded_bone"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "contenttweaker:zombie_eye"
 				}
-				count: 8L
-				consume_items: true
+				type: "item"
 			}]
+			title: "The Walking Dead"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6843068896859671"]
+			description: ["The skeleton archers are a little bit less known than their zombie counterparts, but certainly no less dangerous. There are rumors of secret skeleton sword fighters, but if these do exists no one seems to have survided long enough against them to give an accurate discription of them."]
+			id: "27F4FA830AEB8492"
 			rewards: [
 				{
 					id: "35BE77139EFF4A76"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "6D5265B72B26DF13"
@@ -2174,65 +2153,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "2752675B12FAF26A"
-					type: "item"
 					item: {
-						id: "simplefarming:cooked_horse_meat"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:cooked_horse_meat"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Shelob's Lair"
-			x: 16.0d
-			y: 0.0d
-			description: ["It is commonly said that spiders are more afraight of you, than you of them. And in the light of day this is certainly true. However, once the sun goes down it might be hard to keep this confiction."]
-			dependencies: ["27F4FA830AEB8492"]
-			id: "45B7021B2E147833"
 			tasks: [{
-				id: "53F438E12B6A562B"
-				type: "item"
+				consume_items: true
+				count: 8L
+				id: "2B35DA153491795F"
 				item: {
-					id: "contenttweaker:spider_venom"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "contenttweaker:gilded_bone"
 				}
-				count: 8L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Arrow in the Knee"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27F4FA830AEB8492"]
+			description: ["It is commonly said that spiders are more afraight of you, than you of them. And in the light of day this is certainly true. However, once the sun goes down it might be hard to keep this confiction."]
+			id: "45B7021B2E147833"
 			rewards: [
 				{
 					id: "61CE439F55E0CEEB"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "2B8BE23BE4577DAC"
@@ -2240,65 +2219,65 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "320817CD5EE4484D"
-					type: "item"
 					item: {
-						id: "simplefarming:eggplant_parmesan"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:eggplant_parmesan"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "It's not a Bug, It's a Feature"
-			x: 18.0d
-			y: 0.0d
-			description: ["The creeper is one of the weirdest creatures in our world. Some even go so far as to state that their existence is against the very laws of nature. Their continued existence simply a remnant of a long forgotten harsher and crueler god."]
-			dependencies: ["45B7021B2E147833"]
-			id: "5B38D56EBF2ED0DF"
 			tasks: [{
-				id: "230B20D440828B8B"
-				type: "item"
+				consume_items: true
+				count: 8L
+				id: "53F438E12B6A562B"
 				item: {
-					id: "contenttweaker:creeper_fuse"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "contenttweaker:spider_venom"
 				}
-				count: 8L
-				consume_items: true
+				type: "item"
 			}]
+			title: "Shelob's Lair"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45B7021B2E147833"]
+			description: ["The creeper is one of the weirdest creatures in our world. Some even go so far as to state that their existence is against the very laws of nature. Their continued existence simply a remnant of a long forgotten harsher and crueler god."]
+			id: "5B38D56EBF2ED0DF"
 			rewards: [
 				{
 					id: "307C5837E79B21BA"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
+					type: "item"
 				}
 				{
 					id: "4A3BCDB49C3B8D32"
@@ -2306,23 +2285,45 @@
 					xp: 100
 				}
 				{
+					count: 32
 					id: "2EEA30A2291CA239"
-					type: "item"
 					item: {
-						id: "simplefarming:egg_sandwich"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:egg_sandwich"
 					}
-					count: 32
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "230B20D440828B8B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:creeper_fuse"
+				}
+				type: "item"
+			}]
+			title: "It's not a Bug, It's a Feature"
+			x: 18.0d
+			y: 0.0d
 		}
 	]
+	title: "Heralds"
 }

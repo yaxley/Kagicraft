@@ -1,11 +1,11 @@
 {
 	id: "1FE7ED6C3823F853"
-	order_index: 2
-	title: "Waystones"
 	loot_size: 1
+	order_index: 2
 	rewards: [
 		{ item: "waystones:waystone" }
 		{ item: "waystones:mossy_waystone" }
 		{ item: "waystones:sandy_waystone" }
 	]
+	title: "Waystones"
 }

@@ -1,1066 +1,1067 @@
 {
-	id: "0EC48928B34B80A5"
-	group: ""
-	order_index: 2
-	filename: "farming"
-	title: "Farming"
 	always_invisible: true
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: ""
+	id: "0EC48928B34B80A5"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Obtain Potato Seed"
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Start of your farming journey"
 			id: "4E06957DCE88AA87"
+			rewards: [
+				{
+					id: "0BB4B663A60AC4B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:potato_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "776890C1DC4567C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "62C7513035BE669D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "simplefarming:carrot_seeds"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Start of your farming journey"
 			tasks: [{
 				id: "63E74F3532309AE2"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "0BB4B663A60AC4B0"
-					type: "item"
-					item: {
-						id: "simplefarming:potato_seeds"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "776890C1DC4567C1"
-					type: "item"
-					item: {
-						id: "minecraft:wheat_seeds"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "62C7513035BE669D"
-					type: "item"
-					item: {
-						id: "simplefarming:carrot_seeds"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-			]
+			title: "Obtain Potato Seed"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "00FAEF4EEF53209E"
+			rewards: [{
+				count: 2
+				id: "05B5D686AD6ECD45"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "The birds and the bees"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:cow_spawn_egg"
+				}
+				id: "3E311ED3B5114EEC"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 50
+			}]
 			title: "Breed 50 animals"
 			x: 0.0d
 			y: -2.0d
-			subtitle: "The birds and the bees"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "00FAEF4EEF53209E"
-			tasks: [{
-				id: "3E311ED3B5114EEC"
-				type: "stat"
-				icon: {
-					id: "minecraft:cow_spawn_egg"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				stat: "minecraft:animals_bred"
-				value: 50
-			}]
-			rewards: [{
-				id: "05B5D686AD6ECD45"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "Breed 250 animals"
+			dependencies: ["00FAEF4EEF53209E"]
 			icon: {
-				id: "minecraft:cow_spawn_egg"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:cow_spawn_egg"
 			}
-			x: 0.0d
-			y: -4.0d
-			subtitle: "Get your boom-boom on"
-			dependencies: ["00FAEF4EEF53209E"]
 			id: "14D08FF6F2533A07"
+			rewards: [{
+				count: 2
+				id: "278E066CB8635125"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "Get your boom-boom on"
 			tasks: [{
 				id: "52D51548B3557FF7"
-				type: "stat"
 				stat: "minecraft:animals_bred"
+				type: "stat"
 				value: 250
 			}]
-			rewards: [{
-				id: "278E066CB8635125"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
+			title: "Breed 250 animals"
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			title: "Breed 1337 animals"
+			dependencies: ["14D08FF6F2533A07"]
 			icon: {
-				id: "minecraft:cow_spawn_egg"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_gear:weapon": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
 						bowChargeTime: 0.0f
+						crossbowChargeTime: 0
+						fuseShotCounter: 0
+						lastFiredTime: 0L
 					}
 				}
+				id: "minecraft:cow_spawn_egg"
 			}
-			x: 0.0d
-			y: -6.0d
-			subtitle: "You sick f*ck"
-			dependencies: ["14D08FF6F2533A07"]
 			id: "4B860C50ED2A87DC"
-			tasks: [{
-				id: "3BC35F3872DDCC6C"
-				type: "stat"
-				stat: "minecraft:animals_bred"
-				value: 1337
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "360CF5CBF97210F0"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					type: "item"
 				}
 				{
+					count: 5
 					id: "25C4F3ADA1777F7D"
-					type: "item"
 					item: {
-						id: "alexsmobs:cooked_kangaroo_meat"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "alexsmobs:cooked_kangaroo_meat"
 					}
-					count: 5
+					type: "item"
 				}
 			]
+			subtitle: "You sick f*ck"
+			tasks: [{
+				id: "3BC35F3872DDCC6C"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 1337
+			}]
+			title: "Breed 1337 animals"
+			x: 0.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "0DCD4F035C78934A"
+			rewards: [{
+				count: 2
+				id: "1E062A0F4A43C799"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "Brouwen kerôl"
+			tasks: [{
+				count: 32L
+				id: "2EF5FD3318C5431D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:beer"
+				}
+				type: "item"
+			}]
 			title: "Hertog Jan Heujjjj"
 			x: 2.5d
 			y: 0.0d
-			subtitle: "Brouwen kerôl"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "0DCD4F035C78934A"
-			tasks: [{
-				id: "2EF5FD3318C5431D"
-				type: "item"
-				item: {
-					id: "simplefarming:beer"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 32L
-			}]
-			rewards: [{
-				id: "1E062A0F4A43C799"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "58A94BF717EA2024"
+			rewards: [{
+				count: 2
+				id: "1EA4E692ED659376"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "THIS ITEM WILL BE CONSUMED"
+			tasks: [{
+				count: 16L
+				id: "4A1245D6CDFC7BC3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:vodka"
+				}
+				type: "item"
+			}]
 			title: "Get Dimitri some Vodka"
 			x: 2.5d
 			y: -1.5d
-			subtitle: "THIS ITEM WILL BE CONSUMED"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "58A94BF717EA2024"
-			tasks: [{
-				id: "4A1245D6CDFC7BC3"
-				type: "item"
-				item: {
-					id: "simplefarming:vodka"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-			}]
-			rewards: [{
-				id: "1EA4E692ED659376"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "1C9288091CF3046F"
+			rewards: [{
+				id: "1877C1C663625B85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "46CFF68D7EA80CAE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:wine"
+				}
+				type: "item"
+			}]
 			title: "Un Merlot SVP"
 			x: 2.5d
 			y: 1.5d
-			dependencies: ["4E06957DCE88AA87"]
-			id: "1C9288091CF3046F"
-			tasks: [{
-				id: "46CFF68D7EA80CAE"
-				type: "item"
-				item: {
-					id: "simplefarming:wine"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 8L
-			}]
-			rewards: [{
-				id: "1877C1C663625B85"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "02630DCB72697EC9"
+			rewards: [{
+				id: "06DD158F53B74646"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "My favorite"
+			tasks: [{
+				id: "51F11BC0726F3674"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:apple_pie"
+				}
+				type: "item"
+			}]
 			title: "I would love an apple pie"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "My favorite"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "02630DCB72697EC9"
-			tasks: [{
-				id: "51F11BC0726F3674"
-				type: "item"
-				item: {
-					id: "simplefarming:apple_pie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "06DD158F53B74646"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["02630DCB72697EC9"]
+			id: "2BFB0DBB36A40A02"
+			rewards: [{
+				count: 2
+				id: "4F52C4870EFF3ACD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1A9B1A15BC0256D6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:strawberry_pie"
+				}
+				type: "item"
+			}]
 			title: "Strawberries might be a little healthier..."
 			x: -2.5d
 			y: -1.5d
-			dependencies: ["02630DCB72697EC9"]
-			id: "2BFB0DBB36A40A02"
-			tasks: [{
-				id: "1A9B1A15BC0256D6"
-				type: "item"
-				item: {
-					id: "simplefarming:strawberry_pie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-			}]
-			rewards: [{
-				id: "4F52C4870EFF3ACD"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["02630DCB72697EC9"]
+			id: "22720F52BE6C226E"
+			rewards: [{
+				count: 2
+				id: "19E46DAD11B220D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2474E9DF336A0C73"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:pumpkin_pie"
+				}
+				type: "item"
+			}]
 			title: "Now get me some pumpkin!"
 			x: -1.5d
 			y: -1.5d
-			dependencies: ["02630DCB72697EC9"]
-			id: "22720F52BE6C226E"
-			tasks: [{
-				id: "2474E9DF336A0C73"
-				type: "item"
-				item: {
-					id: "minecraft:pumpkin_pie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-			}]
-			rewards: [{
-				id: "19E46DAD11B220D7"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "5FBFCF57DFF22CAC"
+			rewards: [{
+				count: 2
+				id: "1FFEC7478BB6B87A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "Vegan-friendly, just saying"
+			tasks: [{
+				count: 128L
+				id: "1F7ED22DE45E9FEF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
 			title: "Quite the basic food source"
 			x: -1.0d
 			y: 1.5d
-			subtitle: "Vegan-friendly, just saying"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "5FBFCF57DFF22CAC"
-			tasks: [{
-				id: "1F7ED22DE45E9FEF"
-				type: "item"
-				item: {
-					id: "minecraft:bread"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 128L
-			}]
-			rewards: [{
-				id: "1FFEC7478BB6B87A"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "A more complete piece of bread"
-			x: -3.0d
-			y: 1.5d
 			dependencies: ["5FBFCF57DFF22CAC"]
 			id: "12ECEA6675B21AD3"
-			tasks: [{
-				id: "04824860802FE34C"
-				type: "item"
-				item: {
-					id: "simplefarming:sandwich"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 64L
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "53E5017BB677BB57"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "1F9EB2300B58C9EC"
-					type: "item"
 					item: {
-						id: "minecraft:cocoa_beans"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:cocoa_beans"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 64L
+				id: "04824860802FE34C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:sandwich"
+				}
+				type: "item"
+			}]
+			title: "A more complete piece of bread"
+			x: -3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["12ECEA6675B21AD3"]
+			id: "431BE884EBA524CC"
+			rewards: [{
+				count: 2
+				id: "2395BC669B017524"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "Will be consumed!!!"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1FA239E41945D5A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:pulled_pork_sandwich"
+				}
+				type: "item"
+			}]
 			title: "Give me my favorite sandwich!"
 			x: -5.0d
 			y: 1.5d
-			subtitle: "Will be consumed!!!"
-			dependencies: ["12ECEA6675B21AD3"]
-			id: "431BE884EBA524CC"
-			tasks: [{
-				id: "1FA239E41945D5A3"
-				type: "item"
-				item: {
-					id: "simplefarming:pulled_pork_sandwich"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "2395BC669B017524"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "Cake is so much better then pie..."
-			x: -4.0d
-			y: -3.0d
-			subtitle: "You must have something to celebrate"
 			dependencies: ["2BFB0DBB36A40A02"]
 			id: "23B73B100FFCBC67"
-			tasks: [{
-				id: "4054A81EAEBB9E28"
-				type: "stat"
-				icon: {
-					id: "minecraft:cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				stat: "minecraft:eat_cake_slice"
-				value: 500
-			}]
 			rewards: [
 				{
 					id: "36E22122F2CE5930"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_silver"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_silver"
 					}
+					type: "item"
 				}
 				{
 					id: "367214FAB08F8EA5"
-					type: "item"
 					item: {
-						id: "simplefarming:birthday_cake"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "simplefarming:birthday_cake"
 					}
+					type: "item"
 				}
 			]
+			subtitle: "You must have something to celebrate"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:cake"
+				}
+				id: "4054A81EAEBB9E28"
+				stat: "minecraft:eat_cake_slice"
+				type: "stat"
+				value: 500
+			}]
+			title: "Cake is so much better then pie..."
+			x: -4.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "2F5CBA5AED92B1F0"
+			rewards: [{
+				id: "7DC7F2F5374B0981"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4B09DDE3CB97EF6F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:blt"
+				}
+				type: "item"
+			}]
 			title: "Try some luxury foods."
 			x: 0.0d
 			y: 2.5d
-			dependencies: ["4E06957DCE88AA87"]
-			id: "2F5CBA5AED92B1F0"
-			tasks: [{
-				id: "4B09DDE3CB97EF6F"
-				type: "item"
-				item: {
-					id: "simplefarming:blt"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 8L
-			}]
-			rewards: [{
-				id: "7DC7F2F5374B0981"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["2F5CBA5AED92B1F0"]
+			id: "653CC58D4574E524"
+			rewards: [{
+				count: 2
+				id: "75FF0FB1BCF3E467"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "ITEMS WILL BE CONSUMED"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "23748AB2026A8D91"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:sushi"
+				}
+				type: "item"
+			}]
 			title: "A japanese specialty"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "ITEMS WILL BE CONSUMED"
-			dependencies: ["2F5CBA5AED92B1F0"]
-			id: "653CC58D4574E524"
-			tasks: [{
-				id: "23748AB2026A8D91"
-				type: "item"
-				item: {
-					id: "simplefarming:sushi"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "75FF0FB1BCF3E467"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["2F5CBA5AED92B1F0"]
+			id: "29275A20CF5B1EB1"
+			rewards: [{
+				count: 2
+				id: "2A5F2CDC6B34D095"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "ITEMS WILL BE CONSUMED"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6279EA2226F7819B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:spinach_quinoa_quiche"
+				}
+				type: "item"
+			}]
 			title: "Pretty fucking vegan"
 			x: 0.0d
 			y: 4.0d
-			subtitle: "ITEMS WILL BE CONSUMED"
-			dependencies: ["2F5CBA5AED92B1F0"]
-			id: "29275A20CF5B1EB1"
-			tasks: [{
-				id: "6279EA2226F7819B"
-				type: "item"
-				item: {
-					id: "simplefarming:spinach_quinoa_quiche"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "2A5F2CDC6B34D095"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["2F5CBA5AED92B1F0"]
+			id: "03793D444901808C"
+			rewards: [{
+				count: 2
+				id: "3D86D675130155C5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "contenttweaker:coin_copper"
+				}
+				type: "item"
+			}]
+			subtitle: "ITEMS WILL BE CONSUMED"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7C79D328A7B13F0D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "simplefarming:chicken_noodle_soup"
+				}
+				type: "item"
+			}]
 			title: "A well balanced meal"
 			x: 1.5d
 			y: 4.0d
-			subtitle: "ITEMS WILL BE CONSUMED"
-			dependencies: ["2F5CBA5AED92B1F0"]
-			id: "03793D444901808C"
-			tasks: [{
-				id: "7C79D328A7B13F0D"
-				type: "item"
-				item: {
-					id: "simplefarming:chicken_noodle_soup"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 16L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "3D86D675130155C5"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "Milk those bees"
-			x: 2.0d
-			y: -3.0d
-			subtitle: "The word bee is said 172 times in the bee movie"
 			dependencies: ["4E06957DCE88AA87"]
 			id: "7B70028CEB0C0982"
-			tasks: [{
-				id: "3E6C60B78936B369"
-				type: "item"
-				item: {
-					id: "minecraft:honey_bottle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 100L
-			}]
 			rewards: [
 				{
+					count: 3
 					id: "2EB9B47FF1A73E5D"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 3
+					type: "item"
 				}
 				{
 					id: "125556D321D87FE5"
-					type: "item"
 					item: {
-						id: "minecraft:bee_spawn_egg"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:bee_spawn_egg"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "What a waste..."
-			x: -3.5d
-			y: 0.0d
-			subtitle: "Throw 1000 eggs"
-			dependencies: ["02630DCB72697EC9"]
-			id: "210083D28447673D"
+			subtitle: "The word bee is said 172 times in the bee movie"
 			tasks: [{
-				id: "39BC7C62B7B63A84"
-				type: "kill"
-				icon: {
-					id: "minecraft:egg"
+				count: 100L
+				id: "3E6C60B78936B369"
+				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:honey_bottle"
 				}
-				entity: "minecraft:egg"
-				value: 1000L
+				type: "item"
 			}]
+			title: "Milk those bees"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02630DCB72697EC9"]
+			id: "210083D28447673D"
 			rewards: [
 				{
+					count: 4
 					id: "4193A68F7E189ECB"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 4
+					type: "item"
 				}
 				{
 					id: "673243D69AB3ED5C"
-					type: "item"
 					item: {
-						id: "minecraft:cat_spawn_egg"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:cat_spawn_egg"
 					}
+					type: "item"
 				}
 				{
 					id: "192058768167AE76"
-					type: "item"
 					item: {
-						id: "minecraft:wolf_spawn_egg"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:wolf_spawn_egg"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Here fishy fishy"
-			x: 2.5d
-			y: 3.0d
-			subtitle: "Catch 1000 fish"
-			dependencies: ["4E06957DCE88AA87"]
-			id: "20F88E5F21BA652D"
+			subtitle: "Throw 1000 eggs"
 			tasks: [{
-				id: "3E2268F9C15F0A45"
-				type: "stat"
+				entity: "minecraft:egg"
 				icon: {
-					id: "minecraft:fishing_rod"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:egg"
 				}
-				stat: "minecraft:fish_caught"
-				value: 1000
+				id: "39BC7C62B7B63A84"
+				type: "kill"
+				value: 1000L
 			}]
+			title: "What a waste..."
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E06957DCE88AA87"]
+			id: "20F88E5F21BA652D"
 			rewards: [
 				{
+					count: 4
 					id: "4E73F3903BA98DF4"
-					type: "item"
 					item: {
-						id: "contenttweaker:coin_copper"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "contenttweaker:coin_copper"
 					}
-					count: 4
+					type: "item"
 				}
 				{
 					id: "7538DFCA49B1C5F7"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:depth_strider"
-							}]
-						}
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:depth_strider"
+								lvl: 3s
+							}]
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "20984E8AC2B5E4C1"
-					type: "item"
 					item: {
-						id: "minecraft:trident"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:trident"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Catch 1000 fish"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E2268F9C15F0A45"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Here fishy fishy"
+			x: 2.5d
+			y: 3.0d
 		}
 	]
+	title: "Farming"
 }

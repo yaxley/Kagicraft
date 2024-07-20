@@ -1,1082 +1,1083 @@
 {
-	id: "5E8DDFBEC500DD33"
-	group: ""
-	order_index: 0
-	filename: "shop"
-	title: "Shop"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	id: "5E8DDFBEC500DD33"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
 			id: "22EBAF5A6550CF0C"
 			tasks: [{
 				id: "2DAC3287FDB97194"
-				type: "checkmark"
 				title: "Welcome"
+				type: "checkmark"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "Single Chunk"
-			icon: "chunkloaders:single_chunk_loader"
-			x: 0.0d
-			y: -2.0d
 			dependencies: ["22EBAF5A6550CF0C"]
+			icon: "chunkloaders:single_chunk_loader"
 			id: "5DC10C36411F1341"
-			tasks: [{
-				id: "4E8758B16FEF0A64"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
 			rewards: [{
 				id: "159EF72800ED81F8"
-				type: "item"
 				item: "chunkloaders:single_chunk_loader"
+				type: "item"
 			}]
+			tasks: [{
+				count: 3L
+				id: "4E8758B16FEF0A64"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Single Chunk"
+			x: 0.0d
+			y: -2.0d
 		}
 		{
-			title: "Three Chunks"
-			icon: "chunkloaders:basic_chunk_loader"
-			x: 0.0d
-			y: -4.0d
 			dependencies: ["5DC10C36411F1341"]
+			icon: "chunkloaders:basic_chunk_loader"
 			id: "3787B5324ACDE622"
+			rewards: [{
+				id: "61EE9AB0EE11AE39"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "0727E2365D626946"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "0727E2365D626946"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "0E0EA018C00A97AF"
-					type: "item"
 					item: "chunkloaders:single_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "61EE9AB0EE11AE39"
-				type: "item"
-				item: "chunkloaders:basic_chunk_loader"
-			}]
+			title: "Three Chunks"
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			title: "Five Chuncks"
-			icon: "chunkloaders:advanced_chunk_loader"
-			x: 0.0d
-			y: -6.0d
 			dependencies: ["3787B5324ACDE622"]
+			icon: "chunkloaders:advanced_chunk_loader"
 			id: "5D65EFD84A3A70B4"
+			rewards: [{
+				id: "73BB09AB9CBD226B"
+				item: "chunkloaders:advanced_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "5740A5351AE1C927"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "5740A5351AE1C927"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "71D06BAF2FA8AC98"
-					type: "item"
 					item: "chunkloaders:basic_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "73BB09AB9CBD226B"
-				type: "item"
-				item: "chunkloaders:advanced_chunk_loader"
-			}]
+			title: "Five Chuncks"
+			x: 0.0d
+			y: -6.0d
 		}
 		{
-			title: "Seven Chuncks"
-			icon: "chunkloaders:ultimate_chunk_loader"
-			x: 0.0d
-			y: -8.0d
 			dependencies: ["5D65EFD84A3A70B4"]
+			icon: "chunkloaders:ultimate_chunk_loader"
 			id: "33A449A3814FBAC0"
+			rewards: [{
+				id: "205148C52F58D4EB"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "5A878EB1F11DB5A7"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "5A878EB1F11DB5A7"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "662B5CB3B73FA303"
-					type: "item"
 					item: "chunkloaders:advanced_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "205148C52F58D4EB"
-				type: "item"
-				item: "chunkloaders:ultimate_chunk_loader"
-			}]
+			title: "Seven Chuncks"
+			x: 0.0d
+			y: -8.0d
 		}
 		{
-			title: "Single Chunck"
-			icon: "chunkloaders:single_chunk_loader"
-			x: -2.0d
-			y: -4.0d
 			dependencies: ["5DC10C36411F1341"]
+			icon: "chunkloaders:single_chunk_loader"
 			id: "435ADD6853B2B788"
-			tasks: [{
-				id: "0FC88D223584F079"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "7702994C9F6117B5"
-				type: "item"
 				item: "chunkloaders:single_chunk_loader"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "0FC88D223584F079"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Single Chunck"
+			x: -2.0d
+			y: -4.0d
 		}
 		{
-			title: "Three Chuncks"
-			icon: "chunkloaders:basic_chunk_loader"
-			x: -2.0d
-			y: -6.0d
 			dependencies: ["435ADD6853B2B788"]
+			icon: "chunkloaders:basic_chunk_loader"
 			id: "6FE427556516CB70"
+			rewards: [{
+				id: "398238914B486119"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "7BA01DB5B3484DE0"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "7BA01DB5B3484DE0"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "6C250CE80A1A36D4"
-					type: "item"
 					item: "chunkloaders:single_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "398238914B486119"
-				type: "item"
-				item: "chunkloaders:basic_chunk_loader"
-			}]
+			title: "Three Chuncks"
+			x: -2.0d
+			y: -6.0d
 		}
 		{
-			title: "Five Chuncks"
-			icon: "chunkloaders:advanced_chunk_loader"
-			x: -2.0d
-			y: -8.0d
 			dependencies: ["6FE427556516CB70"]
+			icon: "chunkloaders:advanced_chunk_loader"
 			id: "4053FB5317930A8C"
+			rewards: [{
+				id: "37F05C2AE8EBB48B"
+				item: "chunkloaders:advanced_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "11A7F0D5722608EA"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "11A7F0D5722608EA"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "634A21CDC3235D8B"
-					type: "item"
 					item: "chunkloaders:basic_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "37F05C2AE8EBB48B"
-				type: "item"
-				item: "chunkloaders:advanced_chunk_loader"
-			}]
+			title: "Five Chuncks"
+			x: -2.0d
+			y: -8.0d
 		}
 		{
-			title: "Seven Chuncks"
-			icon: "chunkloaders:ultimate_chunk_loader"
-			x: -2.0d
-			y: -10.0d
 			dependencies: ["4053FB5317930A8C"]
+			icon: "chunkloaders:ultimate_chunk_loader"
 			id: "70C60ED8F935CF8C"
+			rewards: [{
+				id: "2046E45A8ACA48AA"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "106A7E775F439811"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "106A7E775F439811"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "40AF8D6EE6798C03"
-					type: "item"
 					item: "chunkloaders:advanced_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2046E45A8ACA48AA"
-				type: "item"
-				item: "chunkloaders:ultimate_chunk_loader"
-			}]
+			title: "Seven Chuncks"
+			x: -2.0d
+			y: -10.0d
 		}
 		{
-			title: "Single Chunck"
-			icon: "chunkloaders:single_chunk_loader"
-			x: 2.0d
-			y: -4.0d
 			dependencies: ["5DC10C36411F1341"]
+			icon: "chunkloaders:single_chunk_loader"
 			id: "2D9DB3662A22A9FA"
-			tasks: [{
-				id: "53B465B44E3930B1"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "3C667DB45D92EAC6"
-				type: "item"
 				item: "chunkloaders:single_chunk_loader"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "53B465B44E3930B1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Single Chunck"
+			x: 2.0d
+			y: -4.0d
 		}
 		{
-			title: "Three Chuncks"
-			icon: "chunkloaders:basic_chunk_loader"
-			x: 2.0d
-			y: -6.0d
 			dependencies: ["2D9DB3662A22A9FA"]
+			icon: "chunkloaders:basic_chunk_loader"
 			id: "3A5C105CE469CE8D"
+			rewards: [{
+				id: "0498E1DEFB954DA5"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "3B63185F6A4F5FB6"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "3B63185F6A4F5FB6"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "25149D79125F684E"
-					type: "item"
 					item: "chunkloaders:single_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0498E1DEFB954DA5"
-				type: "item"
-				item: "chunkloaders:basic_chunk_loader"
-			}]
+			title: "Three Chuncks"
+			x: 2.0d
+			y: -6.0d
 		}
 		{
-			title: "Five Chuncks"
-			icon: "chunkloaders:advanced_chunk_loader"
-			x: 2.0d
-			y: -8.0d
 			dependencies: ["3A5C105CE469CE8D"]
+			icon: "chunkloaders:advanced_chunk_loader"
 			id: "5E0359A375B88436"
+			rewards: [{
+				id: "310E40627D9833E8"
+				item: "chunkloaders:advanced_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "0DC7CDA618C8E54F"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "0DC7CDA618C8E54F"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "4110E536AC335AF9"
-					type: "item"
 					item: "chunkloaders:basic_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "310E40627D9833E8"
-				type: "item"
-				item: "chunkloaders:advanced_chunk_loader"
-			}]
+			title: "Five Chuncks"
+			x: 2.0d
+			y: -8.0d
 		}
 		{
-			title: "Seven Chuncks"
-			icon: "chunkloaders:ultimate_chunk_loader"
-			x: 2.0d
-			y: -10.0d
 			dependencies: ["5E0359A375B88436"]
+			icon: "chunkloaders:ultimate_chunk_loader"
 			id: "7110B0A2360937DB"
+			rewards: [{
+				id: "3D88B78CAF370154"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "78636214A4B9244C"
-					type: "item"
-					item: "kubejs:gold_coin"
 					count: 2L
+					id: "78636214A4B9244C"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "6DF38881598CDEA4"
-					type: "item"
 					item: "chunkloaders:advanced_chunk_loader"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3D88B78CAF370154"
-				type: "item"
-				item: "chunkloaders:ultimate_chunk_loader"
-			}]
+			title: "Seven Chuncks"
+			x: 2.0d
+			y: -10.0d
 		}
 		{
-			title: "Transport Mobs"
-			icon: "mob_catcher:diamond_mob_catcher"
-			x: 2.0d
-			y: 0.0d
 			dependencies: ["22EBAF5A6550CF0C"]
+			icon: "mob_catcher:diamond_mob_catcher"
 			id: "317152291472DE6B"
-			tasks: [{
-				id: "0AFCD54E5CCB55E7"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 8L
-			}]
 			rewards: [{
 				id: "79CC64D9C7AB1B85"
-				type: "item"
 				item: "mob_catcher:diamond_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "0AFCD54E5CCB55E7"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Transport Mobs"
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			title: "1e Pokemon Master"
-			icon: "mob_catcher:diamond_mob_catcher"
-			x: 4.0d
-			y: 0.0d
 			dependencies: ["317152291472DE6B"]
+			icon: "mob_catcher:diamond_mob_catcher"
 			id: "31023E900DC3E432"
-			tasks: [{
-				id: "480D47749CD05D4C"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
 			rewards: [{
 				id: "590B06F5B2F183D8"
-				type: "item"
 				item: "mob_catcher:diamond_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 3L
+				id: "480D47749CD05D4C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "1e Pokemon Master"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			title: "Mob Respawn"
-			icon: "domesticationinnovation:pet_bed_white"
-			x: 4.0d
-			y: -2.0d
 			dependencies: ["31023E900DC3E432"]
+			icon: "domesticationinnovation:pet_bed_white"
 			id: "52603FE045F3C293"
-			tasks: [{
-				id: "072786730D36AD11"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 6L
-			}]
 			rewards: [{
 				id: "19A7E2EA47CBA6D9"
-				type: "item"
 				item: "domesticationinnovation:pet_bed_white"
+				type: "item"
 			}]
+			tasks: [{
+				count: 6L
+				id: "072786730D36AD11"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Mob Respawn"
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			title: "2e Pokemon Master"
-			icon: "mob_catcher:diamond_mob_catcher"
-			x: 6.0d
-			y: 0.0d
 			dependencies: ["31023E900DC3E432"]
+			icon: "mob_catcher:diamond_mob_catcher"
 			id: "423C73B0945F6C21"
-			tasks: [{
-				id: "67F516A821537A72"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
 			rewards: [{
 				id: "7BCCAD7D80BBD753"
-				type: "item"
 				item: "mob_catcher:diamond_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 3L
+				id: "67F516A821537A72"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "2e Pokemon Master"
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			title: "Mob Respawn"
-			icon: "domesticationinnovation:pet_bed_orange"
-			x: 6.0d
-			y: -2.0d
 			dependencies: ["423C73B0945F6C21"]
+			icon: "domesticationinnovation:pet_bed_orange"
 			id: "1232486CB4AF70D9"
-			tasks: [{
-				id: "3804938EAD6D6B1D"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
 			rewards: [{
 				id: "4B6F441B98FD1C4F"
-				type: "item"
 				item: "domesticationinnovation:pet_bed_orange"
+				type: "item"
 			}]
+			tasks: [{
+				count: 3L
+				id: "3804938EAD6D6B1D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Mob Respawn"
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			title: "3e Pokemon Master"
-			icon: "mob_catcher:diamond_mob_catcher"
-			x: 8.0d
-			y: 0.0d
 			dependencies: ["423C73B0945F6C21"]
+			icon: "mob_catcher:diamond_mob_catcher"
 			id: "5155A4B10637CE8B"
-			tasks: [{
-				id: "4F21A7A5D23114A5"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "5C1B69CACB82899C"
-				type: "item"
 				item: "mob_catcher:diamond_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "4F21A7A5D23114A5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "3e Pokemon Master"
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			title: "Mob Respawn"
-			icon: "domesticationinnovation:pet_bed_magenta"
-			x: 8.0d
-			y: -2.0d
 			dependencies: ["5155A4B10637CE8B"]
+			icon: "domesticationinnovation:pet_bed_magenta"
 			id: "1030F5F36C71B917"
-			tasks: [{
-				id: "3F96E8648E658745"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "4510D9CD06B4D184"
-				type: "item"
 				item: "domesticationinnovation:pet_bed_magenta"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "3F96E8648E658745"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Mob Respawn"
+			x: 8.0d
+			y: -2.0d
 		}
 		{
-			title: "4e Pokemon Master"
-			icon: "mob_catcher:diamond_mob_catcher"
-			x: 10.0d
-			y: 0.0d
 			dependencies: ["5155A4B10637CE8B"]
+			icon: "mob_catcher:diamond_mob_catcher"
 			id: "5F5181E385BE672A"
-			tasks: [{
-				id: "70846C872E4D8568"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "13E17463391C133B"
-				type: "item"
 				item: "mob_catcher:diamond_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "70846C872E4D8568"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "4e Pokemon Master"
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			title: "Mob Respawn"
-			icon: "domesticationinnovation:pet_bed_light_blue"
-			x: 10.0d
-			y: -2.0d
 			dependencies: ["5F5181E385BE672A"]
+			icon: "domesticationinnovation:pet_bed_light_blue"
 			id: "5F742A9576EF76CD"
-			tasks: [{
-				id: "1308ADCABDB49D73"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "6CAD71B7A7B5B996"
-				type: "item"
 				item: "domesticationinnovation:pet_bed_light_blue"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "1308ADCABDB49D73"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Mob Respawn"
+			x: 10.0d
+			y: -2.0d
 		}
 		{
-			title: "XP Book 1"
+			dependencies: ["22EBAF5A6550CF0C"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -2.0d
-			y: 0.0d
-			dependencies: ["22EBAF5A6550CF0C"]
 			id: "55EB67C039713507"
-			tasks: [{
-				id: "11F1AE476C81C7D3"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 6L
-			}]
 			rewards: [{
 				id: "653028DD1603B673"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 6L
+				id: "11F1AE476C81C7D3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 1"
+			x: -2.0d
+			y: 0.0d
 		}
 		{
-			title: "XP Book 2"
+			dependencies: ["55EB67C039713507"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -4.0d
-			y: 0.0d
-			dependencies: ["55EB67C039713507"]
 			id: "1585CF2ED82C8870"
-			tasks: [{
-				id: "1108B3388D80B547"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 4L
-			}]
 			rewards: [{
 				id: "34A0BBA032C189C9"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "1108B3388D80B547"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 2"
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			title: "XP Book 3"
+			dependencies: ["1585CF2ED82C8870"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -6.0d
-			y: 0.0d
-			dependencies: ["1585CF2ED82C8870"]
 			id: "6FAA3F5E6E047103"
-			tasks: [{
-				id: "24ACCBEF7C4DCBED"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "65A9F66D6D75390C"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "24ACCBEF7C4DCBED"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 3"
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			title: "XP Book 4"
+			dependencies: ["6FAA3F5E6E047103"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -8.0d
-			y: 0.0d
-			dependencies: ["6FAA3F5E6E047103"]
 			id: "44C66FA0DCF4CEC8"
-			tasks: [{
-				id: "38D0D9D85F845370"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "23DBBF7EA4000C9A"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "38D0D9D85F845370"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 4"
+			x: -8.0d
+			y: 0.0d
 		}
 		{
-			title: "XP Book 5"
+			dependencies: ["44C66FA0DCF4CEC8"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -10.0d
-			y: 0.0d
-			dependencies: ["44C66FA0DCF4CEC8"]
 			id: "12A01102ED478BAE"
-			tasks: [{
-				id: "262C173C070B08B6"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "22600B4CCF589130"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "262C173C070B08B6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 5"
+			x: -10.0d
+			y: 0.0d
 		}
 		{
-			title: "XP Book 6"
+			dependencies: ["12A01102ED478BAE"]
 			icon: {
-				id: "xpbook:xp_tome"
 				Count: 1b
+				id: "xpbook:xp_tome"
 				tag: { }
 			}
-			x: -12.0d
-			y: 0.0d
-			dependencies: ["12A01102ED478BAE"]
 			id: "567E4624502B05F5"
-			tasks: [{
-				id: "357811B4E45C37D3"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "570F32B6FF2287E5"
-				type: "item"
 				item: {
-					id: "xpbook:xp_tome"
 					Count: 1b
+					id: "xpbook:xp_tome"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "357811B4E45C37D3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "XP Book 6"
+			x: -12.0d
+			y: 0.0d
 		}
 		{
-			title: "1e Teleporter"
+			dependencies: ["22EBAF5A6550CF0C"]
 			icon: "waystones:warp_plate"
+			id: "4F2A7C62C1A20B87"
+			rewards: [{
+				count: 2
+				id: "3B9536017BC95017"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "789ED3F1373279BD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "1e Teleporter"
 			x: 0.0d
 			y: 2.0d
-			dependencies: ["22EBAF5A6550CF0C"]
-			id: "4F2A7C62C1A20B87"
-			tasks: [{
-				id: "789ED3F1373279BD"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 4L
-			}]
-			rewards: [{
-				id: "3B9536017BC95017"
-				type: "item"
-				item: "waystones:warp_plate"
-				count: 2
-			}]
 		}
 		{
-			title: "2e Teleporter"
+			dependencies: ["4F2A7C62C1A20B87"]
 			icon: "waystones:warp_plate"
+			id: "30540C14C17591A7"
+			rewards: [{
+				count: 2
+				id: "4E6E856024CCF9E2"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "362537347A9EB6D5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "2e Teleporter"
 			x: 0.0d
 			y: 4.0d
-			dependencies: ["4F2A7C62C1A20B87"]
-			id: "30540C14C17591A7"
-			tasks: [{
-				id: "362537347A9EB6D5"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
-			rewards: [{
-				id: "4E6E856024CCF9E2"
-				type: "item"
-				item: "waystones:warp_plate"
-				count: 2
-			}]
 		}
 		{
-			title: "3e Teleporter"
+			dependencies: ["30540C14C17591A7"]
 			icon: "waystones:warp_plate"
+			id: "30A18B62A04B2563"
+			rewards: [{
+				count: 2
+				id: "29075A0571E2EF13"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "21D3919F01764B9D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "3e Teleporter"
 			x: 0.0d
 			y: 6.0d
-			dependencies: ["30540C14C17591A7"]
-			id: "30A18B62A04B2563"
-			tasks: [{
-				id: "21D3919F01764B9D"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 3L
-			}]
-			rewards: [{
-				id: "29075A0571E2EF13"
-				type: "item"
-				item: "waystones:warp_plate"
-				count: 2
-			}]
 		}
 		{
-			title: "4e Teleporter"
+			dependencies: ["30A18B62A04B2563"]
 			icon: "waystones:warp_plate"
+			id: "6021DBE8A39F339D"
+			rewards: [{
+				count: 2
+				id: "5698D95147600DD3"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "33C95C05741D2366"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "4e Teleporter"
 			x: 0.0d
 			y: 8.0d
-			dependencies: ["30A18B62A04B2563"]
-			id: "6021DBE8A39F339D"
-			tasks: [{
-				id: "33C95C05741D2366"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
-			rewards: [{
-				id: "5698D95147600DD3"
-				type: "item"
-				item: "waystones:warp_plate"
-				count: 2
-			}]
 		}
 		{
-			title: "5e Teleporter"
+			dependencies: ["6021DBE8A39F339D"]
 			icon: "waystones:warp_plate"
+			id: "34D340511203D415"
+			rewards: [{
+				count: 2
+				id: "1B08D37586C42FF4"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "216EF8515E95A980"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "5e Teleporter"
 			x: 0.0d
 			y: 10.0d
-			dependencies: ["6021DBE8A39F339D"]
-			id: "34D340511203D415"
-			tasks: [{
-				id: "216EF8515E95A980"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
-			rewards: [{
-				id: "1B08D37586C42FF4"
-				type: "item"
-				item: "waystones:warp_plate"
-				count: 2
-			}]
 		}
 		{
-			title: "2e Waystone"
-			icon: "waystones:waystone"
-			x: 2.0d
-			y: 2.0d
 			dependencies: ["4F2A7C62C1A20B87"]
+			icon: "waystones:waystone"
 			id: "12DD9248C1C45A49"
-			tasks: [{
-				id: "71A6AD6EF9BBA2FF"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 6L
-			}]
 			rewards: [{
 				id: "60EB5B280EFE0BB3"
-				type: "choice"
 				table_id: 2299067183850059859L
+				type: "choice"
 			}]
+			tasks: [{
+				count: 6L
+				id: "71A6AD6EF9BBA2FF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "2e Waystone"
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			title: "3e Waystone"
-			icon: "waystones:mossy_waystone"
-			x: 2.0d
-			y: 4.0d
 			dependencies: ["12DD9248C1C45A49"]
+			icon: "waystones:mossy_waystone"
 			id: "2CA7EA43668CBC48"
-			tasks: [{
-				id: "0248E3836B0B2533"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 5L
-			}]
 			rewards: [{
 				id: "08DB5046DB7319AD"
-				type: "choice"
 				table_id: 2299067183850059859L
+				type: "choice"
 			}]
+			tasks: [{
+				count: 5L
+				id: "0248E3836B0B2533"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "3e Waystone"
+			x: 2.0d
+			y: 4.0d
 		}
 		{
-			title: "4e Waystone"
-			icon: "waystones:sandy_waystone"
-			x: 2.0d
-			y: 6.0d
 			dependencies: ["2CA7EA43668CBC48"]
+			icon: "waystones:sandy_waystone"
 			id: "21DFC9847615B14A"
-			tasks: [{
-				id: "5A80D06197465970"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 5L
-			}]
 			rewards: [{
 				id: "71B955909A917D58"
-				type: "choice"
 				table_id: 2299067183850059859L
+				type: "choice"
 			}]
+			tasks: [{
+				count: 5L
+				id: "5A80D06197465970"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "4e Waystone"
+			x: 2.0d
+			y: 6.0d
 		}
 		{
-			title: "5e Waystone"
-			icon: "waystones:waystone"
-			x: 2.0d
-			y: 8.0d
 			dependencies: ["21DFC9847615B14A"]
+			icon: "waystones:waystone"
 			id: "65ABFC1AA934AA80"
-			tasks: [{
-				id: "23740713DB06FCE1"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 5L
-			}]
 			rewards: [{
 				id: "1F8FA343C81B41F7"
-				type: "choice"
 				table_id: 2299067183850059859L
+				type: "choice"
 			}]
+			tasks: [{
+				count: 5L
+				id: "23740713DB06FCE1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "5e Waystone"
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			title: "6e Waystone"
-			icon: "waystones:mossy_waystone"
-			x: 2.0d
-			y: 10.0d
 			dependencies: ["65ABFC1AA934AA80"]
 			dependency_requirement: "one_completed"
+			icon: "waystones:mossy_waystone"
 			id: "603558197363948F"
-			tasks: [{
-				id: "590DFCF3EA1B6EED"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 4L
-			}]
 			rewards: [{
 				id: "5D264316B14086AA"
-				type: "choice"
 				table_id: 2299067183850059859L
+				type: "choice"
 			}]
+			tasks: [{
+				count: 4L
+				id: "590DFCF3EA1B6EED"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "6e Waystone"
+			x: 2.0d
+			y: 10.0d
 		}
 		{
-			title: "Special Arrows"
-			icon: "archers_paradox:quartz_arrow"
-			x: -2.0d
-			y: 2.0d
 			dependencies: ["22EBAF5A6550CF0C"]
+			icon: "archers_paradox:quartz_arrow"
 			id: "4FC9B244157EF730"
-			tasks: [{
-				id: "3017AB210011893D"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "29E0CEBA37A81A89"
-				type: "choice"
 				table_id: 5330008293772747621L
+				type: "choice"
 			}]
+			tasks: [{
+				id: "3017AB210011893D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Special Arrows"
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			title: "Special Arrows"
-			icon: "archers_paradox:blaze_arrow"
-			x: -4.0d
-			y: 4.0d
 			dependencies: ["4FC9B244157EF730"]
+			icon: "archers_paradox:blaze_arrow"
 			id: "1264A8A6403722AC"
-			tasks: [{
-				id: "34E977ABB5557FB0"
-				type: "item"
-				icon: "kubejs:gold_coin"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "47A9DFB94B4A4599"
-				type: "choice"
 				table_id: 5330008293772747621L
+				type: "choice"
 			}]
+			tasks: [{
+				icon: "kubejs:gold_coin"
+				id: "34E977ABB5557FB0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Special Arrows"
+			x: -4.0d
+			y: 4.0d
 		}
 		{
-			title: "Special Arrows"
-			icon: "archers_paradox:prismarine_arrow"
-			x: -6.0d
-			y: 6.0d
 			dependencies: ["1264A8A6403722AC"]
+			icon: "archers_paradox:prismarine_arrow"
 			id: "02A8ADF198A3CFA4"
-			tasks: [{
-				id: "44F0D3BEF7E8BC3D"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "1F4BC83E1A02C103"
-				type: "choice"
 				table_id: 5330008293772747621L
+				type: "choice"
 			}]
+			tasks: [{
+				id: "44F0D3BEF7E8BC3D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Special Arrows"
+			x: -6.0d
+			y: 6.0d
 		}
 		{
-			title: "Special Arrows"
-			icon: "archers_paradox:lightning_arrow"
-			x: -8.0d
-			y: 8.0d
 			dependencies: ["02A8ADF198A3CFA4"]
+			icon: "archers_paradox:lightning_arrow"
 			id: "1558AA645A269128"
-			tasks: [{
-				id: "6515FC9FB371C0E5"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
 			rewards: [{
 				id: "030751B15774F68A"
-				type: "choice"
 				table_id: 5330008293772747621L
+				type: "choice"
 			}]
+			tasks: [{
+				id: "6515FC9FB371C0E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Special Arrows"
+			x: -8.0d
+			y: 8.0d
 		}
 		{
-			title: "Extra Warp Scrolls"
-			icon: "waystones:warp_scroll"
-			x: 4.0d
-			y: 4.0d
 			dependencies: ["2CA7EA43668CBC48"]
+			icon: "waystones:warp_scroll"
 			id: "6E86B5E28891D9C4"
+			rewards: [{
+				count: 4
+				id: "6B7F671BF7095E16"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FA4C31188F5EC73"
-				type: "item"
 				item: "kubejs:silver_coin"
-			}]
-			rewards: [{
-				id: "6B7F671BF7095E16"
 				type: "item"
-				item: "waystones:warp_scroll"
-				count: 4
 			}]
+			title: "Extra Warp Scrolls"
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			title: "Extra Warp Scrolls"
-			icon: "waystones:warp_scroll"
-			x: 4.0d
-			y: 6.0d
 			dependencies: ["21DFC9847615B14A"]
 			dependency_requirement: "one_completed"
+			icon: "waystones:warp_scroll"
 			id: "2012BDB88FC98A60"
+			rewards: [{
+				count: 4
+				id: "3A07F3C4633F1130"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FE8037BBDEFCE40"
-				type: "item"
 				item: "kubejs:silver_coin"
-			}]
-			rewards: [{
-				id: "3A07F3C4633F1130"
 				type: "item"
-				item: "waystones:warp_scroll"
-				count: 4
 			}]
+			title: "Extra Warp Scrolls"
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			title: "Extra Warp Scrolls"
-			icon: "waystones:warp_scroll"
-			x: 4.0d
-			y: 8.0d
 			dependencies: ["65ABFC1AA934AA80"]
+			icon: "waystones:warp_scroll"
 			id: "47C02D530CF30012"
+			rewards: [{
+				count: 4
+				id: "70BAAFD142725461"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BD9027B612AFC1C"
-				type: "item"
 				item: "kubejs:silver_coin"
-			}]
-			rewards: [{
-				id: "70BAAFD142725461"
 				type: "item"
-				item: "waystones:warp_scroll"
-				count: 4
 			}]
+			title: "Extra Warp Scrolls"
+			x: 4.0d
+			y: 8.0d
 		}
 		{
-			title: "Extra Warp Scrolls"
-			icon: "waystones:warp_scroll"
-			x: 4.0d
-			y: 10.0d
 			dependencies: ["603558197363948F"]
+			icon: "waystones:warp_scroll"
 			id: "43159AA74F2D8B41"
+			rewards: [{
+				count: 4
+				id: "2130A0736DEAB3B7"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48A158B2CD285EAD"
-				type: "item"
 				item: "kubejs:silver_coin"
-			}]
-			rewards: [{
-				id: "2130A0736DEAB3B7"
 				type: "item"
-				item: "waystones:warp_scroll"
-				count: 4
 			}]
+			title: "Extra Warp Scrolls"
+			x: 4.0d
+			y: 10.0d
 		}
 		{
-			title: "Extra Warp Scrolls"
-			icon: "waystones:warp_scroll"
-			x: 4.0d
-			y: 2.0d
 			dependencies: ["12DD9248C1C45A49"]
+			icon: "waystones:warp_scroll"
 			id: "56D8804D57221F1A"
+			rewards: [{
+				count: 4
+				id: "34B24A5A8AAF7A01"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "768BEDC68A021AAC"
-				type: "item"
 				item: "kubejs:silver_coin"
-			}]
-			rewards: [{
-				id: "34B24A5A8AAF7A01"
 				type: "item"
-				item: "waystones:warp_scroll"
-				count: 4
 			}]
+			title: "Extra Warp Scrolls"
+			x: 4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1558AA645A269128"]
+			id: "52A200A716AEAE25"
+			rewards: [{
+				id: "508112050ECC967B"
+				table_id: 5330008293772747621L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "45B5FCF9D039FB0C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
 			title: "Special Arrows"
 			x: -10.0d
 			y: 10.0d
-			dependencies: ["1558AA645A269128"]
-			id: "52A200A716AEAE25"
-			tasks: [{
-				id: "45B5FCF9D039FB0C"
-				type: "item"
-				item: "kubejs:gold_coin"
-			}]
-			rewards: [{
-				id: "508112050ECC967B"
-				type: "choice"
-				table_id: 5330008293772747621L
-			}]
 		}
 		{
-			title: "Capture the enemy"
-			icon: "mob_catcher:netherite_mob_catcher"
-			x: 6.0d
-			y: 2.0d
 			dependencies: ["423C73B0945F6C21"]
+			icon: "mob_catcher:netherite_mob_catcher"
 			id: "379E7BE6C6557640"
-			tasks: [{
-				id: "5F3CA0585D9753EB"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 6L
-			}]
 			rewards: [{
 				id: "1CE68778ABE826EA"
-				type: "item"
 				item: "mob_catcher:netherite_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 6L
+				id: "5F3CA0585D9753EB"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Capture the enemy"
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			title: "Capture more enemies"
-			icon: "mob_catcher:netherite_mob_catcher"
-			x: 8.0d
-			y: 2.0d
 			dependencies: ["5155A4B10637CE8B"]
+			icon: "mob_catcher:netherite_mob_catcher"
 			id: "550DD5CF167E1113"
-			tasks: [{
-				id: "5A133B0D21DD6698"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 4L
-			}]
 			rewards: [{
 				id: "3BE4487C2A9A94F5"
-				type: "item"
 				item: "mob_catcher:netherite_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "5A133B0D21DD6698"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Capture more enemies"
+			x: 8.0d
+			y: 2.0d
 		}
 		{
-			title: "Capture all the enemies"
-			icon: "mob_catcher:netherite_mob_catcher"
-			x: 10.0d
-			y: 2.0d
 			dependencies: ["5F5181E385BE672A"]
+			icon: "mob_catcher:netherite_mob_catcher"
 			id: "27DBCE6EB3A30F3D"
-			tasks: [{
-				id: "3E7A68913E2ABCCC"
-				type: "item"
-				item: "kubejs:gold_coin"
-				count: 2L
-			}]
 			rewards: [{
 				id: "409EE9EDB9DD57A6"
-				type: "item"
 				item: "mob_catcher:netherite_mob_catcher"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "3E7A68913E2ABCCC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Capture all the enemies"
+			x: 10.0d
+			y: 2.0d
 		}
 	]
+	title: "Shop"
 }

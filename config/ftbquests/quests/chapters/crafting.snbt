@@ -1,1316 +1,860 @@
 {
-	id: "08F2CB1BFE8EC2A1"
-	group: ""
-	order_index: 1
-	filename: "crafting"
-	title: "Crafting"
-	always_invisible: true
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crafting"
+	group: ""
+	id: "08F2CB1BFE8EC2A1"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
+			id: "43E53F0FE4C0053C"
+			rewards: [{
+				count: 2
+				id: "71B006C11F2773B4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Get your team off to a strong start in these depths. Collect 64 raw iron ore to increase your resources."
+			tasks: [{
+				count: 64L
+				id: "480DF5764CD2F4CA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:iron_ore"
+				}
+				type: "item"
+			}]
 			title: "Crafting Questline"
 			x: -4.0d
 			y: -8.0d
-			subtitle: "Get your team off to a strong start in these depths. Collect 64 raw iron ore to increase your resources."
-			id: "43E53F0FE4C0053C"
-			tasks: [{
-				id: "480DF5764CD2F4CA"
-				type: "item"
-				item: {
-					id: "minecraft:iron_ore"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 64L
-			}]
-			rewards: [{
-				id: "71B006C11F2773B4"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["43E53F0FE4C0053C"]
+			id: "335FCC578AFA8F76"
+			rewards: [{
+				count: 2
+				id: "1AB9404115A63739"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Good. Now that you have got some resources, armour up. Craft 4 iron armour sets. Defence is the best offense"
+			tasks: [
+				{
+					count: 4L
+					id: "2B8D636906E3CE84"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "360EB6E92704C351"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
 			title: "Armour Up"
 			x: -4.0d
 			y: -6.0d
-			subtitle: "Good. Now that you have got some resources, armour up. Craft 4 iron armour sets. Defence is the best offense"
-			dependencies: ["43E53F0FE4C0053C"]
-			id: "335FCC578AFA8F76"
-			tasks: [
-				{
-					id: "2B8D636906E3CE84"
-					type: "item"
-					item: {
-						id: "minecraft:iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 4L
-					only_from_crafting: true
-				}
-				{
-					id: "360EB6E92704C351"
-					type: "item"
-					item: {
-						id: "minecraft:iron_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 4L
-					only_from_crafting: true
-				}
-			]
+		}
+		{
+			dependencies: ["335FCC578AFA8F76"]
+			id: "109AD011E0EB5744"
 			rewards: [{
-				id: "1AB9404115A63739"
+				id: "299669C98C6B1BDE"
+				item: "kubejs:copper_coin"
 				type: "item"
+			}]
+			subtitle: "Mining is the way for progression. Craft some pickaxes for your team."
+			tasks: [{
+				count: 4L
+				id: "0CD739E4DE1F48FA"
 				item: {
-					id: "contenttweaker:coin_copper"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
 				}
-				count: 2
+				only_from_crafting: true
+				type: "item"
 			}]
-		}
-		{
 			title: "Mining is the way..."
 			x: -6.5d
 			y: -6.0d
-			subtitle: "Mining is the way for progression. Craft some pickaxes for your team."
-			dependencies: ["335FCC578AFA8F76"]
-			id: "109AD011E0EB5744"
-			tasks: [{
-				id: "0CD739E4DE1F48FA"
+		}
+		{
+			dependencies: ["109AD011E0EB5744"]
+			id: "4BE0D66470008644"
+			rewards: [{
+				id: "45B066EBCD462E86"
+				item: "kubejs:copper_coin"
 				type: "item"
+			}]
+			subtitle: "Craft a diamond pickaxe to expedite your mining journey."
+			tasks: [{
+				id: "053224ED167ECF33"
 				item: {
-					id: "minecraft:iron_pickaxe"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				count: 4L
 				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "299669C98C6B1BDE"
 				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
 			}]
-		}
-		{
 			title: "Upgrades!"
 			x: -9.0d
 			y: -6.0d
-			subtitle: "Craft a diamond pickaxe to expedite your mining journey."
-			dependencies: ["109AD011E0EB5744"]
-			id: "4BE0D66470008644"
-			tasks: [{
-				id: "053224ED167ECF33"
+		}
+		{
+			dependencies: ["4BE0D66470008644"]
+			id: "39BE550EE841A17C"
+			rewards: [{
+				id: "6133DF7608092487"
+				item: "kubejs:copper_coin"
 				type: "item"
+			}]
+			subtitle: "Make a Netherite Pickaxe for yourself and one friend"
+			tasks: [{
+				count: 2L
+				id: "4B905F378C739ED9"
 				item: {
-					id: "minecraft:diamond_pickaxe"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:netherite_pickaxe"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "45B066EBCD462E86"
+				only_from_crafting: false
 				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
 			}]
-		}
-		{
 			title: "The Final Upgrade"
 			x: -11.5d
 			y: -6.0d
-			subtitle: "Make a Netherite Pickaxe for yourself and one friend"
-			dependencies: ["4BE0D66470008644"]
-			id: "39BE550EE841A17C"
-			tasks: [{
-				id: "4B905F378C739ED9"
-				type: "item"
-				item: {
-					id: "minecraft:netherite_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2L
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "6133DF7608092487"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_silver"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["109AD011E0EB5744"]
+			id: "71209F21A52B0A9C"
+			rewards: [{
+				id: "690A330451D31347"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Collect loads of redstone. Who knows? Some engineer might have plans for it."
+			tasks: [{
+				count: 128L
+				id: "6563FD42EC6FC0AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			title: "This might be useful?"
 			x: -6.5d
 			y: -4.0d
-			subtitle: "Collect loads of redstone. Who knows? Some engineer might have plans for it."
-			dependencies: ["109AD011E0EB5744"]
-			id: "71209F21A52B0A9C"
-			tasks: [{
-				id: "6563FD42EC6FC0AB"
-				type: "item"
-				item: {
-					id: "minecraft:redstone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 128L
-			}]
-			rewards: [{
-				id: "690A330451D31347"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["335FCC578AFA8F76"]
+			id: "7D3FF305AB716A2F"
+			rewards: [{
+				id: "6AAFA82CB0DF4721"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Yee-Haw. Time to get farming. Make yourself a diamond hoe"
+			tasks: [{
+				id: "534909E06E2AFCEE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			title: "Get your farming on."
 			x: -1.5d
 			y: -6.0d
-			subtitle: "Yee-Haw. Time to get farming. Make yourself a diamond hoe"
-			dependencies: ["335FCC578AFA8F76"]
-			id: "7D3FF305AB716A2F"
-			tasks: [{
-				id: "534909E06E2AFCEE"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "6AAFA82CB0DF4721"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["71209F21A52B0A9C"]
+			id: "24C62551383DEA95"
+			rewards: [{
+				id: "018BC4B35724D860"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Get yourself 2 stacks of that good blue stuff. Ready to get your enchanting game on"
+			tasks: [{
+				count: 128L
+				id: "71CBA5C50E4F436F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
 			title: "Ready to enchant"
 			x: -9.0d
 			y: -4.0d
-			subtitle: "Get yourself 2 stacks of that good blue stuff. Ready to get your enchanting game on"
-			dependencies: ["71209F21A52B0A9C"]
-			id: "24C62551383DEA95"
-			tasks: [{
-				id: "71CBA5C50E4F436F"
-				type: "item"
-				item: {
-					id: "minecraft:lapis_lazuli"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 128L
-			}]
-			rewards: [{
-				id: "018BC4B35724D860"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
 		}
 		{
-			title: "Farming Extreme"
-			x: 1.0d
-			y: -6.0d
-			subtitle: "Craft this and then re-evaluate your life choices"
 			dependencies: ["7D3FF305AB716A2F"]
 			id: "0B4E5FD632487874"
+			rewards: [{
+				count: 3
+				id: "3D3DD38018230468"
+				item: "kubejs:copper_coin"
+				title: "Farming Extreme"
+				type: "item"
+			}]
+			subtitle: "Craft this and then re-evaluate your life choices"
 			tasks: [{
 				id: "3D3A7718BEA66AA0"
-				type: "item"
 				item: {
-					id: "minecraft:netherite_hoe"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:netherite_hoe"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-			}]
-			rewards: [{
-				id: "3D3DD38018230468"
 				type: "item"
-				title: "Farming Extreme"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
+			}]
+			title: "Farming Extreme"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["24C62551383DEA95"]
+			id: "35A79D7C118DD7BB"
+			rewards: [{
 				count: 3
+				id: "1930E8D04CC37450"
+				item: "kubejs:copper_coin"
+				type: "item"
 			}]
-		}
-		{
-			title: "A bit of the rare stuff"
-			x: -4.0d
-			y: -4.0d
-			subtitle: "Find and process a few of these rarer ores"
-			dependencies: ["335FCC578AFA8F76"]
-			id: "407CF65FD83676F1"
+			subtitle: "Enchant 20 items"
 			tasks: [{
-				id: "11EE4FE9D230FE46"
-				type: "item"
-				item: {
-					id: "mysticalworld:quicksilver_ingot"
+				icon: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 25L
-			}]
-			rewards: [{
-				id: "7F12B6DCF81236D7"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
 							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "I am speed"
-			x: -1.5d
-			y: -4.0d
-			subtitle: "Efficiency is key. Increase your base speed with this armor"
-			dependencies: ["407CF65FD83676F1"]
-			id: "77E0BBD671B5BEDD"
-			tasks: [
-				{
-					id: "6EC01422BC9B76B6"
-					type: "item"
-					item: {
-						id: "mysticalworld:quicksilver_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "698E0886418D169D"
-					type: "item"
-					item: {
-						id: "mysticalworld:quicksilver_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "155EAF78585BA083"
-					type: "item"
-					item: {
-						id: "mysticalworld:quicksilver_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "38E229203355D6E8"
-					type: "item"
-					item: {
-						id: "mysticalworld:quicksilver_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "2CD7F4713D5BC2B5"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
 							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:enchanting_table"
 				}
-				count: 2
+				id: "22CCE97C08562D02"
+				stat: "minecraft:enchant_item"
+				title: "Enchant Items"
+				type: "stat"
+				value: 20
 			}]
-		}
-		{
 			title: "Enchant Items"
 			x: -11.5d
 			y: -4.0d
-			subtitle: "Enchant 20 items"
-			dependencies: ["24C62551383DEA95"]
-			id: "35A79D7C118DD7BB"
-			tasks: [{
-				id: "22CCE97C08562D02"
-				type: "stat"
-				title: "Enchant Items"
-				icon: {
-					id: "minecraft:enchanting_table"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				stat: "minecraft:enchant_item"
-				value: 20
-			}]
-			rewards: [{
-				id: "1930E8D04CC37450"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 3
-			}]
 		}
 		{
+			dependencies: ["35A79D7C118DD7BB"]
+			id: "4A5F9FBBAA496061"
+			rewards: [{
+				count: 3
+				id: "653DA7D4CF358929"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "better not drop that on your head..."
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:anvil"
+				}
+				id: "3BE27DC1986B50EC"
+				stat: "minecraft:interact_with_anvil"
+				title: "Using the anvil"
+				type: "stat"
+				value: 10
+			}]
 			title: "Use the anvil 10 times"
 			x: -14.0d
 			y: -4.0d
-			subtitle: "better not drop that on your head..."
-			dependencies: ["35A79D7C118DD7BB"]
-			id: "4A5F9FBBAA496061"
-			tasks: [{
-				id: "3BE27DC1986B50EC"
-				type: "stat"
-				title: "Using the anvil"
-				icon: {
-					id: "minecraft:anvil"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				stat: "minecraft:interact_with_anvil"
-				value: 10
-			}]
-			rewards: [{
-				id: "653DA7D4CF358929"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 3
-			}]
 		}
 		{
+			dependencies: ["71209F21A52B0A9C"]
+			id: "7B46AA07DDABDFEA"
+			rewards: [{
+				count: 2
+				id: "317A08788199CFBE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Diamonds are the main currency. Get a stack of diamonds"
+			tasks: [{
+				count: 64L
+				id: "3A255F587AD8C3B9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			title: "Diamonds are key"
 			x: -6.5d
 			y: -2.0d
-			subtitle: "Diamonds are the main currency. Get a stack of diamonds"
-			dependencies: ["71209F21A52B0A9C"]
-			id: "7B46AA07DDABDFEA"
-			tasks: [{
-				id: "3A255F587AD8C3B9"
-				type: "item"
-				item: {
-					id: "minecraft:diamond"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 64L
-			}]
-			rewards: [{
-				id: "317A08788199CFBE"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
+			dependencies: ["7B46AA07DDABDFEA"]
+			id: "567130FD76DEF2F5"
+			rewards: [{
+				count: 2
+				id: "66B7E2F8E200F9E5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Suit yourself and 2 friends up with diamond armour"
+			tasks: [
+				{
+					count: 3L
+					id: "36ED69C30A1EDD2A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1AF807EEC250AB7E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "52DE6E5381B0845C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "09287337A5753523"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
 			title: "Upgrade your Defence"
 			x: -4.0d
 			y: -2.0d
-			subtitle: "Suit yourself and 2 friends up with diamond armour"
-			dependencies: ["7B46AA07DDABDFEA"]
-			id: "567130FD76DEF2F5"
-			tasks: [
-				{
-					id: "36ED69C30A1EDD2A"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-					only_from_crafting: true
-				}
-				{
-					id: "1AF807EEC250AB7E"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-					only_from_crafting: true
-				}
-				{
-					id: "52DE6E5381B0845C"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-					only_from_crafting: true
-				}
-				{
-					id: "09287337A5753523"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 3L
-					only_from_crafting: true
-				}
-			]
-			rewards: [{
-				id: "66B7E2F8E200F9E5"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "The Ultimate Defence"
-			x: -1.5d
-			y: -2.0d
-			subtitle: "Craft a full Netherite armour set"
 			dependencies: ["567130FD76DEF2F5"]
 			id: "6E17B4B2661A53E3"
+			rewards: [{
+				id: "551D700A3C1A7F24"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Craft a full Netherite armour set"
 			tasks: [
 				{
 					id: "3B498F40FB856DC1"
-					type: "item"
 					item: {
-						id: "minecraft:netherite_helmet"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:netherite_helmet"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
 					}
 					only_from_crafting: true
+					type: "item"
 				}
 				{
 					id: "4B578EBF06FC9B68"
-					type: "item"
 					item: {
-						id: "minecraft:netherite_chestplate"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
+						}
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
 						}
 					}
 					only_from_crafting: true
+					type: "item"
 				}
 				{
 					id: "54232282D4246E73"
-					type: "item"
 					item: {
-						id: "minecraft:netherite_leggings"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:netherite_leggings"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "077BD23E3B4ED5F9"
-					type: "item"
 					item: {
-						id: "minecraft:netherite_boots"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:netherite_boots"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "551D700A3C1A7F24"
-				type: "item"
+			title: "The Ultimate Defence"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B46AA07DDABDFEA"]
+			id: "17032158D15BCB56"
+			rewards: [
+				{
+					count: 2
+					id: "48B3E98C69F3A728"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "35B16BEE5B34ADF3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Maybe you haven't found a use for gold yet. Well lucky you! A merchant is offering you diamonds in exchange for gold. GOLD WILL BE CONSUMED"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0BFA262FE3904229"
 				item: {
-					id: "contenttweaker:coin_silver"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:gold_ore"
 				}
+				type: "item"
 			}]
-		}
-		{
 			title: "Who needs gold?"
 			x: -9.0d
 			y: -2.0d
-			subtitle: "Maybe you haven't found a use for gold yet. Well lucky you! A merchant is offering you diamonds in exchange for gold. GOLD WILL BE CONSUMED"
-			dependencies: ["7B46AA07DDABDFEA"]
-			id: "17032158D15BCB56"
-			tasks: [{
-				id: "0BFA262FE3904229"
+		}
+		{
+			dependencies: ["43E53F0FE4C0053C"]
+			id: "35F03BFEA06BAE3F"
+			rewards: [{
+				count: 2
+				id: "11F47E88E4208DF5"
+				item: "kubejs:copper_coin"
 				type: "item"
+			}]
+			subtitle: "Use a furnace 200 times in order to smelt ores"
+			tasks: [{
+				id: "2777348DEFFF785E"
 				item: {
-					id: "minecraft:gold_ore"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "minecraft:furnace"
 				}
-				count: 64L
-				consume_items: true
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "48B3E98C69F3A728"
-					type: "item"
-					item: {
-						id: "contenttweaker:coin_copper"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 2
-				}
-				{
-					id: "35B16BEE5B34ADF3"
-					type: "item"
-					item: {
-						id: "minecraft:diamond"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 7
-				}
-			]
-		}
-		{
 			title: "Smelt those ores!"
 			x: -1.5d
 			y: -8.0d
-			subtitle: "Use a furnace 200 times in order to smelt ores"
-			dependencies: ["43E53F0FE4C0053C"]
-			id: "35F03BFEA06BAE3F"
-			tasks: [{
-				id: "2777348DEFFF785E"
-				type: "item"
-				item: {
-					id: "minecraft:furnace"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "11F47E88E4208DF5"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 2
-			}]
 		}
 		{
-			title: "Minecart madness"
-			x: -6.5d
-			y: -8.0d
-			subtitle: "Within the mines a special form of transportation is found. Travel 1000 blocks by minecart."
 			dependencies: [
 				"109AD011E0EB5744"
 				"109AD011E0EB5744"
 			]
 			id: "2FF58320EC43F2A8"
-			tasks: [{
-				id: "770AE18A14986E5A"
-				type: "stat"
-				icon: {
-					id: "minecraft:minecart"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				stat: "minecraft:minecart_one_cm"
-				value: 1000
-			}]
 			rewards: [
 				{
 					id: "20D2F2132966D3D1"
+					item: "kubejs:copper_coin"
 					type: "item"
-					item: {
-						id: "contenttweaker:coin_copper"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
 				}
 				{
+					count: 12
 					id: "6C1E2B89F4593B5F"
-					type: "item"
 					item: {
-						id: "minecraft:powered_rail"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
 								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
 							}
 						}
+						id: "minecraft:powered_rail"
 					}
-					count: 12
+					type: "item"
 				}
 			]
+			subtitle: "Within the mines a special form of transportation is found. Travel 1000 blocks by minecart."
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:minecart"
+				}
+				id: "770AE18A14986E5A"
+				stat: "minecraft:minecart_one_cm"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Minecart madness"
+			x: -6.5d
+			y: -8.0d
 		}
 		{
-			title: "Craft some weapons"
-			x: -6.5d
-			y: 0.0d
-			subtitle: "Craft diamond swords for your entire team"
 			dependencies: [
 				"7B46AA07DDABDFEA"
 				"7B46AA07DDABDFEA"
 			]
 			id: "751C35655A29C44C"
-			tasks: [{
-				id: "78C31F452BE033D5"
+			rewards: [{
+				id: "38225EBD1F4C08C0"
+				item: "kubejs:copper_coin"
 				type: "item"
+			}]
+			subtitle: "Craft diamond swords for your entire team"
+			tasks: [{
+				count: 4L
+				id: "78C31F452BE033D5"
 				item: {
-					id: "minecraft:diamond_sword"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:diamond_sword"
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
 				}
-				count: 4L
 				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "38225EBD1F4C08C0"
 				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
 			}]
+			title: "Craft some weapons"
+			x: -6.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["43E53F0FE4C0053C"]
+			id: "292D5468BAB2C597"
+			rewards: [
+				{
+					count: 2
+					id: "00E0F3817C7D640E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "768661BE067D4682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "archers_paradox:explosive_arrow"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Get your team a starting offensive setup. Distance is key. "
+			tasks: [
+				{
+					count: 4L
+					id: "7824D7AAE91A1C7C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "6041FA158ABE51F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+						}
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
 			title: "Some starter weapons"
 			x: -4.0d
 			y: -10.0d
-			subtitle: "Get your team a starting offensive setup. Distance is key. "
-			dependencies: ["43E53F0FE4C0053C"]
-			id: "292D5468BAB2C597"
-			tasks: [
-				{
-					id: "7824D7AAE91A1C7C"
-					type: "item"
-					item: {
-						id: "minecraft:bow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "6041FA158ABE51F7"
-					type: "item"
-					item: {
-						id: "minecraft:arrow"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 300L
-				}
-			]
-			rewards: [
-				{
-					id: "00E0F3817C7D640E"
-					type: "item"
-					item: {
-						id: "contenttweaker:coin_copper"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 2
-				}
-				{
-					id: "768661BE067D4682"
-					type: "item"
-					item: {
-						id: "archers_paradox:explosive_arrow"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-					count: 5
-				}
-			]
-		}
-		{
-			title: "Another Rare Set"
-			x: 1.0d
-			y: -4.0d
-			subtitle: "Get another rare armour set. "
-			dependencies: ["77E0BBD671B5BEDD"]
-			id: "7DAE1F5DCA915E6E"
-			tasks: [
-				{
-					id: "1E5178536CDCDD6C"
-					type: "item"
-					item: {
-						id: "mysticalworld:lead_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "56A6B3B6AAD74245"
-					type: "item"
-					item: {
-						id: "mysticalworld:lead_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "72A676D3442BEA09"
-					type: "item"
-					item: {
-						id: "mysticalworld:lead_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "5F9B828A1F54B3AE"
-					type: "item"
-					item: {
-						id: "mysticalworld:lead_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "63970C74EF912AE1"
-				type: "item"
-				item: {
-					id: "contenttweaker:coin_copper"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-				count: 3
-			}]
 		}
 	]
+	title: "Crafting"
 }

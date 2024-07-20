@@ -1,87 +1,87 @@
 {
-	id: "32963E0EDCA189E0"
-	group: ""
-	order_index: 7
-	filename: "research"
-	title: "Research"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "research"
+	group: ""
+	id: "32963E0EDCA189E0"
+	order_index: 7
+	quest_links: [ ]
 	quests: [{
-		title: "Blood Magic"
+		description: ["In the persuit of power, sometimes a few sacrefices need to be made. In this case, quite literally. "]
 		icon: {
-			id: "bloodmagic:altar"
 			Count: 1b
 			ForgeCaps: {
 				"dungeons_gear:weapon": {
-					lastFiredTime: 0L
-					fuseShotCounter: 0
-					crossbowChargeTime: 0
 					bowChargeTime: 0.0f
+					crossbowChargeTime: 0
+					fuseShotCounter: 0
+					lastFiredTime: 0L
 				}
 			}
+			id: "bloodmagic:altar"
 		}
-		x: 0.0d
-		y: 0.0d
-		shape: "hexagon"
-		description: ["In the persuit of power, sometimes a few sacrefices need to be made. In this case, quite literally. "]
 		id: "7BC5D9609B962D62"
-		tasks: [
-			{
-				id: "0D13CF699071E6B2"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 100L
-			}
-			{
-				id: "186D5B97B7E0DE68"
-				type: "kill"
-				entity: "minecraft:cow"
-				value: 100L
-			}
-			{
-				id: "119EAD0081B0087A"
-				type: "kill"
-				entity: "minecraft:sheep"
-				value: 100L
-			}
-			{
-				id: "4E21DB06D8C7D16E"
-				type: "kill"
-				entity: "minecraft:villager"
-				value: 10L
-			}
-		]
 		rewards: [
 			{
+				count: 2
 				id: "65DDCC9C9952D0DD"
-				type: "item"
 				item: {
-					id: "contenttweaker:coin_copper"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_gear:weapon": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
 							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
+					id: "contenttweaker:coin_copper"
 				}
-				count: 2
+				type: "item"
 			}
 			{
-				id: "375EA00FD3065C6D"
-				type: "command"
-				team_reward: false
 				command: "/gamestage add @p blood"
-				player_command: false
+				id: "375EA00FD3065C6D"
+				team_reward: false
+				type: "command"
 			}
 			{
 				id: "716A2B2F2A0DE386"
-				type: "xp"
 				team_reward: false
+				type: "xp"
 				xp: 100
 			}
 		]
+		shape: "hexagon"
+		tasks: [
+			{
+				entity: "minecraft:zombie"
+				id: "0D13CF699071E6B2"
+				type: "kill"
+				value: 100L
+			}
+			{
+				entity: "minecraft:cow"
+				id: "186D5B97B7E0DE68"
+				type: "kill"
+				value: 100L
+			}
+			{
+				entity: "minecraft:sheep"
+				id: "119EAD0081B0087A"
+				type: "kill"
+				value: 100L
+			}
+			{
+				entity: "minecraft:villager"
+				id: "4E21DB06D8C7D16E"
+				type: "kill"
+				value: 10L
+			}
+		]
+		title: "Blood Magic"
+		x: 0.0d
+		y: 0.0d
 	}]
+	title: "Research"
 }
