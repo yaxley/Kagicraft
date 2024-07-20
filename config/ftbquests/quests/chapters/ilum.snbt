@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ilum"
-	group: ""
+	group: "7317CF3BCAC7E393"
 	icon: "blue_skies:moonstone_crystal"
 	id: "2B6414A05B3307D9"
-	order_index: 10
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

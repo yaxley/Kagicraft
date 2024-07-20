@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "shop"
-	group: ""
+	group: "3A475A66EC9CF9EA"
 	id: "5E8DDFBEC500DD33"
 	order_index: 0
 	quest_links: [ ]

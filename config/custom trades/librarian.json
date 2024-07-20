@@ -450,10 +450,10 @@
     {
       "offer": {
         "itemKey": "minecraft:emerald",
-        "amount": 1
+        "amount": 2
       },
       "request": {
-        "itemKey": "minecraft:writable_book",
+        "itemKey": "minecraft:amethyst_shard",
         "amount": 1
       },
       "tradeExp": 30,
@@ -461,39 +461,23 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:librarian_emerald_for_writable_book"
+      "UTID": "minecraft:librarian_emerald_for_amethyst"
     },
     {
       "offer": {
-        "itemKey": "minecraft:clock",
+        "itemKey": "minecraft:emerald",
         "amount": 1
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5
-      },
-      "tradeExp": 15,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:librarian_clock_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:compass",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
+        "itemKey": "blue_skies:moonstone_crystal",
         "amount": 4
       },
-      "tradeExp": 15,
+      "tradeExp": 30,
       "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:librarian_compass_for_emerald"
+      "UTID": "minecraft:librarian_emerald_for_moonstone"
     },
     {
       "offer": {
@@ -504,12 +488,240 @@
         "itemKey": "minecraft:emerald",
         "amount": 20
       },
-      "tradeExp": 30,
+      "tradeExp": 15,
       "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
+      "tradeLevel": 4,
       "UTID": "minecraft:librarian_name_tag_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:fire_protection\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:blast_protection\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:respiration\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:depth_strider\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:sweeping\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:luck_of_the_sea\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:lure\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:riptide\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:piercing\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:frost_walker\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 2,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:knockback\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:punch\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:infinity\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:efficiency\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:silk_touch\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:unbreaking\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:mending\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:loyalty\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:smite\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:bane_of_arthropods\"}]}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 45
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchantment_for_emerald_3"
+    },
+    {
+      "multiOffer": [
+        {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:fire_protection\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:blast_protection\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:respiration\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:depth_strider\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:sweeping\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:luck_of_the_sea\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:lure\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:riptide\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:piercing\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:frost_walker\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 2,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:knockback\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:punch\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:infinity\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:efficiency\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:silk_touch\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:unbreaking\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 1, id: \"minecraft:mending\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 2, id: \"minecraft:loyalty\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:smite\"}]}"
+        },
+        {
+          "itemKey": "minecraft:enchanted_book",
+          "amount": 1,
+          "advancedNBTData": "{StoredEnchantments: [{lvl: 3, id: \"minecraft:bane_of_arthropods\"}]}"
+        }
+      ],
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 6
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchantment_for_emerald_4"
     }
   ]
 }

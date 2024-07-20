@@ -3,9 +3,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farming"
-	group: ""
+	group: "1AA3AE9FE758CEE5"
 	id: "0EC48928B34B80A5"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

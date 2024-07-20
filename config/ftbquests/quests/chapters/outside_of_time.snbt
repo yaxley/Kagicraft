@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "outside_of_time"
-	group: ""
+	group: "1AA3AE9FE758CEE5"
 	icon: {
 		Count: 1b
 		ForgeCaps: {
@@ -16,7 +16,7 @@
 		id: "blue_skies:nature_key"
 	}
 	id: "068BDEF8BFDC3399"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,18 +27,7 @@
 			rewards: [
 				{
 					id: "5A0EA7DD6812622E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -67,18 +56,7 @@
 				{
 					count: 2
 					id: "7657B1DD22E3E478"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -107,18 +85,7 @@
 				{
 					count: 2
 					id: "14587677956CC0BB"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -147,18 +114,7 @@
 				{
 					count: 2
 					id: "10FA5689FF8458DC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -203,18 +159,7 @@
 				{
 					count: 2
 					id: "43D6807888A073DC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -257,18 +202,7 @@
 			rewards: [
 				{
 					id: "62AA15CD198947D7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -368,23 +302,12 @@
 		}
 		{
 			description: ["We still don’t know a lot about this gemstone. With some proper research, you can surely unlock a great many new options. With how weak normal weapons, tools, and armor are in this dimension, that might not be the worst idea."]
-			icon: "blue_skies:aquite_gem"
+			icon: "blue_skies:aquite"
 			id: "111FC9200F6AA3F3"
 			rewards: [
 				{
 					id: "301B02EA060B1A2A"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -427,18 +350,7 @@
 					consume_items: true
 					count: 64L
 					id: "07FDC5B6FF4BEDE7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "blue_skies:aquite_gem"
-					}
+					item: "blue_skies:aquite"
 					type: "item"
 				}
 				{
@@ -490,18 +402,7 @@
 				{
 					count: 2
 					id: "3D921260FFCFD312"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -607,18 +508,7 @@
 				{
 					count: 2
 					id: "4ADB349AF19BADBB"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -723,18 +613,7 @@
 			rewards: [
 				{
 					id: "500C88148D88D396"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -858,18 +737,7 @@
 				{
 					count: 2
 					id: "0C4BA57C411AB4FF"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -990,18 +858,7 @@
 				{
 					count: 2
 					id: "6A8B135A0D86ABF5"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -1122,18 +979,7 @@
 				{
 					count: 2
 					id: "33419D72DDF4E8FC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -1265,18 +1111,7 @@
 				{
 					count: 2
 					id: "4E2752D4195C04C3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
@@ -1379,18 +1214,7 @@
 				{
 					count: 2
 					id: "14E2F3FE9B685798"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								bowChargeTime: 0.0f
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
-						}
-						id: "contenttweaker:coin_copper"
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{

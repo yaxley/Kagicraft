@@ -1,3 +1,8 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "3A475A66EC9CF9EA", title: "Kagicraft" }
+		{ id: "1AA3AE9FE758CEE5", title: "Progression" }
+		{ id: "6A42BB53CB7FF728", title: "Research" }
+		{ id: "7317CF3BCAC7E393", title: "Old" }
+	]
 }

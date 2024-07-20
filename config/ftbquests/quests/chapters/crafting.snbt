@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "crafting"
-	group: ""
+	group: "1AA3AE9FE758CEE5"
 	id: "08F2CB1BFE8EC2A1"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

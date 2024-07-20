@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "heart_containers"
+	group: "3A475A66EC9CF9EA"
+	id: "0C948C9884E4907B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67DD314502CDDF8C"
+			rewards: [
+				{
+					count: 4
+					id: "37A91CDA9B566BDB"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "686293A884AD3750"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59A28F00F49A9A45"
+				title: "#1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3247953CC6E574DF"
+			rewards: [
+				{
+					count: 4
+					id: "4178B5AD1B87C8AD"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2D923A56435081ED"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46A392D182333C5A"
+				title: "#2"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7FC8CA0C0345CBCB"
+			rewards: [
+				{
+					count: 4
+					id: "10D701DAB9A5BBA4"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3CC92540731718D4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23F788660D6F389D"
+				title: "#3"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "27993B4F552B3C8D"
+			rewards: [
+				{
+					count: 4
+					id: "2EA3F05EE3927370"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5F03A3FF6FEB3325"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A12E87F4ED2FAD6"
+				title: "#4"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "7DAF4ABE2C0B5C69"
+			rewards: [
+				{
+					count: 4
+					id: "4204E8ED9A974DE8"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5EDB96C8A8DCD93D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34DBD076047EDD45"
+				title: "#5"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "69A575BFA149DF66"
+			rewards: [
+				{
+					count: 4
+					id: "3CFE0B46FA9DA30D"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "240D31ADD038E4FB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BEAD2F839F97505"
+				title: "#6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0AC318FA44A22FFE"
+			rewards: [
+				{
+					count: 4
+					id: "2445CA40FA0DCD26"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D52FDF939E98588"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7202793EC1D54440"
+				title: "#7"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7586D5539F8695A1"
+			rewards: [
+				{
+					count: 4
+					id: "019319193EBE3BA7"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3156A19C1A2F3499"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40BDC1E46E32D935"
+				title: "#8"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "5BA8CF2AACB55FDA"
+			rewards: [
+				{
+					count: 4
+					id: "4E36D8CBB27BA3B5"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "75089D4688B13621"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "785478F27570517C"
+				title: "#9"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "1F2293B7725BDEBA"
+			rewards: [
+				{
+					count: 4
+					id: "65E040CCB45498DB"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "01C7DE9CF8F6D140"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F282B30382D0452"
+				title: "#10"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+	title: "Heart Containers"
+}

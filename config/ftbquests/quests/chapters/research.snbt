@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "research"
-	group: ""
+	group: "6A42BB53CB7FF728"
 	id: "32963E0EDCA189E0"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		description: ["In the persuit of power, sometimes a few sacrefices need to be made. In this case, quite literally. "]
@@ -25,18 +25,7 @@
 			{
 				count: 2
 				id: "65DDCC9C9952D0DD"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							bowChargeTime: 0.0f
-							crossbowChargeTime: 0
-							fuseShotCounter: 0
-							lastFiredTime: 0L
-						}
-					}
-					id: "contenttweaker:coin_copper"
-				}
+				item: "kubejs:copper_coin"
 				type: "item"
 			}
 			{
