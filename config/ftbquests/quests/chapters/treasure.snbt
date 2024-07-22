@@ -1,38 +1,38 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "heart_containers"
+	filename: "treasure"
 	group: "3A475A66EC9CF9EA"
-	icon: "levelhearts:heart_container"
-	id: "0C948C9884E4907B"
-	order_index: 1
+	icon: "kubejs:gold_coin"
+	id: "0BFEFC7211F9E946"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "67DD314502CDDF8C"
+			id: "699D21B94C5E9322"
 			rewards: [
 				{
-					count: 4
-					id: "37A91CDA9B566BDB"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "43C1AAC5ACF0C82D"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "686293A884AD3750"
+					count: 15
+					id: "15A47C994010F0E5"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "79881CA985C39375"
+					id: "2AC480629F75B010"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "59A28F00F49A9A45"
+				id: "659964B1E70E09F7"
 				title: "#1"
 				type: "checkmark"
 			}]
@@ -40,30 +40,30 @@
 			y: 0.0d
 		}
 		{
-			id: "3247953CC6E574DF"
+			id: "6391E0E61101A91E"
 			rewards: [
 				{
-					count: 4
-					id: "4178B5AD1B87C8AD"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6AD59F2FC24FC698"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "2D923A56435081ED"
+					count: 15
+					id: "070EB2F142695862"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "0747C5DBFBD0BDCD"
+					id: "5A6AFE7C23A76A32"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "46A392D182333C5A"
+				id: "663D17468EF3408C"
 				title: "#2"
 				type: "checkmark"
 			}]
@@ -71,30 +71,30 @@
 			y: 0.0d
 		}
 		{
-			id: "7FC8CA0C0345CBCB"
+			id: "5838818AED50C909"
 			rewards: [
 				{
-					count: 4
-					id: "10D701DAB9A5BBA4"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "31B04EDE97B25497"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "3CC92540731718D4"
+					count: 15
+					id: "19F2CEC8AA703B5C"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "0D4CC2186393241A"
+					id: "16D5EA429917854F"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "23F788660D6F389D"
+				id: "3D579A1D0666E330"
 				title: "#3"
 				type: "checkmark"
 			}]
@@ -102,30 +102,30 @@
 			y: 0.0d
 		}
 		{
-			id: "27993B4F552B3C8D"
+			id: "13EA30954DBB1897"
 			rewards: [
 				{
-					count: 4
-					id: "2EA3F05EE3927370"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "42D7F157D0BE0FF3"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "5F03A3FF6FEB3325"
+					count: 15
+					id: "73A7CB2332E4F659"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "45A2BBE0CC5F45D7"
+					id: "0C7C06A8D861748E"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "6A12E87F4ED2FAD6"
+				id: "553051E24653E804"
 				title: "#4"
 				type: "checkmark"
 			}]
@@ -133,30 +133,30 @@
 			y: 0.0d
 		}
 		{
-			id: "7DAF4ABE2C0B5C69"
+			id: "62F2025BA80BBB3B"
 			rewards: [
 				{
-					count: 4
-					id: "4204E8ED9A974DE8"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "406F9F42BB205FCB"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "5EDB96C8A8DCD93D"
+					count: 15
+					id: "2F4527E3911D6349"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "0DA08768324798D3"
+					id: "3D2993423FE12B4C"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "34DBD076047EDD45"
+				id: "32A4824543A22FCD"
 				title: "#5"
 				type: "checkmark"
 			}]
@@ -164,30 +164,30 @@
 			y: 0.0d
 		}
 		{
-			id: "69A575BFA149DF66"
+			id: "407128FB76661748"
 			rewards: [
 				{
-					count: 4
-					id: "3CFE0B46FA9DA30D"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "544F289D4F744D86"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "240D31ADD038E4FB"
+					count: 15
+					id: "4B08CA1D37D186CB"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "05D72DCB75DEDAA1"
+					id: "41E639DF6E155287"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "5BEAD2F839F97505"
+				id: "16BA02E6B6DF9EBD"
 				title: "#6"
 				type: "checkmark"
 			}]
@@ -195,30 +195,30 @@
 			y: 2.0d
 		}
 		{
-			id: "0AC318FA44A22FFE"
+			id: "5104A1270E4B58F6"
 			rewards: [
 				{
-					count: 4
-					id: "2445CA40FA0DCD26"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "78D8E7D3198F4A70"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "5D52FDF939E98588"
+					count: 15
+					id: "760704D32A9E97EA"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "206951C0F3ECD7D8"
+					id: "044FAB613861BEEB"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "7202793EC1D54440"
+				id: "0BD1CDFFCCA05A6A"
 				title: "#7"
 				type: "checkmark"
 			}]
@@ -226,30 +226,30 @@
 			y: 2.0d
 		}
 		{
-			id: "7586D5539F8695A1"
+			id: "5AD70D503DCEE6E7"
 			rewards: [
 				{
-					count: 4
-					id: "019319193EBE3BA7"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1AE70262823F0013"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "3156A19C1A2F3499"
+					count: 15
+					id: "62BE262949D8BF95"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "56238E9156DA5019"
+					id: "039C1D8ABF31B7A6"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "40BDC1E46E32D935"
+				id: "518B7B7E8206C506"
 				title: "#8"
 				type: "checkmark"
 			}]
@@ -257,30 +257,30 @@
 			y: 2.0d
 		}
 		{
-			id: "5BA8CF2AACB55FDA"
+			id: "5E30F409BB741DCF"
 			rewards: [
 				{
-					count: 4
-					id: "4E36D8CBB27BA3B5"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5A7889F5897173C6"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "75089D4688B13621"
+					count: 15
+					id: "0F46F40847EA1C2B"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "32F28CBBF0083758"
+					id: "0377F0FFE8DFF232"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "785478F27570517C"
+				id: "7A614A880414F5A0"
 				title: "#9"
 				type: "checkmark"
 			}]
@@ -288,30 +288,30 @@
 			y: 2.0d
 		}
 		{
-			id: "1F2293B7725BDEBA"
+			id: "624529794FC826E9"
 			rewards: [
 				{
-					count: 4
-					id: "65E040CCB45498DB"
-					item: "levelhearts:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5FF6C8B53BB1E092"
+					table_id: 5582141894458076031L
+					type: "choice"
 				}
 				{
-					count: 5
-					id: "01C7DE9CF8F6D140"
+					count: 15
+					id: "6849F3CC361AA7A2"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					id: "2D3527A0B7383638"
+					id: "4F18B89730865726"
 					team_reward: false
 					type: "xp"
 					xp: 300
 				}
 			]
 			tasks: [{
-				id: "0F282B30382D0452"
+				id: "0416A0DBA172DCB1"
 				title: "#10"
 				type: "checkmark"
 			}]
@@ -319,5 +319,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Heart Containers"
+	title: "Treasure"
 }

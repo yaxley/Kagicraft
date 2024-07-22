@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "shop"
 	group: "3A475A66EC9CF9EA"
+	icon: "waystones:warp_scroll"
 	id: "5E8DDFBEC500DD33"
 	order_index: 0
 	quest_links: [ ]
