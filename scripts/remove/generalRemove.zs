@@ -109,7 +109,15 @@ val apotheosis = [
 	<item:apotheosis:library>,
 	<item:apotheosis:ender_library>,
 	<item:apotheosis:prismatic_web>,
-	<item:apotheosis:inert_trident>
+	<item:apotheosis:inert_trident>,
+	<item:apotheosis:dormant_deepshelf>,
+	<item:apotheosis:echoing_deepshelf>,
+	<item:apotheosis:soul_touched_deepshelf>,
+	<item:apotheosis:echoing_sculkshelf>,
+	<item:apotheosis:soul_touched_sculkshelf>,
+	<item:apotheosis:stoneshelf>,
+	<item:apotheosis:filtering_shelf>,
+	<item:apotheosis:treasure_shelf>
 ] as IItemStack[];
 
 for item in apotheosis {
@@ -151,6 +159,16 @@ for item in apotheosisCrafting {
 <recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/xp_bottle_2");
 <recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/ender_library");
 <recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/xp_bottle_3");
+<recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/deepshelf");
+<recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/extraction_tome");
+<recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/improved_scrap_tome");
+<recipetype:apotheosis:enchanting>.removeByName("apotheosis:enchanting/infused_breath");
+Jei.hideIngredient(<item:apotheosis:deepshelf>);
+craftingTable.remove(<item:minecraft:trident>);
+Jei.hideIngredient(<item:apotheosis:scrap_tome>);
+Jei.hideIngredient(<item:apotheosis:improved_scrap_tome>);
+Jei.hideIngredient(<item:apotheosis:extraction_tome>);
+Jei.hideIngredient(<item:apotheosis:infused_breath>);
 
 val archersParadox = [
 	<item:archers_paradox:blaze_arrow>,
