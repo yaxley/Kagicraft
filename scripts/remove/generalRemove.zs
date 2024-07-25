@@ -312,8 +312,22 @@ for item in generalJEI {
 	Jei.hideIngredient(item);
 }
 
+val ftb = [
+	<item:ftbquests:loot_crate_opener>,
+	<item:ftbquests:screen_1>,
+	<item:ftbquests:screen_3>,
+	<item:ftbquests:screen_5>,
+	<item:ftbquests:screen_7>,
+	<item:ftbquests:task_screen_configurator>
+] as IItemStack[];
+
+for item in ftb {
+	craftingTable.remove(item);
+	Jei.hideIngredient(item);
+}
+
 val rewards = [
-	<item:xpbook:xp_book>,
+	<item:xpbook:xp_tome>,
 	<item:waystones:return_scroll>,
 	<item:waystones:bound_scroll>,
 	<item:waystones:warp_scroll>,
@@ -328,6 +342,10 @@ val rewards = [
 	<item:waystones:attuned_shard>,
 	<item:levelhearts:heart_piece>,
 	<item:levelhearts:heart_container>,
+	<item:chunkloaders:single_chunk_loader>,
+	<item:chunkloaders:basic_chunk_loader>,
+	<item:chunkloaders:advanced_chunk_loader>,
+	<item:chunkloaders:ultimate_chunk_loader>
 	//<item:dummmmmmy:target_dummy_placer>
 ] as IItemStack[];
 
