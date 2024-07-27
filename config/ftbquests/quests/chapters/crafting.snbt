@@ -15,22 +15,11 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			subtitle: "Get your team off to a strong start in these depths. Collect 64 raw iron ore to increase your resources."
+			subtitle: "Get your team off to a strong start in these depths. Collect 64 raw iron to increase your resources."
 			tasks: [{
 				count: 64L
 				id: "480DF5764CD2F4CA"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							bowChargeTime: 0.0f
-							crossbowChargeTime: 0
-							fuseShotCounter: 0
-							lastFiredTime: 0L
-						}
-					}
-					id: "minecraft:iron_ore"
-				}
+				item: "minecraft:raw_iron"
 				type: "item"
 			}]
 			title: "Crafting Questline"
