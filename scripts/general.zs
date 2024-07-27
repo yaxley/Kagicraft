@@ -107,7 +107,7 @@ mods.extendedcrafting.TableCrafting.addShaped("trophy/end",
 //<tag:blocks:forge:dirt>.add(<block:betterendforge:chorus_nylium>);
 //<tag:blocks:forge:dirt>.add(<block:endergetic:poismoss>);
 
-mods.recipestages.Recipes.setRecipeStage("furnace", <item:minecraft:furnace>);
+//mods.recipestages.Recipes.setRecipeStage("furnace", <item:minecraft:furnace>);
 
 brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string}), <item:ecologics:crab_claw>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward" as string}));
 brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing" as string}), <item:blue_skies:pearl>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward" as string}));

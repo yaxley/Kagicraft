@@ -677,7 +677,7 @@
 			beachedCachalotWhaleSpawnDelay = 24000
 			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 			#Range: 0.0 ~ 1.0
-			leafcutterAnthillSpawnChance = 0.004999999888241291
+			leafcutterAnthillSpawnChance = 0.0
 			#Minimum world y-level that gelada monkeys can spawn at
 			#Range: -64 ~ 320
 			geladaMonkeySpawnRolls = 0
