@@ -759,6 +759,94 @@
 			x: -4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5121C0A3473DEF89"]
+			description: ["Go to the Deep Frozen Ocean. Buried in the ice and snow you can find amazing treasures, but what else might you uncover? Be warned, this is an end-game quest line. Be prepared!"]
+			icon: "aquamirae:esca"
+			id: "1A38E237D09D8353"
+			rewards: [{
+				id: "6218F0CDA0A41220"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				id: "1651E64D24C6C9F5"
+				type: "biome"
+			}]
+			title: "The Frozen Deep"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A38E237D09D8353"]
+			description: [
+				"Some illagers got stuck in the merciless ice. Go find their ship or outpost. You might find this interesting horn."
+				""
+				"Note: The illagers here are stronger."
+			]
+			id: "0ADDDD548054B792"
+			rewards: [{
+				id: "0FC01C1252E15DC8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B36DCCE9AEAE0ED"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			title: "Stranded in the Deep"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ADDDD548054B792"]
+			description: [
+				"The leader of the illager expeditions seems to have died a gruesome death, and her ghost is out for revenge. Kill it and obtain the three-bolt helmet."
+				""
+				"You might want to take a potion of weakness or a terrible sword with you."
+			]
+			id: "6AC78B426F7141BF"
+			rewards: [{
+				count: 3
+				id: "35C67C5EB76AFF6A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1874A8C6C7400A12"
+				item: {
+					Count: 1b
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Captain Cornelia"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AC78B426F7141BF"]
+			description: ["A few of the illagers took shelter under the ice. Go there, and claim your ultimate reward, the Rune of the Storm."]
+			id: "7D53C789F80C6C73"
+			rewards: [{
+				count: 3
+				id: "12D6203ECFADCA72"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07855CD6C3A07DDD"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
 	]
 	title: "Exploration"
 }
