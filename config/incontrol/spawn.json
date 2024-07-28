@@ -19,5 +19,35 @@
     	"healthmultiply": 2,
     	"damagemultiply": 1.5,
     	"speedmultiply": 1.1
+  	},
+	{
+    	"mob": ["minecraft:pillager","minecraft:vindicator", "minecraft:evoker"],
+		"when": "onjoin",
+    	"structure": "aquamirae:shelter",
+    	"spawner": false,
+    	"result": "default",
+    	"healthmultiply": 2,
+    	"damagemultiply": 1.5,
+    	"armorset": 2.0
+  	},
+	{
+    	"mob": ["minecraft:pillager","minecraft:vindicator", "minecraft:evoker"],
+		"when": "onjoin",
+    	"structure": "aquamirae:outpost",
+    	"spawner": false,
+    	"result": "default",
+    	"healthmultiply": 2,
+    	"damagemultiply": 1.5,
+    	"armoradd": 2.0
+  	},
+	  {
+    	"mob": ["minecraft:pillager","minecraft:vindicator", "minecraft:evoker"],
+		"when": "onjoin",
+    	"structure": "aquamirae:ship",
+    	"spawner": false,
+    	"result": "default",
+    	"healthmultiply": 2,
+    	"damagemultiply": 1.5,
+    	"armoradd": 2.0
   	}
 ]

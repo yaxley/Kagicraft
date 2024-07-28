@@ -5,6 +5,11 @@
         "type": "BIOME_TAG",
         "negate": false,
         "value": "forge:is_cold/overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:deep_frozen_ocean"
       }
     ],
     [
