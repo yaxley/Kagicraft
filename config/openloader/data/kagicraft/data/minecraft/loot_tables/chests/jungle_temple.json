@@ -179,7 +179,7 @@
               }
             }
           ],
-          "name": "mysticalworld:sapphire"
+          "name": "iceandfire:sapphire_gem"
         },
         {
           "type": "minecraft:item",
@@ -194,7 +194,7 @@
               }
             }
           ],
-          "name": "mysticalworld:lead_ingot"
+          "name": "thermal:lead_ingot"
         }
       ]
     },
