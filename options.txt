@@ -244,7 +244,7 @@ key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.variant_selector:key.keyboard.r
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:0.5035211267605634
 soundCategory_record:1.0
 soundCategory_weather:1.0

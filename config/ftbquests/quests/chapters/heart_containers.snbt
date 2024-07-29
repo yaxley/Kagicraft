@@ -164,6 +164,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Automate Bricks"]
 			id: "69A575BFA149DF66"
 			rewards: [
 				{
@@ -195,6 +196,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["Automate Mud"]
 			id: "0AC318FA44A22FFE"
 			rewards: [
 				{
@@ -257,6 +259,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["Defeat Warden"]
 			id: "5BA8CF2AACB55FDA"
 			rewards: [
 				{
@@ -288,6 +291,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["Rune of Storm / Aquamirae"]
 			id: "1F2293B7725BDEBA"
 			rewards: [
 				{

@@ -28,6 +28,388 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46EA38014B6D0F75"
+			rewards: [{
+				id: "44732E2382344141"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "411681829034E060"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A1E3B146D0F5B1D"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3612905216C934EE"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3268E938D8BB1BA6"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FD3DCBB6D056E47"
+			rewards: [{
+				id: "74393FB30B5D943C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EEC77FA4503A736"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FD53568E64CE9DB"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "250A4FBA31DF6E1C"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FD9CAF656F8DC5E"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63CA2A7AB1EBA8A4"
+			rewards: [{
+				id: "0A772FC028496356"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FB2E763B9BE197E"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D900A5562B7D809"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F8CE684D201FA1C"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "13D4655AC205AC15"
+			rewards: [{
+				id: "1AE7692D27582590"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D2ACB4E66241DE"
+				item: "packedup:basicbackpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "36A6B2A683DECFEA"
+			rewards: [{
+				id: "0956CA3FC4AD15D3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F7347B9292EE8A4"
+				item: "packedup:copperbackpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "3B1553E99328B565"
+			rewards: [{
+				id: "47AD098E29084B5C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6278D39CDA8F20C1"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "5C15C226511E325D"
+			rewards: [{
+				id: "74C3B377C9E84B00"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "777D666058F79EA2"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "72CC8CAC9AB929E0"
+			rewards: [{
+				id: "56503FDB375725AA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D5828AA2C49DA8A"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "66FF6CB03FBA5D53"
+			rewards: [{
+				id: "7BB50B0C16400952"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "171EAE2B8AAFEDCB"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "3A81F5FBF6CAD734"
+			rewards: [{
+				id: "2314EAE8352D1F28"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F49421B29278E1A"
+				item: {
+					Count: 1b
+					id: "botania:tornado_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "58A9DD96C63FD6A2"
+			rewards: [{
+				id: "3EB82416F9C45813"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7413882FF3A2FA"
+				item: "botania:fire_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "0B97EC020BCAC108"
+			rewards: [{
+				id: "0D4C4C57A839E09F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CB01A7127D5751D"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "49EB35E221987223"
+			rewards: [{
+				id: "3225C08AD4DA6EA4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D2ECACC90C8E50"
+				item: {
+					Count: 1b
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUID: [I;
+							-1713833850
+							-1830338156
+							-1192356679
+							210009125
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "59E0FA96CF27EB26"
+			rewards: [{
+				id: "1A0DC00DD1D6F9B8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34C217CD949E168B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "03F3DB0432C5691C"
+			rewards: [{
+				id: "27616C9D5E0C0D49"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA48D351B31FBFD"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
 	]
 	title: "Epic Items"
 }

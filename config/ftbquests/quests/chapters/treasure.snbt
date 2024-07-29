@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Light 16 chunks without torches"]
 			id: "699D21B94C5E9322"
 			rewards: [
 				{
@@ -40,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Built stable"]
 			id: "6391E0E61101A91E"
 			rewards: [
 				{
