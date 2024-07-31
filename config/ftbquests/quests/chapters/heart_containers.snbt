@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["food #1"]
 			id: "67DD314502CDDF8C"
 			rewards: [
 				{
@@ -40,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Food #2"]
 			id: "3247953CC6E574DF"
 			rewards: [
 				{
@@ -71,6 +73,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Resource #1"]
 			id: "7FC8CA0C0345CBCB"
 			rewards: [
 				{
@@ -102,6 +105,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Resource #2"]
 			id: "27993B4F552B3C8D"
 			rewards: [
 				{
@@ -133,6 +137,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Unique Armor"]
 			id: "7DAF4ABE2C0B5C69"
 			rewards: [
 				{

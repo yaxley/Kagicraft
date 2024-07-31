@@ -128,23 +128,16 @@
 			}]
 			subtitle: "Craft a diamond pickaxe to expedite your mining journey."
 			tasks: [{
+				consume_items: false
 				id: "053224ED167ECF33"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							bowChargeTime: 0.0f
-							crossbowChargeTime: 0
-							fuseShotCounter: 0
-							lastFiredTime: 0L
-						}
-					}
 					id: "minecraft:diamond_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
-				only_from_crafting: true
+				only_from_crafting: false
 				type: "item"
 			}]
 			title: "Upgrades!"

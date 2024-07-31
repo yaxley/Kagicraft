@@ -17,7 +17,7 @@
 	#----------------------------------------------------------------------------------------------------+
 	# When enabled, the dungeons will ignore caves instead of trying to adjust to them (by not generating specific blocks).
 	#
-	solid = false
+	solid = true
 
 ["Dungeon Settings"]
 	#----------------------------------------------------------------------------------------------------+
