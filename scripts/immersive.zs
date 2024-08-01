@@ -61,6 +61,8 @@ val copperWire = <item:immersiveengineering:wire_copper>;
 val nickel = <item:immersiveengineering:ingot_nickel>;
 val blueDye = <item:minecraft:blue_dye>;
 val paper = <item:minecraft:paper>;
+val hemp = <item:immersiveengineering:hemp_fiber>;
+val shulker = <item:minecraft:shulker_shell>;
 
 // Simple Machines
 craftingTable.remove(cokeBrick * 3);
@@ -82,7 +84,6 @@ craftingTable.addShaped("heavy_engineering_block", heavyEngineeringBlock, [[lead
 
 // Epic Items
 
-/* 
 craftingTable.remove(revolver);
 mods.extendedcrafting.TableCrafting.addShaped("revolver", revolver, 
 [[copper, air, air, air, air], 
@@ -101,7 +102,7 @@ craftingTable.addShaped("barrel", barrel, [[air, steelRod, steelRod], [steelRod,
 		input: {count: 1, base_ingredient: copper},
 		energy: 2400
 	} as IData
-);  */
+);  
 
 <recipetype:immersiveengineering:blueprint>.remove(<item:immersiveengineering:casull>);
 <recipetype:immersiveengineering:blueprint>.addJsonRecipe(
@@ -140,7 +141,7 @@ craftingTable.addShaped("furnace_heater", <item:immersiveengineering:furnace_hea
 craftingTable.remove(<item:immersiveengineering:capacitor_lv>);
 craftingTable.addShaped("capacitor_lv", <item:immersiveengineering:capacitor_lv>,
 	[[iron, iron, iron], [copper, lead, copper], [wood, redQuartz, wood]]);
-craftingTable.remove(<item:immersiveengineering:conveyor_basic>);
+craftingTable.removeByName("immersiveengineering:crafting/conveyor_basic");
 craftingTable.addShaped("conveyor_basic", <item:immersiveengineering:conveyor_basic> * 4,
 	[[air, air, air], [leather, leather, leather], [iron, redQuartz, iron]]);
 
@@ -153,3 +154,13 @@ craftingTable.addShaped("blueprint", <item:immersiveengineering:blueprint>.withT
 craftingTable.remove(<item:immersiveengineering:capacitor_mv>);
 craftingTable.addShaped("capacitor_mv", <item:immersiveengineering:capacitor_mv>,
 	[[ironPlate, ironPlate, ironPlate], [electrumPlate, leadPlate, electrumPlate], [wood, redQuartzBlock, wood]]);
+
+// Bring more inline with vanilla bricks
+craftingTable.removeByName("immersiveengineering:crafting/hempcrete");
+craftingTable.addShaped("crafting/hempcrete", <item:immersiveengineering:hempcrete> * 2,
+	[[clayBall, clayBall, clayBall], [hemp, hemp, hemp], [clayBall, clayBall, clayBall]]);	
+
+// No shulker without shulker
+craftingTable.remove(<item:immersiveengineering:crate>);
+craftingTable.addShaped("crate", <item:immersiveengineering:crate>,
+	[[wood, shulker, wood], [wood, air, wood], [wood, shulker, wood]]);

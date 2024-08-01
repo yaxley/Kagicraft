@@ -489,7 +489,7 @@
 	[tools.bullet_damage]
 		#The amount of base damage a Casull Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		casull = 10.0
+		casull = 20.0
 		#The amount of base damage a armor piercing Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
 		ap = 10.0

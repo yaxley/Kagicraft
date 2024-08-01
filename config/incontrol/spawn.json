@@ -5,11 +5,10 @@
     	"spawner": false,
     	"maxheight": 0,
     	"result": "default",
-		"customname": "Dark Zombie",
+		"customname": "Ancient Zombie",
     	"healthmultiply": 2,
     	"damagemultiply": 2,
-    	"speedmultiply": 1.2,
-		"armoradd": 2.0
+    	"speedmultiply": 1.2
   	},
 	{
     	"mob": ["minecraft:skeleton"],
@@ -17,11 +16,10 @@
     	"spawner": false,
     	"maxheight": 0,
     	"result": "default",
-		"customname": "Dark Skeleteon",
+		"customname": "Ancient Skeleteon",
     	"healthmultiply": 2,
     	"damagemultiply": 2,
-    	"speedmultiply": 1.2,
-		"armoradd": 2.0
+    	"speedmultiply": 1.2
   	},
 	{
     	"mob": ["minecraft:spider"],
@@ -29,11 +27,10 @@
     	"spawner": false,
     	"maxheight": 0,
     	"result": "default",
-		"customname": "Dark Spider",
+		"customname": "Ancient Spider",
     	"healthmultiply": 2,
     	"damagemultiply": 2,
-    	"speedmultiply": 1.2,
-		"armoradd": 2.0
+    	"speedmultiply": 1.2
   	},
 	{
     	"mob": ["minecraft:pillager","minecraft:vindicator", "minecraft:evoker"],

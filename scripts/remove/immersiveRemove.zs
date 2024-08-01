@@ -6,12 +6,14 @@ import mods.jeitweaker.Jei;
 /*
 	Hides and Removes the unused Immersive Engineering Items
 
-	Unlocked Metals: Nickel, Electrum, Steel, Lead, Silver
-	Other Mod: -
-	Locked Metals: Constantan, Aluminium and Uranium
+	Unlocked Metals:con Steel
+	Other Mod: Nickel, Lead, Silver, Electrum and Constantan
+	Locked Metals: Aluminium and Uranium
 */
 
 val unlock = [
+	<item:immersiveengineering:sheetmetal_steel>,
+	<item:immersiveengineering:slab_sheetmetal_steel>,
 	<item:immersiveengineering:ore_aluminum>,
 	<item:immersiveengineering:deepslate_ore_aluminum>,
 	<item:immersiveengineering:raw_block_aluminum>,
@@ -47,15 +49,10 @@ val unlock = [
 	<item:immersiveengineering:nugget_uranium>,
 	<item:immersiveengineering:ingot_uranium>,
 	<item:immersiveengineering:slab_storage_uranium>,
-	<item:immersiveengineering:plate_constantan>,
-	<item:immersiveengineering:dust_constantan>,
-	<item:immersiveengineering:storage_constantan>,
-	<item:immersiveengineering:nugget_constantan>,
-	<item:immersiveengineering:ingot_constantan>,
-	<item:immersiveengineering:slab_storage_constantan>,
 	<item:immersiveengineering:glider>,
 	<item:immersiveengineering:fluorescent_tube>,
-	<item:immersiveengineering:maintenance_kit>
+	<item:immersiveengineering:maintenance_kit>,
+	<item:immersiveengineering:toolbox>
 ] as IItemStack[];
 
 for item in unlock {
@@ -63,13 +60,71 @@ for item in unlock {
 	Jei.hideIngredient(item);
 }
 
-val sheet = [
-	<item:immersiveengineering:sheetmetal_steel>,
-	<item:immersiveengineering:slab_sheetmetal_steel>
+val otherMod = [
+	<item:immersiveengineering:plate_constantan>,
+	<item:immersiveengineering:dust_constantan>,
+	<item:immersiveengineering:storage_constantan>,
+	<item:immersiveengineering:nugget_constantan>,
+	<item:immersiveengineering:ingot_constantan>,
+	<item:immersiveengineering:slab_storage_constantan>,
+	<item:immersiveengineering:nugget_copper>,
+	<item:immersiveengineering:raw_aluminum>,
+	<item:immersiveengineering:ingot_lead>,
+	<item:immersiveengineering:nugget_lead>,
+	<item:immersiveengineering:raw_lead>,
+	<item:immersiveengineering:ingot_silver>,
+	<item:immersiveengineering:nugget_silver>,
+	<item:immersiveengineering:raw_silver>,
+	<item:immersiveengineering:ingot_nickel>,
+	<item:immersiveengineering:nugget_nickel>,
+	<item:immersiveengineering:raw_nickel>,
+	<item:immersiveengineering:raw_uranium>,
+	<item:immersiveengineering:ingot_electrum>,
+	<item:immersiveengineering:nugget_electrum>,
+	<item:immersiveengineering:dust_electrum>,
+	<item:immersiveengineering:plate_copper>,
+	<item:immersiveengineering:plate_lead>,
+	<item:immersiveengineering:plate_silver>,
+	<item:immersiveengineering:plate_nickel>,
+	<item:immersiveengineering:plate_electrum>,
+	<item:immersiveengineering:plate_iron>,
+	<item:immersiveengineering:plate_gold>,
+	<item:immersiveengineering:coal_coke>,
+	<item:immersiveengineering:coke>,
+	<item:immersiveengineering:raw_block_lead>,
+	<item:immersiveengineering:raw_block_silver>,
+	<item:immersiveengineering:raw_block_nickel>,
+	<item:immersiveengineering:storage_lead>,
+	<item:immersiveengineering:storage_silver>,
+	<item:immersiveengineering:storage_nickel>,
+	<item:immersiveengineering:storage_electrum>
 ] as IItemStack[];
 
-for item in sheet {
+for item in otherMod {
 	craftingTable.remove(item);
+	Jei.hideIngredient(item);
+}
+
+val otherModJEI = [
+	<item:immersiveengineering:slag>,
+	<item:immersiveengineering:dust_saltpeter>,
+	<item:immersiveengineering:dust_sulfur>,
+	<item:immersiveengineering:dust_wood>,
+	<item:immersiveengineering:dust_copper>,
+	<item:immersiveengineering:dust_lead>,
+	<item:immersiveengineering:dust_silver>,
+	<item:immersiveengineering:dust_nickel>,
+	<item:immersiveengineering:dust_iron>,
+	<item:immersiveengineering:dust_gold>,
+	<item:immersiveengineering:ore_lead>,
+	<item:immersiveengineering:deepslate_ore_lead>,
+	<item:immersiveengineering:ore_silver>,
+	<item:immersiveengineering:deepslate_ore_silver>,
+	<item:immersiveengineering:ore_nickel>,
+	<item:immersiveengineering:deepslate_ore_nickel>
+] as IItemStack[];
+
+for item in otherModJEI {
 	Jei.hideIngredient(item);
 }
 
@@ -89,12 +144,8 @@ for item in power {
 	Jei.hideIngredient(item);
 }
 
-val circuit = [
+val advanced = [
 	<item:immersiveengineering:razor_wire>,
-	<item:immersiveengineering:gunpart_drum>,
-	<item:immersiveengineering:gunpart_barrel>,
-	<item:immersiveengineering:gunpart_hammer>,
-	<item:immersiveengineering:wooden_grip>,
 	<item:immersiveengineering:turret_gun>,
 	<item:immersiveengineering:toolupgrade_railgun_scope>,
 	<item:immersiveengineering:toolupgrade_revolver_magazine>,
@@ -106,27 +157,10 @@ val circuit = [
 	<item:immersiveengineering:connector_probe>,
 	<item:immersiveengineering:connector_redstone>,
 	<item:immersiveengineering:connector_bundled>,
-	<item:immersiveengineering:item_batcher>
-] as IItemStack[];
-
-for item in circuit {
-	craftingTable.remove(item);
-	Jei.hideIngredient(item);
-}
-
-val tube = [
+	<item:immersiveengineering:item_batcher>,
 	<item:immersiveengineering:toolupgrade_shield_flash>,
-	<item:immersiveengineering:electric_lantern>,
 	<item:immersiveengineering:toolupgrade_revolver_electro>,
-	<item:immersiveengineering:floodlight>
-] as IItemStack[];
-
-for item in tube {
-	craftingTable.remove(item);
-	Jei.hideIngredient(item);
-}
-
-val upgrades = [
+	<item:immersiveengineering:floodlight>,
 	<item:immersiveengineering:charging_station>,
 	<item:immersiveengineering:drillhead_iron>,
 	<item:immersiveengineering:drillhead_steel>,
@@ -146,25 +180,16 @@ val upgrades = [
 	<item:immersiveengineering:survey_tools>,
 	<item:immersiveengineering:speedloader>,
 	<item:immersiveengineering:toolupgrade_revolver_bayonet>,
-	<item:immersiveengineering:minecart_woodencrate>,
-	<item:immersiveengineering:minecart_reinforcedcrate>,
-	<item:immersiveengineering:minecart_woodenbarrel>,
-	<item:immersiveengineering:minecart_metalbarrel>,
 	<item:immersiveengineering:shield>,
 	<item:immersiveengineering:firework>,
 	<item:immersiveengineering:gunpowder_barrel>,
-	<item:immersiveengineering:turntable>,
-	<item:immersiveengineering:crate>,
 	<item:immersiveengineering:balloon>,
-	<item:immersiveengineering:metal_barrel>,
 	<item:immersiveengineering:sample_drill>,
-	<item:immersiveengineering:reinforced_crate>,
 	<item:immersiveengineering:armor_faraday_boots>,
 	<item:immersiveengineering:armor_faraday_leggings>,
 	<item:immersiveengineering:armor_faraday_chestplate>,
 	<item:immersiveengineering:armor_faraday_helmet>,
 	<item:immersiveengineering:empty_shell>,
-	<item:immersiveengineering:earmuffs>,
 	<item:immersiveengineering:skyhook>,
 	<item:immersiveengineering:toolupgrade_drill_fortune>,
 	<item:immersiveengineering:toolupgrade_powerpack_antenna>,
@@ -175,7 +200,7 @@ val upgrades = [
 	<item:immersiveengineering:logic_unit>
 ] as IItemStack[];
 
-for item in upgrades {
+for item in advanced {
 	craftingTable.remove(item);
 	Jei.hideIngredient(item);
 }
@@ -207,7 +232,6 @@ for item in workbench {
 	<recipetype:immersiveengineering:blueprint>.remove(item);
 	Jei.hideIngredient(item);
 }
-
 
 <recipetype:immersiveengineering:crusher>.remove(<item:immersiveengineering:dust_coke>);
 Jei.hideIngredient(<item:immersiveengineering:dust_coke>);
