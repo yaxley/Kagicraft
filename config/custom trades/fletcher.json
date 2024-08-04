@@ -1,0 +1,311 @@
+{
+    "profession": "minecraft:fletcher",
+    "removeOtherTrades": true,
+    "maxTrades": 2,
+    "trades": [
+        {
+            "offer": {
+              "itemKey": "minecraft:emerald",
+              "amount": 1
+            },
+            "request": {
+              "itemKey": "minecraft:stick",
+              "amount": 32
+            },
+            "tradeExp": 2,
+            "maxUses": 16,
+            "priceMultiplier": 0.05,
+            "demand": 0,
+            "tradeLevel": 1,
+            "UTID": "minecraft:librarian_emerald_for_stick"
+        },
+        {
+            "offer": {
+              "itemKey": "minecraft:emerald",
+              "amount": 1
+            },
+            "request": {
+              "itemKey": "minecraft:string",
+              "amount": 14
+            },
+            "tradeExp": 2,
+            "maxUses": 16,
+            "priceMultiplier": 0.05,
+            "demand": 0,
+            "tradeLevel": 1,
+            "UTID": "minecraft:librarian_emerald_for_string"
+        },
+        {
+            "offer": {
+              "itemKey": "minecraft:arrow",
+              "amount": 16
+            },
+            "request": {
+              "itemKey": "minecraft:emerald",
+              "amount": 1
+            },
+            "tradeExp": 1,
+            "maxUses": 12,
+            "priceMultiplier": 0.05,
+            "demand": 0,
+            "tradeLevel": 1,
+            "UTID": "minecraft:librarian_arrow_for_emerald"
+        },
+        {
+            "offer": {
+              "itemKey": "minecraft:flint",
+              "amount": 10
+            },
+            "request": {
+              "itemKey": "minecraft:emerald",
+              "amount": 1
+            },
+            "tradeExp": 1,
+            "maxUses": 12,
+            "priceMultiplier": 0.05,
+            "demand": 0,
+            "tradeLevel": 1,
+            "UTID": "minecraft:librarian_flint_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:feather",
+            "amount": 24
+          },
+          "tradeExp": 10,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 2,
+          "UTID": "minecraft:librarian_emerald_for_feather"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:tripwire_hook",
+            "amount": 8
+          },
+          "tradeExp": 10,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 2,
+          "UTID": "minecraft:librarian_emerald_for_tripwire"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:bow",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 2
+          },
+          "tradeExp": 5,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 2,
+          "UTID": "minecraft:librarian_bow_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:crossbow",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 3
+          },
+          "tradeExp": 5,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 2,
+          "UTID": "minecraft:librarian_crossbow_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:gunpowder",
+            "amount": 4
+          },
+          "tradeExp": 10,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 3,
+          "UTID": "minecraft:librarian_emerald_for_gunpowder"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "thermal:lead_nugget",
+            "amount": 36
+          },
+          "tradeExp": 10,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 3,
+          "UTID": "minecraft:librarian_emerald_for_lead_nugget"
+        },
+        {
+          "offer": {
+            "itemKey": "immersiveengineering:casull:",
+            "amount": 4
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "tradeExp": 20,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 3,
+          "UTID": "minecraft:librarian_casull_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:bow",
+            "amount": 1,
+            "semiRandomEnchantments": [
+              {
+                "enchantmentKey": "minecraft:power",
+                "enchantmentLevel": 2
+              },
+              {
+                "enchantmentKey": "minecraft:punch",
+                "enchantmentLevel": 2
+              },
+              {
+                "enchantmentKey": "minecraft:flame",
+                "enchantmentLevel": 1
+              },
+              {
+                "enchantmentKey": "minecraft:infinity",
+                "enchantmentLevel": 1
+              },
+              {
+                "enchantmentKey": "minecraft:unbreaking",
+                "enchantmentLevel": 2
+              },
+              {
+                "enchantmentKey": "minecraft:mending",
+                "enchantmentLevel": 1
+              }
+            ]
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 21
+          },
+          "tradeExp": 20,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 3,
+          "UTID": "minecraft:librarian_enchanted_bow_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "botania:livingwood_bow",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 32
+          },
+          "tradeExp": 15,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 4,
+          "UTID": "minecraft:librarian_livingwood_bow_for_emerald"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "botania:livingwood_twig",
+            "amount": 1
+          },
+          "tradeExp": 30,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 4,
+          "UTID": "minecraft:librarian_emerald_for_livingwood_twig"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:emerald",
+            "amount": 1
+          },
+          "request": {
+            "itemKey": "botania:mana_string",
+            "amount": 5
+          },
+          "tradeExp": 30,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 4,
+          "UTID": "minecraft:librarian_emerald_for_mana_string"
+        },
+        {
+          "offer": {
+            "itemKey": "minecraft:crossbow",
+            "amount": 1,
+            "semiRandomEnchantments": [
+              {
+                "enchantmentKey": "minecraft:quick_charge",
+                "enchantmentLevel": 2
+              },
+              {
+                "enchantmentKey": "minecraft:multishot",
+                "enchantmentLevel": 1
+              },
+              {
+                "enchantmentKey": "minecraft:piercing",
+                "enchantmentLevel": 3
+              },
+              {
+                "enchantmentKey": "minecraft:unbreaking",
+                "enchantmentLevel": 2
+              },
+              {
+                "enchantmentKey": "minecraft:mending",
+                "enchantmentLevel": 1
+              }
+            ]
+          },
+          "request": {
+            "itemKey": "minecraft:emerald",
+            "amount": 22
+          },
+          "tradeExp": 15,
+          "maxUses": 12,
+          "priceMultiplier": 0.05,
+          "demand": 0,
+          "tradeLevel": 4,
+          "UTID": "minecraft:librarian_enchanted_crossbow_for_emerald"
+        }
+    ]
+}

@@ -176,9 +176,7 @@ craftingTable.remove(alchemy);
 craftingTable.addShaped("kagicraft/blood/alchemy", alchemy, [[stone, stone, stone], [planks, ironBlock, planks], [goldBlock, slateBlank, goldBlock]]);
 craftingTable.remove(incense);
 craftingTable.addShaped("kagicraft/blood/incense1", incense, [[electrumBlock, stone, electrumBlock], [electrumBlock, stone, electrumBlock], [electrumBlock, orbWeak, electrumBlock]]);
-craftingTable.remove(incense);
 craftingTable.addShaped("kagicraft/blood/incense2", incense, [[electrumBlock, stone, electrumBlock], [electrumBlock, stone, electrumBlock], [electrumBlock, orbApprentice, electrumBlock]]);
-craftingTable.remove(incense);
 craftingTable.addShaped("kagicraft/blood/incense3", incense, [[electrumBlock, stone, electrumBlock], [electrumBlock, stone, electrumBlock], [electrumBlock, orbMagician, electrumBlock]]);
 
 

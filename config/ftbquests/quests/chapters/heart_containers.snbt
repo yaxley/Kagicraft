@@ -32,11 +32,53 @@
 					xp: 300
 				}
 			]
-			tasks: [{
-				id: "59A28F00F49A9A45"
-				title: "#1"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "59A28F00F49A9A45"
+					title: "#1"
+					type: "checkmark"
+				}
+				{
+					id: "010D3D80C8FC697C"
+					item: "farmersdelight:noodle_soup"
+					type: "item"
+				}
+				{
+					id: "21A2B702CEB3F585"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "42FD5C39320F3AF2"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "2787C4B6BAA0811B"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "03EC17F46ED2CABA"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+				{
+					id: "7D0F79CC0D3AC0F0"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+				{
+					id: "0E16C839DE0B7175"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "33B314CAF917A614"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}

@@ -37,7 +37,11 @@ val crafting = [
 	<item:bloodmagic:orbcapacityrune2>,
 	<item:bloodmagic:accelerationrune2>,
 	<item:bloodmagic:chargingrune2>,
-	<item:bloodmagic:teleposer>
+	<item:bloodmagic:teleposer>,
+	<item:bloodmagic:rawdemoniteblock>,
+	<item:bloodmagic:reinforcedteleposerfocus>,
+	<item:bloodmagic:syntheticpoint>,
+	<item:bloodmagic:rawdemonite>
 ] as IItemStack[];
 
 for item in crafting
@@ -57,6 +61,12 @@ val altar = [
 	<item:bloodmagic:firescribetool>,
 	<item:bloodmagic:duskscribetool>,
 	<item:bloodmagic:activationcrystalweak>,
+	<item:bloodmagic:alchemy_flask>,
+	<item:bloodmagic:archmagebloodorb>,
+	<item:bloodmagic:etherealslate>,
+	<item:bloodmagic:teleposerfocus>,
+	<item:bloodmagic:enhancedteleposerfocus>,
+	<item:bloodmagic:bleedingedge>
 ] as IItemStack[];
 
 for item in altar 
@@ -145,7 +155,17 @@ val alchemy = [
 	<item:bloodmagic:cyclingcatalyst>,
 	<item:bloodmagic:averagepowercatalyst>,
 	<item:bloodmagic:averagelengtheningcatalyst>,
-	<item:bloodmagic:coppersand>
+	<item:bloodmagic:coppersand>,
+	<item:bloodmagic:reagentsuppression>,
+	<item:bloodmagic:reagentteleposition>,
+	<item:bloodmagic:voiding_anointment>,
+	<item:bloodmagic:weapon_repair_anointment>,
+	<item:bloodmagic:voiding_anointment_l>,
+	<item:bloodmagic:weapon_repair_anointment_l>,
+	<item:bloodmagic:weapon_repair_anointment_2>,
+	<item:bloodmagic:voiding_anointment_xl>,
+	<item:bloodmagic:weapon_repair_anointment_xl>,
+	<item:bloodmagic:weapon_repair_anointment_3>
 ] as IItemStack[];
 
 for item in alchemy 
@@ -193,6 +213,17 @@ val hellfire = [
 for item in hellfire
 {
 	<recipetype:bloodmagic:soulforge>.remove(item);
+	Jei.hideIngredient(item);
+}
+
+val spellArray = [
+	<item:bloodmagic:sigilofsuppression>,
+	<item:bloodmagic:telepositionsigil>
+] as IItemStack[];
+
+for item in spellArray
+{
+	<recipetype:bloodmagic:array>.remove(item);
 	Jei.hideIngredient(item);
 }
 
@@ -319,7 +350,18 @@ val hide = [
 	<item:bloodmagic:steadfastcatalyst>,
 	<item:bloodmagic:vengefulcatalyst>,
 	<item:bloodmagic:copperfragment>,
-	<item:bloodmagic:coppergravel>
+	<item:bloodmagic:coppergravel>,
+	<item:bloodmagic:deforester_charge_2>,
+	<item:bloodmagic:fungal_charge_2>,
+	<item:bloodmagic:icesigil>,
+	<item:bloodmagic:tippedamethystthrowingdagger>,
+	<item:bloodmagic:alchemy_flask_throwable>,
+	<item:bloodmagic:alchemy_flask_lingering>,
+	<item:bloodmagic:amethystthrowingdagger>,
+	<item:bloodmagic:demonitefragment>,
+	<item:bloodmagic:demonitegravel>,
+	<item:bloodmagic:mineentrancekey>,
+	<item:bloodmagic:minekey>
 ] as IItemStack[];
 
 for item in hide

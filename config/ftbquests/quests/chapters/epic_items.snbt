@@ -44,6 +44,7 @@
 			}]
 			tasks: [
 				{
+					consume_items: false
 					id: "411681829034E060"
 					item: {
 						Count: 1b
@@ -52,9 +53,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "7A1E3B146D0F5B1D"
 					item: {
 						Count: 1b
@@ -63,9 +66,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "3612905216C934EE"
 					item: {
 						Count: 1b
@@ -74,9 +79,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "3268E938D8BB1BA6"
 					item: {
 						Count: 1b
@@ -85,6 +92,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 			]
@@ -107,6 +115,7 @@
 			}]
 			tasks: [
 				{
+					consume_items: false
 					id: "7EEC77FA4503A736"
 					item: {
 						Count: 1b
@@ -115,9 +124,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "1FD53568E64CE9DB"
 					item: {
 						Count: 1b
@@ -126,9 +137,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "250A4FBA31DF6E1C"
 					item: {
 						Count: 1b
@@ -137,9 +150,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "2FD9CAF656F8DC5E"
 					item: {
 						Count: 1b
@@ -148,6 +163,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 			]
@@ -170,6 +186,7 @@
 			}]
 			tasks: [
 				{
+					consume_items: false
 					id: "1FB2E763B9BE197E"
 					item: {
 						Count: 1b
@@ -178,9 +195,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "5D900A5562B7D809"
 					item: {
 						Count: 1b
@@ -189,9 +208,11 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "2F8CE684D201FA1C"
 					item: {
 						Count: 1b
@@ -200,6 +221,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
 					type: "item"
 				}
 			]
@@ -214,8 +236,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "10D2ACB4E66241DE"
 				item: "packedup:basicbackpack"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -229,8 +253,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "7F7347B9292EE8A4"
 				item: "packedup:copperbackpack"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 2.0d
@@ -244,8 +270,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "6278D39CDA8F20C1"
 				item: "apotheosis:hellshelf"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 4.0d
@@ -259,8 +287,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "777D666058F79EA2"
 				item: "apotheosis:seashelf"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 6.0d
@@ -274,8 +304,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "3D5828AA2C49DA8A"
 				item: "botania:dirt_rod"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -289,8 +321,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "171EAE2B8AAFEDCB"
 				item: "botania:water_rod"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 2.0d
@@ -304,12 +338,14 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "7F49421B29278E1A"
 				item: {
 					Count: 1b
 					id: "botania:tornado_rod"
 					tag: { }
 				}
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 4.0d
@@ -323,8 +359,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "7A7413882FF3A2FA"
 				item: "botania:fire_rod"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 6.0d
@@ -338,8 +376,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "3CB01A7127D5751D"
 				item: "botania:travel_belt"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -353,6 +393,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "07D2ECACC90C8E50"
 				item: {
 					Count: 1b
@@ -366,6 +407,7 @@
 						]
 					}
 				}
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 2.0d
@@ -379,6 +421,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "34C217CD949E168B"
 				item: {
 					Count: 1b
@@ -390,6 +433,7 @@
 					}
 					id: "immersiveengineering:revolver"
 				}
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 4.0d
@@ -403,8 +447,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "7CA48D351B31FBFD"
 				item: "immersiveengineering:cloche"
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 6.0d
