@@ -1,0 +1,199 @@
+{
+    "profession": "minecraft:butcher",
+    "removeOtherTrades": true,
+    "maxTrades": 2,
+    "trades": [
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:chicken",
+          "amount": 14
+        },
+        "tradeExp": 2,
+        "maxUses": 16,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 1,
+        "UTID": "minecraft:butcher_emerald_for_chicken"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:porkchop",
+          "amount": 7
+        },
+        "tradeExp": 2,
+        "maxUses": 16,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 1,
+        "UTID": "minecraft:butcher_emerald_for_porkchop"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:cooked_chicken",
+          "amount": 8
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 1,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 1,
+        "UTID": "minecraft:butcher_chicken_for_emerald"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:cooked_porkchop",
+          "amount": 4
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 1,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 1,
+        "UTID": "minecraft:butcher_porkchop_for_emerald"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:coal",
+          "amount": 16
+        },
+        "tradeExp": 10,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 2,
+        "UTID": "minecraft:butcher_emerald_for_coal"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:rabbit",
+          "amount": 6
+        },
+        "tradeExp": 10,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 2,
+        "UTID": "minecraft:butcher_emerald_for_rabbit"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:cooked_beef",
+          "amount": 6
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 5,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 2,
+        "UTID": "minecraft:butcher_beef_for_emerald"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:cooked_mutton",
+          "amount": 4
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "tradeExp": 5,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 2,
+        "UTID": "minecraft:butcher_beef_for_emerald"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:dried_kelp_block",
+          "amount": 10
+        },
+        "tradeExp": 10,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 3,
+        "UTID": "minecraft:butcher_emerald_for_dried_kelp"
+      },
+      {
+        "offer": {
+          "itemKey": "minecraft:emerald",
+          "amount": 1
+        },
+        "request": {
+          "itemKey": "minecraft:beef",
+          "amount": 10
+        },
+        "tradeExp": 10,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 3,
+        "UTID": "minecraft:butcher_emerald_for_beef"
+      },
+      {
+        "offer": {
+          "itemKey": "farmersdelight:barbecue_stick",
+          "amount": 8
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 4
+        },
+        "tradeExp": 20,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 3,
+        "UTID": "minecraft:butcher_barbecue_for_emerald"
+      },
+      {
+        "offer": {
+          "itemKey": "farmersdelight:chicken_sandwich",
+          "amount": 7
+        },
+        "request": {
+          "itemKey": "minecraft:emerald",
+          "amount": 4
+        },
+        "tradeExp": 20,
+        "maxUses": 12,
+        "priceMultiplier": 0.05,
+        "demand": 0,
+        "tradeLevel": 3,
+        "UTID": "minecraft:butcher_chicken_sandwich_for_emerald"
+      }
+    ]
+  }

@@ -1,311 +1,894 @@
 {
-    "profession": "minecraft:fletcher",
-    "removeOtherTrades": true,
-    "maxTrades": 2,
-    "trades": [
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:stick",
+        "amount": 32
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_emerald_for_stick"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 14
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_emerald_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:arrow",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_arrow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:flint",
+        "amount": 10
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_flint_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:feather",
+        "amount": 24
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_emerald_for_feather"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:tripwire_hook",
+        "amount": 8
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_emerald_for_tripwire"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bow",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_bow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:crossbow",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_crossbow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:gunpowder",
+        "amount": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_emerald_for_gunpowder"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "thermal:lead_nugget",
+        "amount": 36
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_emerald_for_lead_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:casull:",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_casull_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bow",
+        "amount": 1,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:punch",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:flame",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:infinity",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:mending",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 21
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_enchanted_bow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "botania:livingwood_twig",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_emerald_for_livingwood_twig"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "botania:mana_string",
+        "amount": 5
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_emerald_for_mana_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:crossbow",
+        "amount": 1,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:quick_charge",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:multishot",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:piercing",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:mending",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 22
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchanted_crossbow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "botania:livingwood_bow",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_livingwood_bow_for_emerald"
+    },
+    {
+      "multiOffer": [ 
         {
-            "offer": {
-              "itemKey": "minecraft:emerald",
-              "amount": 1
-            },
-            "request": {
-              "itemKey": "minecraft:stick",
-              "amount": 32
-            },
-            "tradeExp": 2,
-            "maxUses": 16,
-            "priceMultiplier": 0.05,
-            "demand": 0,
-            "tradeLevel": 1,
-            "UTID": "minecraft:librarian_emerald_for_stick"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:night_vision\"}"
         },
         {
-            "offer": {
-              "itemKey": "minecraft:emerald",
-              "amount": 1
-            },
-            "request": {
-              "itemKey": "minecraft:string",
-              "amount": 14
-            },
-            "tradeExp": 2,
-            "maxUses": 16,
-            "priceMultiplier": 0.05,
-            "demand": 0,
-            "tradeLevel": 1,
-            "UTID": "minecraft:librarian_emerald_for_string"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_night_vision\"}"
         },
         {
-            "offer": {
-              "itemKey": "minecraft:arrow",
-              "amount": 16
-            },
-            "request": {
-              "itemKey": "minecraft:emerald",
-              "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 12,
-            "priceMultiplier": 0.05,
-            "demand": 0,
-            "tradeLevel": 1,
-            "UTID": "minecraft:librarian_arrow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:leaping\"}"
         },
         {
-            "offer": {
-              "itemKey": "minecraft:flint",
-              "amount": 10
-            },
-            "request": {
-              "itemKey": "minecraft:emerald",
-              "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 12,
-            "priceMultiplier": 0.05,
-            "demand": 0,
-            "tradeLevel": 1,
-            "UTID": "minecraft:librarian_flint_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_leaping\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:feather",
-            "amount": 24
-          },
-          "tradeExp": 10,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 2,
-          "UTID": "minecraft:librarian_emerald_for_feather"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_leaping\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:tripwire_hook",
-            "amount": 8
-          },
-          "tradeExp": 10,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 2,
-          "UTID": "minecraft:librarian_emerald_for_tripwire"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:fire_resistance\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:bow",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 2
-          },
-          "tradeExp": 5,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 2,
-          "UTID": "minecraft:librarian_bow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_fire_resistance\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:crossbow",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 3
-          },
-          "tradeExp": 5,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 2,
-          "UTID": "minecraft:librarian_crossbow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:swiftness\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:gunpowder",
-            "amount": 4
-          },
-          "tradeExp": 10,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 3,
-          "UTID": "minecraft:librarian_emerald_for_gunpowder"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_swiftness\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "thermal:lead_nugget",
-            "amount": 36
-          },
-          "tradeExp": 10,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 3,
-          "UTID": "minecraft:librarian_emerald_for_lead_nugget"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_swiftness\"}"
         },
         {
-          "offer": {
-            "itemKey": "immersiveengineering:casull:",
-            "amount": 4
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "tradeExp": 20,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 3,
-          "UTID": "minecraft:librarian_casull_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:water_breathing\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:bow",
-            "amount": 1,
-            "semiRandomEnchantments": [
-              {
-                "enchantmentKey": "minecraft:power",
-                "enchantmentLevel": 2
-              },
-              {
-                "enchantmentKey": "minecraft:punch",
-                "enchantmentLevel": 2
-              },
-              {
-                "enchantmentKey": "minecraft:flame",
-                "enchantmentLevel": 1
-              },
-              {
-                "enchantmentKey": "minecraft:infinity",
-                "enchantmentLevel": 1
-              },
-              {
-                "enchantmentKey": "minecraft:unbreaking",
-                "enchantmentLevel": 2
-              },
-              {
-                "enchantmentKey": "minecraft:mending",
-                "enchantmentLevel": 1
-              }
-            ]
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 21
-          },
-          "tradeExp": 20,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 3,
-          "UTID": "minecraft:librarian_enchanted_bow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_water_breathing\"}"
         },
         {
-          "offer": {
-            "itemKey": "botania:livingwood_bow",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 32
-          },
-          "tradeExp": 15,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 4,
-          "UTID": "minecraft:librarian_livingwood_bow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "botania:livingwood_twig",
-            "amount": 1
-          },
-          "tradeExp": 30,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 4,
-          "UTID": "minecraft:librarian_emerald_for_livingwood_twig"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:emerald",
-            "amount": 1
-          },
-          "request": {
-            "itemKey": "botania:mana_string",
-            "amount": 5
-          },
-          "tradeExp": 30,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 4,
-          "UTID": "minecraft:librarian_emerald_for_mana_string"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:poison\"}"
         },
         {
-          "offer": {
-            "itemKey": "minecraft:crossbow",
-            "amount": 1,
-            "semiRandomEnchantments": [
-              {
-                "enchantmentKey": "minecraft:quick_charge",
-                "enchantmentLevel": 2
-              },
-              {
-                "enchantmentKey": "minecraft:multishot",
-                "enchantmentLevel": 1
-              },
-              {
-                "enchantmentKey": "minecraft:piercing",
-                "enchantmentLevel": 3
-              },
-              {
-                "enchantmentKey": "minecraft:unbreaking",
-                "enchantmentLevel": 2
-              },
-              {
-                "enchantmentKey": "minecraft:mending",
-                "enchantmentLevel": 1
-              }
-            ]
-          },
-          "request": {
-            "itemKey": "minecraft:emerald",
-            "amount": 22
-          },
-          "tradeExp": 15,
-          "maxUses": 12,
-          "priceMultiplier": 0.05,
-          "demand": 0,
-          "tradeLevel": 4,
-          "UTID": "minecraft:librarian_enchanted_crossbow_for_emerald"
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_poison\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_poison\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:slow_falling\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_slow_falling\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:luck\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"alexsmobs:knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:invisiblity\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_invisibility\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:harming\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:strong_harming\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
         }
-    ]
+      ],
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:arrow",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_tipped_arrow_for_emerald_and_arrow"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:witherbone",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_emerald_for_witherbone"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonbone",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_emerald_for_dragonbone"
+    },
+    {
+      "multiOffer": [ 
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:night_vision\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_night_vision\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:fire_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_fire_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:water_breathing\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_water_breathing\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:poison\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_poison\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_poison\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:slow_falling\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_slow_falling\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:luck\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"alexsmobs:knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:invisiblity\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_invisibility\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:harming\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:strong_harming\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 5,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:arrow",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_tipped_arrow_for_emerald_and_arrow_2"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:dragonbone_arrow",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_dragonbone_arrow_for_emerald"
+    },
+    {
+      "multiOffer": [ 
+        {
+          "itemKey": "archers_paradox:explosive_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:quartz_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:diamond_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:prismarine_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:slime_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:ender_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:training_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:challenge_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:phantasmal_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:shulker_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:blaze_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:frost_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:lightning_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:verdant_arrow",
+          "amount": 8
+        },
+        {
+          "itemKey": "archers_paradox:spore_arrow",
+          "amount": 8
+        }
+      ],
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_paradox_arrow_for_emerald"
+    }
+  ]
 }
