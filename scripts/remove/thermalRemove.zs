@@ -1,0 +1,103 @@
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.data.IData;
+import crafttweaker.api.data.ListData;
+import mods.jeitweaker.Jei;
+
+val world = [
+    <item:thermal:rubberwood_log>,
+    <item:thermal:stripped_rubberwood_log>,
+    <item:thermal:rubberwood_sapling>,
+    <item:thermal:rubberwood_leaves>,
+    <item:thermal:charge_bench>,
+    <item:thermal:energy_cell>,
+    <item:thermal:fluid_cell>,
+    <item:thermal:device_hive_extractor>,
+    <item:thermal:device_tree_extractor>,
+    <item:thermal:device_fisher>,
+    <item:thermal:device_composter>,
+    <item:thermal:device_soil_infuser>,
+    <item:thermal:device_water_gen>,
+    <item:thermal:device_rock_gen>,
+    <item:thermal:device_collector>,
+    <item:thermal:device_xp_condenser>,
+    <item:thermal:device_nullifier>,
+    <item:thermal:device_potion_diffuser>,
+    <item:thermal:machine_frame>,
+    <item:thermal:energy_cell_frame>,
+    <item:thermal:fluid_cell_frame>,
+    <item:thermal:basalz_rod>,
+    <item:thermal:blitz_rod>,
+    <item:thermal:blizz_rod>,
+    <item:thermal:beekeeper_fabric>,
+    <item:thermal:diving_fabric>,
+    <item:thermal:hazmat_fabric>,
+    <item:thermal:rf_coil_creative_augment>,
+    <item:thermal:fluid_tank_creative_augment>,
+    <item:thermal:machine_speed_augment>,
+    <item:thermal:machine_efficiency_augment>,
+    <item:thermal:machine_efficiency_creative_augment>,
+    <item:thermal:machine_output_augment>,
+    <item:thermal:machine_catalyst_augment>,
+    <item:thermal:machine_catalyst_creative_augment>,
+    <item:thermal:machine_cycle_augment>,
+    <item:thermal:machine_null_augment>,
+    <item:thermal:dynamo_output_augment>,
+    <item:thermal:dynamo_fuel_augment>,
+    <item:thermal:dynamo_throttle_augment>,
+    <item:thermal:area_radius_augment>,
+    <item:thermal:potion_amplifier_augment>,
+    <item:thermal:potion_duration_augment>,
+] as IItemStack[];
+
+for item in world {
+	Jei.hideIngredient(item);
+}
+
+val crafting = [
+    <item:thermal:rubberwood_wood>,
+    <item:thermal:stripped_rubberwood_wood>,
+    <item:thermal:rubberwood_planks>,
+    <item:thermal:rubberwood_slab>,
+    <item:thermal:rubberwood_stairs>,
+    <item:thermal:rubberwood_door>,
+    <item:thermal:rubberwood_trapdoor>,
+    <item:thermal:rubberwood_button>,
+    <item:thermal:rubberwood_pressure_plate>,
+    <item:thermal:rubberwood_fence>,
+    <item:thermal:rubberwood_fence_gate>,
+    <item:thermal:rubberwood_sign>,
+    <item:thermal:rubberwood_hanging_sign>,
+    <item:thermal:rubberwood_boat>,
+    <item:thermal:rubberwood_chest_boat>,
+    <item:thermal:bitumen_block>,
+    <item:thermal:tar_block>,
+    <item:thermal:rosin_block>,
+    <item:thermal:rubber_block>,
+    <item:thermal:cured_rubber_block>,
+    <item:thermal:tinker_bench>,
+    <item:thermal:bitumen>,
+    <item:thermal:tar>,
+    <item:thermal:rosin>,
+    <item:thermal:rubber>,
+    <item:thermal:cured_rubber>,
+    <item:thermal:basalz_powder>,
+    <item:thermal:blitz_powder>,
+    <item:thermal:blizz_powder>,
+    <item:thermal:upgrade_augment_1>,
+    <item:thermal:upgrade_augment_2>,
+    <item:thermal:upgrade_augment_3>,
+    <item:thermal:rs_control_augment>,
+    <item:thermal:side_config_augment>,
+    <item:thermal:xp_storage_augment>,
+    <item:thermal:rf_coil_augment>,
+    <item:thermal:rf_coil_storage_augment>,
+    <item:thermal:rf_coil_xfer_augment>,
+    <item:thermal:fluid_tank_augment>,
+    <item:thermal:item_filter_augment>,
+    <item:thermal:fluid_filter_augment>,
+] as IItemStack[];
+
+for item in crafting {
+    craftingTable.remove(item);
+	Jei.hideIngredient(item);
+}
