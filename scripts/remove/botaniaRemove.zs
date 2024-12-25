@@ -513,7 +513,8 @@ val delay = [
 	<item:botania:glimmering_dreamwood_log>,
 	<item:botania:glimmering_stripped_dreamwood_log>,
 	<item:botania:glimmering_stripped_dreamwood>,
-	<item:botania:stripped_dreamwood>
+	<item:botania:stripped_dreamwood>,
+	<item:botania:dreamwood_wand>
 ] as IItemStack[];
 
 for item in delay {
@@ -528,7 +529,9 @@ val hide = [
 	<item:botania:infused_grass>,
 	<item:botania:dry_grass>,
 	<item:botania:scorched_grass>,
-	<item:botania:corporea_spark_creative>
+	<item:botania:corporea_spark_creative>,
+	<item:botania:dreamwood_log>,
+	<item:botania:stripped_dreamwood_log>
 ] as IItemStack[];
 
 for item in hide {
@@ -650,6 +653,14 @@ val building = [
 	<item:botania:metamorphic_mountain_bricks_stairs>,
 	<item:botania:metamorphic_mountain_bricks_wall>,
 	<item:botania:chiseled_metamorphic_mountain_bricks>,
+	<item:botania:metamorphic_forest_stone_wall>,
+	<item:botania:metamorphic_plains_stone_wall>,
+	<item:botania:metamorphic_mountain_stone_wall>,
+	<item:botania:metamorphic_fungal_stone_wall>,
+	<item:botania:metamorphic_swamp_stone_wall>,
+	<item:botania:metamorphic_desert_stone_wall>,
+	<item:botania:metamorphic_taiga_stone_wall>,
+	<item:botania:metamorphic_mesa_stone_wall>,
 	<item:botania:apothecary_taiga>,
 	<item:botania:apothecary_desert>,
 	<item:botania:apothecary_plains>,
