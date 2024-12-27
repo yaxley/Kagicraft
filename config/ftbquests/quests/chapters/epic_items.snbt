@@ -456,6 +456,21 @@
 			x: 6.0d
 			y: 8.0d
 		}
+		{
+			id: "6563F716307FE517"
+			rewards: [{
+				id: "07482BC55D936A29"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "390D7D2DA3BE907E"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "Epic Items"
 }

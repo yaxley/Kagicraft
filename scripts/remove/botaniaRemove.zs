@@ -238,7 +238,6 @@ val delay = [
 	<item:botania:tiny_planet_block>,
 	<item:botania:avatar>,
 	<item:botania:forest_eye>,
-	<item:botania:mana_pylon>,
 	<item:botania:phantom_ink>,
 	<item:botania:teru_teru_bozu>,
 	<item:botania:incense_plate>,

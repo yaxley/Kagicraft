@@ -42,7 +42,6 @@ val copperBlock = <item:minecraft:copper_block>;
 val bear = <item:alexsmobs:bear_fur>;
 val toughFabric = <item:immersiveengineering:hemp_fabric>;
 
-
 mods.extendedcrafting.TableCrafting.addShaped("copper_backpack", 
 <item:packedup:copperbackpack>, 
 [
