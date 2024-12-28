@@ -457,6 +457,15 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"Bookshelves are you're basic enchantment tools. However, there are quite a few other magical items that can be of use. Type \"enchant stats\" in JEI for a list."
+				""
+				"The latest discovery is the Mana Pylon. By itself it does nothing. However, it can focus the energy of items with a high Quanta stat. It diminishes the negative effect while keeping the positive effect."
+				""
+				"We also discoverd two new echantments. Magic Protection (all armor) reduces the damage from magical sources. Stuff like Harming Potions, Evoker Fangs and Guardian Beams."
+				""
+				"Insight (helmet) increases the experience gained while wearing the item."
+			]
 			id: "6563F716307FE517"
 			rewards: [{
 				id: "07482BC55D936A29"
@@ -468,6 +477,7 @@
 				item: "botania:mana_pylon"
 				type: "item"
 			}]
+			title: "Improved Enchantment"
 			x: 6.0d
 			y: 0.0d
 		}
