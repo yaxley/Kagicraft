@@ -73,6 +73,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Build mob farm in overworld"]
 			id: "5838818AED50C909"
 			rewards: [
 				{

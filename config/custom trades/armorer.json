@@ -1,0 +1,679 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 15
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_emerald_for_iron_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_helmet",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 15
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "thermal:coal_coke",
+        "amount": 7
+      },
+      "tradeExp": 4,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_emerald_for_coal_coke"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 3
+      },
+      "tradeExp": 4,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_emerald_for_gold_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bell",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 36
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_bell_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chainmail_helmet",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_chainmail_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chainmail_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_chainmail_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chainmail_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_chainmail_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chainmail_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_chainmail_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "immersiveengineering:ingot_steel",
+        "amount": 2
+      },
+      "tradeExp": 8,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_emerald_for_ingot_steel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:diamond",
+        "amount": 1
+      },
+      "tradeExp": 8,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_emerald_for_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:armor_steel_helmet",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_armor_steel_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:armor_steel_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 21
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_armor_steel_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:armor_steel_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 19
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_armor_steel_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:armor_steel_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_armor_steel_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "blue_skies:pyrope_gem",
+        "amount": 2
+      },
+      "tradeExp": 16,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_emerald_for_pyrope_gem"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 2
+      },
+      "tradeExp": 16,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_emerald_for_aquite"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "blue_skies:diopside_gem",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_emerald_for_diopside_gem"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_green",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_green"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_bronze",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_bronze"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_gray",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_gray"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_blue",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_blue"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_white",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_white"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_sapphire",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_sapphire"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_silver",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_silver"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_electric",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_electric"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_amythest",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_amythest"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_copper",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_copper"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "iceandfire:dragonscales_black",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_blood_emerald_for_dragonscales_black"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_helmet",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 10
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_diopside_helmet_for_blood_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 18
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_diopside_chestplate_for_blood_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 14
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_diopside_leggings_for_blood_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "kubejs:blood_emerald",
+        "amount": 10
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_diopside_boots_for_blood_emerald"
+    }
+  ]
+}
