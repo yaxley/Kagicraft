@@ -3,8 +3,6 @@ StartupEvents.registry('item', event => {
   event.create('silver_coin')
   event.create('gold_coin')
   event.create('blood_emerald')
-  event.create('tin_plate')
-  event.create('quicksilver_plate')
   event.create('diamond_plate')
   event.create('manasteel_plate')
 })

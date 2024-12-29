@@ -262,7 +262,14 @@ val extended = [
 	<item:extendedcrafting:enhanced_ender_ingot>,
 	<item:extendedcrafting:crystaltine_ingot>,
 	<item:extendedcrafting:the_ultimate_ingot>,
-	<item:extendedcrafting:redstone_ingot_block>
+	<item:extendedcrafting:redstone_ingot_block>,
+	<item:extendedcrafting:enhanced_redstone_ingot_block>,
+	<item:extendedcrafting:flux_star_block>,
+	<item:extendedcrafting:enhanced_redstone_ingot>,
+	<item:extendedcrafting:enhanced_redstone_nugget>,
+	<item:extendedcrafting:enhanced_redstone_catalyst>,
+	<item:extendedcrafting:enhanced_redstone_component>,
+	<item:extendedcrafting:flux_star>
 ] as IItemStack[];
 
 for item in extended {
@@ -304,6 +311,15 @@ val generalJEI = [
 	<item:ftbquests:barrier>,
 	<item:ftbquests:stage_barrier>,
 	<item:ftbquests:detector>,
+	<item:structure_gel:red_gel>,
+	<item:structure_gel:blue_gel>,
+	<item:structure_gel:green_gel>,
+	<item:structure_gel:cyan_gel>,
+	<item:structure_gel:orange_gel>,
+	<item:structure_gel:yellow_gel>,
+	<item:structure_gel:data_handler>,
+	<item:structure_gel:dynamic_spawner>,
+	<item:structure_gel:building_tool>
 	//<item:itemfilters:strong_nbt>,
 	//<item:itemfilters:weak_nbt>
 ] as IItemStack[];
@@ -345,7 +361,9 @@ val rewards = [
 	<item:chunkloaders:single_chunk_loader>,
 	<item:chunkloaders:basic_chunk_loader>,
 	<item:chunkloaders:advanced_chunk_loader>,
-	<item:chunkloaders:ultimate_chunk_loader>
+	<item:chunkloaders:ultimate_chunk_loader>,
+	<item:mob_catcher:diamond_mob_catcher>,
+	<item:mob_catcher:netherite_mob_catcher>,
 	//<item:dummmmmmy:target_dummy_placer>
 ] as IItemStack[];
 

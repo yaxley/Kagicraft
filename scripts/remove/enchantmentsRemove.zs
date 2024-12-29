@@ -126,6 +126,55 @@ for item in apotheosis {
 	Jei.hideIngredient(item);
 }
 
+val ensorcellation = [
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:air_affinity" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:reach" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:reach" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "ensorcellation:reach" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:vitality" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:vitality" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "ensorcellation:vitality" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:frost_aspect" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:frost_aspect" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:leech" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:leech" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "ensorcellation:leech" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: "ensorcellation:leech" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:vorpal" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:vorpal" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "ensorcellation:vorpal" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:hunter" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:hunter" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:quick_draw" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:quick_draw" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "ensorcellation:quick_draw" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:trueshot" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:trueshot" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:volley" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:angler" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:angler" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:bulwark" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:phalanx" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "ensorcellation:phalanx" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:soulbound" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:curse_fool" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "ensorcellation:curse_mercy" as string}] as IData[]}),
+] as IItemStack[];
+
+for item in ensorcellation {
+	Jei.hideIngredient(item);
+}
+
+val other = [
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "farmersdelight:backstabbing" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "farmersdelight:backstabbing" as string}] as IData[]}),
+	<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "farmersdelight:backstabbing" as string}] as IData[]})
+] as IItemStack[];
+
+for item in other {
+	Jei.hideIngredient(item);
+}
+
 Jei.hideIngredient(<item:quark:ancient_tome>.withTag({StoredEnchantments: [{lvl: "4s", id: "minecraft:protection" as string}] as IData[]}));
 Jei.hideIngredient(<item:quark:ancient_tome>.withTag({StoredEnchantments: [{lvl: 4, id: "minecraft:fire_protection" as string}] as IData[]}));
 Jei.hideIngredient(<item:quark:ancient_tome>.withTag({StoredEnchantments: [{lvl: 4, id: "minecraft:feather_falling" as string}] as IData[]}));
